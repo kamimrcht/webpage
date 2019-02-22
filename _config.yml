@@ -2,3 +2,4 @@ theme: jekyll-theme-minimal
 title: Camille Marchet
 description: I'm a postdoc at CRIStAL (Univ Lille France)
 logo: IMG_20190219_142939.jpg
+show_downloads: true
