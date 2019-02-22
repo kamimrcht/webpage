@@ -58,19 +58,31 @@
 - kissDE : a package to test for differences in reads counts derived from variants in RNA sequencing data, Quatriemes rencontres R 2015, Lyon (France)
 
 # Teaching
-**2018/2019**
-- TD/TP Algorithmique et structures de données, L2 informatique Université de Lille
 
-**2016/2017**
-- Modelisation et ingénierie pour le vivant, 4ème et 5ème année école d'ingenieur (M1/M2) INSA Rennes
-- TD/TP Bases de Donnees, 2ème année cycle prépa INSA Rennes
-- TD/TP Introduction to biostatistics, tests and R, L3 ENS Rennes
+<table>
+  <tr>
+    <th>Year</th><th>Level</th><th>Topic</th>
+  </tr>
+  <tr>
+    <td>2018/2019</td><td>L2 informatique Université de Lille</td><td>TP/TP Algorithmique et structures de données</td>
+  </tr>
+  <tr>
+    <td>2016/2017</td><td>4ème et 5ème année école d'ingenieur (M1/M2) INSA Rennes</td><td>UE Modélisation et ingénierie pour le vivant</td>
+  </tr>
+  <tr>
+    <td>2016/2017</td><td>2ème année cycle prépa INSA Rennes</td><td>TP/TP Bases de Données</td>
+  </tr>
+  <tr>
+    <td>2016/2017</td><td>L3 ENS Rennes</td><td>UE Biostatistiques, programmation avec R</td>
+  </tr>
+    <tr>
+    <td>2015/2016</td><td>L3 ENS Rennes</td><td>UE Biostatistiques, programmation avec R</td>
+  </tr>
+   <tr>
+    <td>2014/2015</td><td>L1 Université Lyon 1</td><td>TD Mathématiques pour les Sciences de la Vie</td>
+  </tr>
+</table>
 
-**2015/2016**
-- TD/TP Introduction to biostatistics, tests and R, L3 ENS Rennes
-
-**2014/2015**
-- TD Mathématiques pour les Sciences de la Vie, L1 Universite Lyon 1
 
 # Supervision
 - 2018: Benjamin Churcheward (M2 internship), subject: Isoform prediction using long reads sequencing
