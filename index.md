@@ -67,16 +67,16 @@
     <td>2018/2019</td><td>L2 informatique Université de Lille</td><td>TP/TP Algorithmique et structures de données</td>
   </tr>
   <tr>
-    <td>2016/2017</td><td>4ème et 5ème année école d'ingenieur (M1/M2) INSA Rennes</td><td>UE Modélisation et ingénierie pour le vivant</td>
+    <td>2016/2017</td><td>4ème et 5ème année école d'ingenieur (M1/M2) INSA Rennes</td><td>Modélisation et ingénierie pour le vivant</td>
   </tr>
   <tr>
     <td>2016/2017</td><td>2ème année cycle prépa INSA Rennes</td><td>TP/TP Bases de Données</td>
   </tr>
   <tr>
-    <td>2016/2017</td><td>L3 ENS Rennes</td><td>UE Biostatistiques, programmation avec R</td>
+    <td>2016/2017</td><td>L3 ENS Rennes</td><td>Biostatistiques, programmation avec R</td>
   </tr>
     <tr>
-    <td>2015/2016</td><td>L3 ENS Rennes</td><td>UE Biostatistiques, programmation avec R</td>
+    <td>2015/2016</td><td>L3 ENS Rennes</td><td>Biostatistiques, programmation avec R</td>
   </tr>
    <tr>
     <td>2014/2015</td><td>L1 Université Lyon 1</td><td>TD Mathématiques pour les Sciences de la Vie</td>
