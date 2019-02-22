@@ -22,9 +22,7 @@
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
-        {% if site.github.is_project_page %}
-        <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
-        {% endif %}
+   
 
         {% if site.github.is_user_page %}
         <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
@@ -34,6 +32,8 @@
         <ul class="downloads">
           <li><a href="https://scholar.google.fr/citations?user=q07hs7YAAAAJ&hl=fr">papers<strong>Scholar</strong></a></li>
           <li><a href="https://github.com/kamimrcht">My tools on <strong>GitHub</strong></a></li>
+         <li><a href="https://twitter.com/CamilleMrcht"> <strong>Twitter</strong></a></li>
+
         </ul>
         {% endif %}
       </header>
