@@ -1,5 +1,6 @@
 # News
-- Last week they were presented at DSB, now [CONSENT](https://www.biorxiv.org/content/10.1101/546630v1.abstract?%3Fcollection=) and [BLight](https://www.biorxiv.org/content/10.1101/546309v1.abstract?%3Fcollection=)'s preprints are out !
+- I will be in Montpellier on March, 15th (St Priest campus, 14h) for the MAB team's seminar _New methodologies for the analysis of transcriptome sequences_
+- They were presented at DSB, now [CONSENT](https://www.biorxiv.org/content/10.1101/546630v1.abstract?%3Fcollection=) and [BLight](https://www.biorxiv.org/content/10.1101/546309v1.abstract?%3Fcollection=)'s preprints are out !
 - Leandro Ishi's [Comparative assessment of long-read error-correction software applied to RNA-sequencing data](https://www.biorxiv.org/content/10.1101/476622v1) is out
 - We released [ELECTOR's](https://www.biorxiv.org/content/10.1101/512889v1) preprint
 
