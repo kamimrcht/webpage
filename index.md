@@ -5,8 +5,6 @@
 
 
 # Ongoing work
-- [Indexing De Bruijn graphs with minimizers](https://www.biorxiv.org/content/10.1101/546309v1.abstract?%3Fcollection=), C Marchet, M Kerbiriou, A Limasset
-- [CONSENT: Scalable self-correction of long reads with multiple sequence alignment](https://www.biorxiv.org/content/10.1101/546630v1.abstract?%3Fcollection=), P Morisse, C Marchet, A Limasset, A Lefebvre, T Lecroq
 - [Comparative assessment of long-read error-correction software applied to RNA-sequencing data](https://www.biorxiv.org/content/10.1101/476622v1), L Ishi Soares de Lima, C Marchet, S Caboche, C Da Silva, B Istace, J-M Aury, H Touzet, R Chikhi
 - [ELECTOR: Evaluator for long reads correction methods](https://www.biorxiv.org/content/10.1101/512889v1), C Marchet, P Morisse, L Lecompte, A Limasset, A Lefebvre, T Lecroq, P Peterlongo 
 
