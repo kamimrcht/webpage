@@ -1,6 +1,5 @@
 # News
 - I will be in Montpellier on March, 15th (St Priest campus, 14h) for the MAB team's seminar _New methodologies for the analysis of transcriptome sequences_
-- They were presented at DSB, now [CONSENT](https://www.biorxiv.org/content/10.1101/546630v1.abstract?%3Fcollection=) and [BLight](https://www.biorxiv.org/content/10.1101/546309v1.abstract?%3Fcollection=)'s preprints are out !
 - Leandro Ishi's [Comparative assessment of long-read error-correction software applied to RNA-sequencing data](https://www.biorxiv.org/content/10.1101/476622v1) is out
 - We released [ELECTOR's](https://www.biorxiv.org/content/10.1101/512889v1) preprint
 
@@ -19,7 +18,10 @@
 - [Playing hide and seek with repeats in local and global de novo transcriptome assembly of short RNA-seq reads](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5322684/) L Lima, B Sinaimeri, G Sacomoto, H Lopez-Maestre, C Marchet, V Miele, M-F Sagot and V Lacroix Algorithms for Molecular Biology 2017
 
 # Papers in proceedings
-
+- [Indexing De Bruijn graphs with minimizers
+](https://www.biorxiv.org/content/10.1101/546309v2), C Marchet, A Kerbiriou, A Limasset, accepted to RECOMB-seq 2019
+- [CONSENT: Scalable self-correction of long reads with multiple sequence alignment
+](https://www.biorxiv.org/content/10.1101/546630v3), P Morisse, C Marchet, A Limasset, A Lefebvre, T Lecroq, accepted to RECOMB-Seq 2019
 - [A resource-frugal probabilistic dictionary and applications in (meta)genomics](https://hal.inria.fr/hal-01386744/document), C Marchet, A Limasset, L Bittner, P Peterlongo, PSC 2016
 - [Navigating in a Sea of Repeats in RNA-seq without Drowning](https://link.springer.com/chapter/10.1007/978-3-662-44753-6_7), G Sacomoto, B Sinaimeri, C Marchet, V Miele, MF Sagot, V Lacroix, International Workshop on Algorithms in Bioinformatics (WABI) 2014
 
