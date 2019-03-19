@@ -1,8 +1,8 @@
 # News
-- I will be in Montpellier on March, 15th (St Priest campus, 14h) for the MAB team's seminar _New methodologies for the analysis of transcriptome sequences_
+- I will present  BLight, our associative structure for k-mers, at [RECOMB-seq](https://recombseq.recomb2019.org/program/), on May 4.
+- I will present our ongoing work on colored De Bruijn graphs and SBT at [Helsinki Bioinformatic Day]( https://www.helsinki.fi/en/researchgroups/bioinformatics/bioinformatics-day-2019), on May 29.
 - Leandro Ishi's [Comparative assessment of long-read error-correction software applied to RNA-sequencing data](https://www.biorxiv.org/content/10.1101/476622v1) is out
 - We released [ELECTOR's](https://www.biorxiv.org/content/10.1101/512889v1) preprint
-
 
 # Ongoing work
 - [Comparative assessment of long-read error-correction software applied to RNA-sequencing data](https://www.biorxiv.org/content/10.1101/476622v1), L Ishi Soares de Lima, C Marchet, S Caboche, C Da Silva, B Istace, J-M Aury, H Touzet, R Chikhi
@@ -26,6 +26,8 @@
 # Communications
 
 ## Invited talks
+**2019**
+- _New methodologies for the analysis of transcriptome sequences_, MAB team seminar, LIRMM Montpellier (France)
 
 **2018**
 - A _de novo_ approach to disentangle partner identity and function in holobiont systems, Advances techniques to study and exploit the sponge and coral microbiomes Workshop, ULB Brussels (Belgium)
