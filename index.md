@@ -30,6 +30,8 @@
 - _New methodologies for the analysis of transcriptome sequences_, MAB team seminar, LIRMM Montpellier (France)
 
 **2018**
+- CARNAC-LR and C2C: de novo clustering and detection of alternative isoforms in Third Generation Sequencing transcriptomes, [Genotoul Biostats/Bioinfo day](https://bioinfo-biostat.sciencesconf.org/), INRA Toulouse (France)
+- From reads to transcripts: _de novo_ methods to analyze transcriptome 2d and 3d generations sequencing data, Roscoff Biological Station seminar (France)
 - A _de novo_ approach to disentangle partner identity and function in holobiont systems, Advances techniques to study and exploit the sponge and coral microbiomes Workshop, ULB Brussels (Belgium)
 - A highly scalable data structure for read similarity computation and its application to marine holobionts, EEB group meeting, ULB Brussels (Belgium)
 - CARNAC-LR: clustering genes expressed variants from long read RNA sequencing, team TIBS seminar, LITIS Rouen (France)
