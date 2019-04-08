@@ -15,7 +15,7 @@
 - [Complementarity of assembly-first and mapping-first approaches for alternative splicing annotation and differential analysis from RNAseq data](https://www.nature.com/articles/s41598-018-21770-7) C Benoit-Pilven, C Marchet, E Chautard, L Lima, M-P Lambert, G Sacomoto, A Rey, C Bourgeois, D Auboeuf, V Lacroix, Scientific Reports, 2018
 - [Playing hide and seek with repeats in local and global de novo transcriptome assembly of short RNA-seq reads](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5322684/) L Lima, B Sinaimeri, G Sacomoto, H Lopez-Maestre, C Marchet, V Miele, M-F Sagot and V Lacroix Algorithms for Molecular Biology 2017
 
-# Papers in proceedings
+# Papers accepted to conferences
 - [Indexing De Bruijn graphs with minimizers
 ](https://www.biorxiv.org/content/10.1101/546309v2), C Marchet, A Kerbiriou, A Limasset, accepted to RECOMB-seq 2019
 - [CONSENT: Scalable self-correction of long reads with multiple sequence alignment
