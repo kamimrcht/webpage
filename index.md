@@ -15,8 +15,7 @@
 - [Complementarity of assembly-first and mapping-first approaches for alternative splicing annotation and differential analysis from RNAseq data](https://www.nature.com/articles/s41598-018-21770-7) C Benoit-Pilven, C Marchet, E Chautard, L Lima, M-P Lambert, G Sacomoto, A Rey, C Bourgeois, D Auboeuf, V Lacroix; _Scientific Reports_, 2018
 - [Playing hide and seek with repeats in local and global de novo transcriptome assembly of short RNA-seq reads](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5322684/) L Lima, B Sinaimeri, G Sacomoto, H Lopez-Maestre, C Marchet, V Miele, M-F Sagot and V Lacroix; _Algorithms for Molecular Biology_, 2017
 - [SNP calling from RNA-seq data without a reference genome: identification, quantification, differential analysis and impact on the protein sequence](https://www.ncbi.nlm.nih.gov/pubmed/27458203) H Lopez Maestre, L Brinza, C Marchet, J Kielbassa, S Bastien, M Boutigny, D Monnin, A El Filali, CM Carareto, C Vieira, F Picard, N Kremer, F Vavre, M-F Sagot, V Lacroix; _Nucleic Acids Research_, 2016
-- [Colibread on galaxy: a tools suite dedicated to biological
-  information extraction from raw NGS reads](https://gigascience.biomedcentral.com/articles/10.1186/s13742-015-0105-2) E Rivals, A Andrieux, A Z El Aabidine, B Cazaux, C Marchet, C Lemaitre, C Monjeaud, G Sacomoto, L Salmela, O Collin, P Peterlongo, R Uricaru, S Alves-Carvalho, V Lacroix, V Miele, Y LeBras; _GigaScience_, 2016
+- [Colibread on galaxy: a tools suite dedicated to biological information extraction from raw NGS reads](https://gigascience.biomedcentral.com/articles/10.1186/s13742-015-0105-2) E Rivals, A Andrieux, A Z El Aabidine, B Cazaux, C Marchet, C Lemaitre, C Monjeaud, G Sacomoto, L Salmela, O Collin, P Peterlongo, R Uricaru, S Alves-Carvalho, V Lacroix, V Miele, Y LeBras; _GigaScience_, 2016
 
 # Papers accepted to conferences
 - [Indexing De Bruijn graphs with minimizers
