@@ -5,10 +5,10 @@
 - We released [ELECTOR's](https://www.biorxiv.org/content/10.1101/512889v1) preprint
 
 # Ongoing work
-- [Comparative assessment of long-read error-correction software applied to RNA-sequencing data](https://www.biorxiv.org/content/10.1101/476622v1), L Ishi Soares de Lima, C Marchet, S Caboche, C Da Silva, B Istace, J-M Aury, H Touzet, R Chikhi
 - [ELECTOR: Evaluator for long reads correction methods](https://www.biorxiv.org/content/10.1101/512889v1), C Marchet, P Morisse, L Lecompte, A Limasset, A Lefebvre, T Lecroq, P Peterlongo 
 
 # Journal Publications
+- [Comparative assessment of long-read error-correction software applied to RNA-sequencing data](https://www.biorxiv.org/content/10.1101/476622v1), L Ishi Soares de Lima, C Marchet, S Caboche, C Da Silva, B Istace, J-M Aury, H Touzet, R Chikhi; _Briefings in Bioinformatics (in press)_, 2019
 - [Clustering _de Novo_ by Gene of Long Reads from Transcriptomics Data](https://academic.oup.com/nar/article/47/1/e2/5107577), C Marchet, L Lecompte, C Da Silva, C Cruaud, J-M Aury, J Nicolas, P Peterlongo; _Nucleic Acids Research_, 2018
 - [A _de novo approach_ to disentangle partner identity and function in holobiont systems](https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-018-0481-9) A Meng, C Marchet, E Corre, P Peterlongo, A Alberti, C Da Silva, P Wincker, E Pelletier, I Probert, J Decelle, S Le Crom, F Not, L Bittner; _Microbiome_, 2018
 - [A resource-frugal probabilistic dictionary and applications in bioinformatics](https://www.sciencedirect.com/science/article/pii/S0166218X18301288), C Marchet, L Lecompte, A Limasset, L Bittner, P Peterlongo; _Discrete Applied Mathematics_, 2018
