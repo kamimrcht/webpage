@@ -1,7 +1,7 @@
 # News
 - I will present  BLight, our associative structure for k-mers, at [RECOMB-seq](https://recombseq.recomb2019.org/program/), on May 4.
 - I will present our ongoing work on colored De Bruijn graphs and SBT at [Helsinki Bioinformatic Day]( https://www.helsinki.fi/en/researchgroups/bioinformatics/bioinformatics-day-2019), on May 29.
-- Leandro Ishi's [Comparative assessment of long-read error-correction software applied to RNA-sequencing data](https://www.biorxiv.org/content/10.1101/476622v1) is out
+- If you miss RECOMB-Seq, I'll present BLight ("Indexing De Bruijn graphs with minimizers") at BiATA in St Petersburg, on June 20-22
 - We released [ELECTOR's](https://www.biorxiv.org/content/10.1101/512889v1) preprint
 
 # Ongoing work
