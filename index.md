@@ -1,7 +1,5 @@
 # News
-- I will present  BLight, our associative structure for k-mers, at [RECOMB-seq](https://recombseq.recomb2019.org/program/), on May 4.
-- I will present our ongoing work on colored De Bruijn graphs and SBT at [Helsinki Bioinformatic Day]( https://www.helsinki.fi/en/researchgroups/bioinformatics/bioinformatics-day-2019), on May 29.
-- If you miss RECOMB-Seq, I'll present BLight ("Indexing De Bruijn graphs with minimizers") at BiATA in St Petersburg, on June 20-22
+- I'll present BLight ("Indexing De Bruijn graphs with minimizers") at [BiATA](http://biata2019.spbu.ru/program/) in St Petersburg, on June 20
 - We released [ELECTOR's](https://www.biorxiv.org/content/10.1101/512889v1) preprint
 
 # Ongoing work
@@ -18,10 +16,9 @@
 - [Colibread on galaxy: a tools suite dedicated to biological information extraction from raw NGS reads](https://gigascience.biomedcentral.com/articles/10.1186/s13742-015-0105-2) E Rivals, A Andrieux, A Z El Aabidine, B Cazaux, C Marchet, C Lemaitre, C Monjeaud, G Sacomoto, L Salmela, O Collin, P Peterlongo, R Uricaru, S Alves-Carvalho, V Lacroix, V Miele, Y LeBras; _GigaScience_, 2016
 
 # Papers accepted to conferences
-- [Indexing De Bruijn graphs with minimizers
-](https://www.biorxiv.org/content/10.1101/546309v2), C Marchet, A Kerbiriou, A Limasset, accepted to RECOMB-seq 2019
+- [Indexing De Bruijn graphs with minimizers](https://www.biorxiv.org/content/10.1101/546309v2), C Marchet, A Kerbiriou, A Limasset, RECOMB-seq 2019
 - [CONSENT: Scalable self-correction of long reads with multiple sequence alignment
-](https://www.biorxiv.org/content/10.1101/546630v3), P Morisse, C Marchet, A Limasset, A Lefebvre, T Lecroq, accepted to RECOMB-Seq 2019
+](https://www.biorxiv.org/content/10.1101/546630v3), P Morisse, C Marchet, A Limasset, A Lefebvre, T Lecroq, RECOMB-Seq 2019
 - [A resource-frugal probabilistic dictionary and applications in (meta)genomics](https://hal.inria.fr/hal-01386744/document), C Marchet, A Limasset, L Bittner, P Peterlongo, PSC 2016
 - [Navigating in a Sea of Repeats in RNA-seq without Drowning](https://link.springer.com/chapter/10.1007/978-3-662-44753-6_7), G Sacomoto, B Sinaimeri, C Marchet, V Miele, MF Sagot, V Lacroix, International Workshop on Algorithms in Bioinformatics (WABI) 2014
 
@@ -45,7 +42,10 @@
 ## Workshops/conferences/seminars
 
 **2019**
+- [Indexing De Bruijn graphs with minimizers](https://recombseq.recomb2019.org/schedule/#Sat), RECOMB-seq, Washington DC (US)
 - [Survey of _k_-mer set of sets data structures for querying large collections of sequencing datasets](https://dsb2019.gitlab.io/), DSB, Dortmund (Germany)
+- [Survey of _k_-mer set of sets data structures for querying large collections of sequencing datasets]( https://www.helsinki.fi/en/researchgroups/bioinformatics/bioinformatics-day-2019), Helsinki Bioinformatics Day (Finland)
+
 
 **2018**
 - [BCOOL-Trans: accurate and variant-preserving correction for RNA-seq](http://bioinfo.univ-rouen.fr/seqbio2018/programme.php), Seqbio, Rouen (France)
@@ -97,8 +97,9 @@
 - 2014: Camille Sessegolo (L3 internship), subject: Improvements in the kissplice2refgenome software
 
 # Involvement in scientific events
-- Apr. 19th-24th 2018: Volunteer at RECOMB-seq and RECOMB, Paris
-- Nov. 7th-8th 2016: Organisation commitee for Biological insights from raw high-throughput sequencing data - workshop Colib read
-- Mar. 24th-27th 2015: Tutor at Bioinformatique pour les NGS CNRS Montpellier
-- May 26th 2014: Tutor at BGE & EMBnet tutorials (Lyon): RNA-seq analysis
-- Feb. 11th-13th 2014 / Nov. 26th-28th 2014: Tutor at PRABI training courses (Lyon), Analyse de donnees RNA-seq sous l environnement Galaxy
+- June 13-14 2019: Tutor at Bilille training courses (RNA-seq analysis), Lille. The course I made with Pierre Pericard is [here](https://wikis.univ-lille.fr/bilille/_media/ngs2019-rna-seq.pdf)
+- Apr. 19-24 2018: Volunteer at RECOMB-seq and RECOMB, Paris
+- Nov. 7-8 2016: Organisation commitee for "Biological insights from raw high-throughput sequencing data" - Colib'read ANR workshop, Paris
+- Mar. 24-27 2015: Tutor at CNRS course: "Bioinformatique pour les NGS", Montpellier
+- May 26 2014: Tutor at BGE & EMBnet tutorials: "RNA-seq analysis", Lyon
+- Feb. 11-13 2014 / Nov. 26th-28th 2014: Tutor at PRABI training courses, "Analyse de données RNA-seq sous l'environnement Galaxy", Lyon
