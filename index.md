@@ -43,7 +43,7 @@
 
 **2019**
 - [Indexing De Bruijn graphs with minimizers](https://recombseq.recomb2019.org/schedule/#Sat), RECOMB-seq, Washington DC (US)
-- [Indexing De Bruijn graphs with minimizers"](http://biata2019.spbu.ru/program/), BiATA, St Petersburg (Russia)
+- [Indexing De Bruijn graphs with minimizers](http://biata2019.spbu.ru/program/), BiATA, St Petersburg (Russia)
 - [Survey of _k_-mer set of sets data structures for querying large collections of sequencing datasets](https://dsb2019.gitlab.io/), DSB, Dortmund (Germany)
 - [Survey of _k_-mer set of sets data structures for querying large collections of sequencing datasets]( https://www.helsinki.fi/en/researchgroups/bioinformatics/bioinformatics-day-2019), Helsinki Bioinformatics Day (Finland)
 
