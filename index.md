@@ -1,8 +1,8 @@
 # News
-- I'll present BLight ("Indexing De Bruijn graphs with minimizers") at [BiATA](http://biata2019.spbu.ru/program/) in St Petersburg, on June 20
-- We released [ELECTOR's](https://www.biorxiv.org/content/10.1101/512889v1) preprint
+- We released [our preprint on RNA-seq and metagenomics correction](https://www.biorxiv.org/content/10.1101/673624v1.abstract?%3Fcollection=) 
 
 # Ongoing work
+- [Read correction for non-uniform coverages](https://www.biorxiv.org/content/10.1101/673624v1.abstract?%3Fcollection=), C Marchet, Y Dufresne, A Limasset
 - [ELECTOR: Evaluator for long reads correction methods](https://www.biorxiv.org/content/10.1101/512889v1), C Marchet, P Morisse, L Lecompte, A Limasset, A Lefebvre, T Lecroq, P Peterlongo 
 
 # Journal Publications
@@ -43,6 +43,7 @@
 
 **2019**
 - [Indexing De Bruijn graphs with minimizers](https://recombseq.recomb2019.org/schedule/#Sat), RECOMB-seq, Washington DC (US)
+- [Indexing De Bruijn graphs with minimizers"](http://biata2019.spbu.ru/program/), BiATA, St Petersburg (Russia)
 - [Survey of _k_-mer set of sets data structures for querying large collections of sequencing datasets](https://dsb2019.gitlab.io/), DSB, Dortmund (Germany)
 - [Survey of _k_-mer set of sets data structures for querying large collections of sequencing datasets]( https://www.helsinki.fi/en/researchgroups/bioinformatics/bioinformatics-day-2019), Helsinki Bioinformatics Day (Finland)
 
