@@ -37,7 +37,7 @@
 
 **2017**
 - _De novo_ Clustering of Gene Expressed Variants in Transcriptomic Long Reads Data Sets at workshop RNA-Seq and Nanopore sequencing, Genoscope Evry (France)
-- Rconnector: a resource-frugal probabilistic dictionary and applications in (meta)genomics and transcriptomics, LBEE NGS group seminar, Lyon (France)
+- Rconnector: a resource-frugal probabilistic dictionary and applications in (meta)genomics and transcriptomics, LBBE NGS group seminar, Lyon (France)
 
 ## Workshops/conferences/seminars
 
