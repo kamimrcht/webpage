@@ -104,3 +104,7 @@
 - Mar. 24-27 2015: Tutor at CNRS course: "Bioinformatique pour les NGS", Montpellier
 - May 26 2014: Tutor at BGE & EMBnet tutorials: "RNA-seq analysis", Lyon
 - Feb. 11-13 2014 / Nov. 26th-28th 2014: Tutor at PRABI training courses, "Analyse de données RNA-seq sous l'environnement Galaxy", Lyon
+
+# Reviews for journals/conferences
+- 2018: GigaScience
+- 2017: BMC Bioinformatics
