@@ -1,5 +1,5 @@
 # News
-- I'll present our work "Read correction for non-uniform coverages" at [RCAM](http://maiage.jouy.inra.fr/?q=fr/rcam2019) on Tuesday October 1st, Institut Pasteur Paris
+- I'll present our work "Read correction for non-uniform coverages" at [RCAM](http://maiage.jouy.inra.fr/?q=fr/rcam2019) on Monday October 31st, Institut Pasteur Paris
 - We released [our preprint on RNA-seq and metagenomics correction](https://www.biorxiv.org/content/10.1101/673624v1.abstract?%3Fcollection=) 
 
 # Ongoing work
