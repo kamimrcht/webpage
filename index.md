@@ -46,7 +46,7 @@
 - [Indexing De Bruijn graphs with minimizers](http://biata2019.spbu.ru/program/), BiATA, St Petersburg (Russia)
 - [Survey of _k_-mer set of sets data structures for querying large collections of sequencing datasets](https://dsb2019.gitlab.io/), DSB, Dortmund (Germany)
 - [Survey of _k_-mer set of sets data structures for querying large collections of sequencing datasets]( https://www.helsinki.fi/en/researchgroups/bioinformatics/bioinformatics-day-2019), Helsinki Bioinformatics Day (Finland)
-- Read correction for non-uniform coverages", [RCAM](http://maiage.jouy.inra.fr/?q=fr/rcam2019) Institut Pasteur Paris (France)
+- Read correction for non-uniform coverages, [RCAM](http://maiage.jouy.inra.fr/?q=fr/rcam2019) Institut Pasteur Paris (France)
 
 **2018**
 - [BCOOL-Trans: accurate and variant-preserving correction for RNA-seq](http://bioinfo.univ-rouen.fr/seqbio2018/programme.php), Seqbio, Rouen (France)
@@ -106,6 +106,6 @@
 - Feb. 11-13 2014 / Nov. 26th-28th 2014: Tutor at PRABI training courses, "Analyse de données RNA-seq sous l'environnement Galaxy", Lyon
 
 # Reviews for journals/conferences
-- 2019: ISMB/ECCB, BMC supplements
+- 2019: ISMB/ECCB, BMC Supplements
 - 2018: GigaScience
 - 2017: BMC Bioinformatics
