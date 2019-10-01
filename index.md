@@ -1,5 +1,4 @@
 # News
-- I'll present our work "Read correction for non-uniform coverages" at [RCAM](http://maiage.jouy.inra.fr/?q=fr/rcam2019) on Monday October 31st, Institut Pasteur Paris
 - We released [our preprint on RNA-seq and metagenomics correction](https://www.biorxiv.org/content/10.1101/673624v1.abstract?%3Fcollection=) 
 
 # Ongoing work
@@ -47,7 +46,7 @@
 - [Indexing De Bruijn graphs with minimizers](http://biata2019.spbu.ru/program/), BiATA, St Petersburg (Russia)
 - [Survey of _k_-mer set of sets data structures for querying large collections of sequencing datasets](https://dsb2019.gitlab.io/), DSB, Dortmund (Germany)
 - [Survey of _k_-mer set of sets data structures for querying large collections of sequencing datasets]( https://www.helsinki.fi/en/researchgroups/bioinformatics/bioinformatics-day-2019), Helsinki Bioinformatics Day (Finland)
-
+- Read correction for non-uniform coverages", [RCAM](http://maiage.jouy.inra.fr/?q=fr/rcam2019) Institut Pasteur Paris (France)
 
 **2018**
 - [BCOOL-Trans: accurate and variant-preserving correction for RNA-seq](http://bioinfo.univ-rouen.fr/seqbio2018/programme.php), Seqbio, Rouen (France)
