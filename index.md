@@ -3,7 +3,7 @@
 
 # Ongoing work
 - [Read correction for non-uniform coverages](https://www.biorxiv.org/content/10.1101/673624v1.abstract?%3Fcollection=), C Marchet, Y Dufresne, A Limasset
-- [ELECTOR: Evaluator for long reads correction methods](https://www.biorxiv.org/content/10.1101/512889v1), C Marchet, P Morisse, L Lecompte, A Limasset, A Lefebvre, T Lecroq, P Peterlongo 
+- submitted: [ELECTOR: Evaluator for long reads correction methods](https://www.biorxiv.org/content/10.1101/512889v1), C Marchet, P Morisse, L Lecompte, A Limasset, A Lefebvre, T Lecroq, P Peterlongo 
 
 # Journal Publications
 - [Comparative assessment of long-read error-correction software applied to RNA-sequencing data](https://academic.oup.com/bib/advance-article-abstract/doi/10.1093/bib/bbz058/5512144), L Ishi Soares de Lima, C Marchet, S Caboche, C Da Silva, B Istace, J-M Aury, H Touzet, R Chikhi; _Briefings in Bioinformatics_, 2019
@@ -25,45 +25,32 @@
 # Communications
 
 ## Invited talks
-**2019**
-- _New methodologies for the analysis of transcriptome sequences_, MAB team seminar, LIRMM Montpellier (France)
 
-**2018**
-- CARNAC-LR and C2C: de novo clustering and detection of alternative isoforms in Third Generation Sequencing transcriptomes, [Genotoul Biostats/Bioinfo day](https://bioinfo-biostat.sciencesconf.org/), INRA Toulouse (France)
-- From reads to transcripts: _de novo_ methods to analyze transcriptome 2d and 3d generations sequencing data, Roscoff Biological Station seminar (France)
-- A _de novo_ approach to disentangle partner identity and function in holobiont systems, Advances techniques to study and exploit the sponge and coral microbiomes Workshop, ULB Brussels (Belgium)
-- A highly scalable data structure for read similarity computation and its application to marine holobionts, EEB group meeting, ULB Brussels (Belgium)
-- CARNAC-LR: clustering genes expressed variants from long read RNA sequencing, team TIBS seminar, LITIS Rouen (France)
-
-**2017**
-- _De novo_ Clustering of Gene Expressed Variants in Transcriptomic Long Reads Data Sets at workshop RNA-Seq and Nanopore sequencing, Genoscope Evry (France)
-- Rconnector: a resource-frugal probabilistic dictionary and applications in (meta)genomics and transcriptomics, LBBE NGS group seminar, Lyon (France)
+- 2019 _New methodologies for the analysis of transcriptome sequences_, MAB team seminar, LIRMM Montpellier (France)
+- 2018 CARNAC-LR and C2C: de novo clustering and detection of alternative isoforms in Third Generation Sequencing transcriptomes, [Genotoul Biostats/Bioinfo day](https://bioinfo-biostat.sciencesconf.org/), INRA Toulouse (France)
+- 2018 From reads to transcripts: _de novo_ methods to analyze transcriptome 2d and 3d generations sequencing data, Roscoff Biological Station seminar (France)
+- 2018 A _de novo_ approach to disentangle partner identity and function in holobiont systems, Advances techniques to study and exploit the sponge and coral microbiomes Workshop, ULB Brussels (Belgium)
+- 2018 A highly scalable data structure for read similarity computation and its application to marine holobionts, EEB group meeting, ULB Brussels (Belgium)
+- 2018 CARNAC-LR: clustering genes expressed variants from long read RNA sequencing, team TIBS seminar, LITIS Rouen (France)
+- 2017 _De novo_ Clustering of Gene Expressed Variants in Transcriptomic Long Reads Data Sets at workshop RNA-Seq and Nanopore sequencing, Genoscope Evry (France)
+- 2017 Rconnector: a resource-frugal probabilistic dictionary and applications in (meta)genomics and transcriptomics, LBBE NGS group seminar, Lyon (France)
 
 ## Workshops/conferences/seminars
 
-**2019**
-- [Indexing De Bruijn graphs with minimizers](https://recombseq.recomb2019.org/schedule/#Sat), RECOMB-seq, Washington DC (US)
-- [Indexing De Bruijn graphs with minimizers](http://biata2019.spbu.ru/program/), BiATA, St Petersburg (Russia)
-- [Survey of _k_-mer set of sets data structures for querying large collections of sequencing datasets](https://dsb2019.gitlab.io/), DSB, Dortmund (Germany)
-- [Survey of _k_-mer set of sets data structures for querying large collections of sequencing datasets]( https://www.helsinki.fi/en/researchgroups/bioinformatics/bioinformatics-day-2019), Helsinki Bioinformatics Day (Finland)
-- Read correction for non-uniform coverages, [RCAM](http://maiage.jouy.inra.fr/?q=fr/rcam2019) Institut Pasteur Paris (France)
-
-**2018**
-- [BCOOL-Trans: accurate and variant-preserving correction for RNA-seq](http://bioinfo.univ-rouen.fr/seqbio2018/programme.php), Seqbio, Rouen (France)
-- [ELECTOR: EvaLuator of Error CorrectionTools for lOng Reads](http://bioinfo.univ-rouen.fr/seqbio2018/programme.php), Seqbio, Rouen (France)
-- [CARNAC-LR : Clustering coefficient-based Acquisition of RNA Communities in Long Reads](https://jobim2018.sciencesconf.org/data/pages/Program_A4_JOBIM2018.pdf), JOBIM, Marseille (France)
-
-**2017**
-- _De novo_ Clustering of Gene Expression in Transcriptomic Long Reads Data Sets, Seqbio, Lille (France)
-- A highly scalable data structure for read similarity computation and its application to marine holobionts, RCAM, Paris (France)
-- A scaling transcriptomic approach to study holobiont data sets, 4e colloque Génomique Environnementale, Marseille (France)
-
-**2016** 
-- Rconnector: a resource-frugal probabilistic dictionary and applications in (meta)genomics and transcriptomics, SeqBio 2016, Nantes (France)
-
-**2015** 
-- kissDE : a replicate-wise and annotation-free R package for testing the association between differential variants and experimental conditions in high throughput sequencing data, SeqBio 2015, Orsay (France)
-- kissDE : a package to test for differences in reads counts derived from variants in RNA sequencing data, Quatriemes rencontres R 2015, Lyon (France)
+- 2019 [Indexing De Bruijn graphs with minimizers](https://recombseq.recomb2019.org/schedule/#Sat), RECOMB-seq, Washington DC (US)
+- 2019 [Indexing De Bruijn graphs with minimizers](http://biata2019.spbu.ru/program/), BiATA, St Petersburg (Russia)
+- 2019 [Survey of _k_-mer set of sets data structures for querying large collections of sequencing datasets](https://dsb2019.gitlab.io/), DSB, Dortmund (Germany)
+- 2019 [Survey of _k_-mer set of sets data structures for querying large collections of sequencing datasets]( https://www.helsinki.fi/en/researchgroups/bioinformatics/bioinformatics-day-2019), Helsinki Bioinformatics Day (Finland)
+- 2019 Read correction for non-uniform coverages, [RCAM](http://maiage.jouy.inra.fr/?q=fr/rcam2019) Institut Pasteur Paris (France)
+- 2018 [BCOOL-Trans: accurate and variant-preserving correction for RNA-seq](http://bioinfo.univ-rouen.fr/seqbio2018/programme.php), Seqbio, Rouen (France)
+- 2018 [ELECTOR: EvaLuator of Error CorrectionTools for lOng Reads](http://bioinfo.univ-rouen.fr/seqbio2018/programme.php), Seqbio, Rouen (France)
+- 2018 [CARNAC-LR : Clustering coefficient-based Acquisition of RNA Communities in Long Reads](https://jobim2018.sciencesconf.org/data/pages/Program_A4_JOBIM2018.pdf), JOBIM, Marseille (France)
+- 2017 _De novo_ Clustering of Gene Expression in Transcriptomic Long Reads Data Sets, Seqbio, Lille (France)
+- 2017 A highly scalable data structure for read similarity computation and its application to marine holobionts, RCAM, Paris (France)
+- 2017 A scaling transcriptomic approach to study holobiont data sets, 4e colloque Génomique Environnementale, Marseille (France)
+- 2016 Rconnector: a resource-frugal probabilistic dictionary and applications in (meta)genomics and transcriptomics, SeqBio, Nantes (France)
+- 2015 kissDE : a replicate-wise and annotation-free R package for testing the association between differential variants and experimental conditions in high throughput sequencing data, SeqBio 2015, Orsay (France)
+- 2015 kissDE : a package to test for differences in reads counts derived from variants in RNA sequencing data, Quatriemes rencontres R 2015, Lyon (France)
 
 # Teaching
 
