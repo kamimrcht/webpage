@@ -3,7 +3,7 @@
 I am a postdoc researcher working in [BONSAI](https://www.cristal.univ-lille.fr/bonsai/) team (Lille, France), with [Rayan Chikhi](http://rayan.chikhi.name/) and [Mikaël Salson](https://mikael-salson.univ-lille.fr/).
 After a MsC in Ecology and Evolution from Université Claude Bernard Lyon 1 and an engineer degree in Bioinformatics from INSA de Lyon, I worked for two years as an engineer in [ERABLE](https://team.inria.fr/erable/en/) team (LBBE, Lyon) with [Vincent Lacroix](https://lbbe.univ-lyon1.fr/-Lacroix-Vincent-.html?lang=fr). I obtained a PhD funding in [GenScale](https://team.inria.fr/genscale/) team (Rennes, France), where I was supervised by [Pierre Peterlongo](http://people.rennes.inria.fr/Pierre.Peterlongo/). I defended my PhD in 2018 and joined BONSAI afterwards.
 
-My postdoc takes part in [Transipedia ANR](https://anr.fr/Project-ANR-18-CE45-0020). Transipedia aims at being a transcriptome-encyclopedia, e.g., facilitating indexing, query and exploitation of the numerous publicly available RNA-seq data. I am mostly working on new data structures to index large collections of NGS datasets. I am currently visiting Zamin Iqbal's group at the EBI.
+My postdoc takes part in [Transipedia ANR](https://anr.fr/Project-ANR-18-CE45-0020). Transipedia aims at being a transcriptome-encyclopedia, e.g., facilitating indexing, query and exploitation of the numerous publicly available RNA-seq data. I am mostly working on new data structures to index large collections of NGS datasets. I am currently visiting [Zamin Iqbal's group at the EBI](https://www.ebi.ac.uk/research/iqbal).
 
 Before and during my PhD I worked on methods for transcriptomics, in particular for _de novo_ variants discovery and RNA long read analysis.
 
