@@ -12,10 +12,10 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 - We released [our preprint on RNA-seq and metagenomics correction](https://www.biorxiv.org/content/10.1101/673624v1.abstract?%3Fcollection=) 
 
 # Ongoing work
-- [Read correction for non-uniform coverages](https://www.biorxiv.org/content/10.1101/673624v1.abstract?%3Fcollection=), C Marchet, Y Dufresne, A Limasset
-- submitted: [ELECTOR: Evaluator for long reads correction methods](https://www.biorxiv.org/content/10.1101/512889v1), C Marchet, P Morisse, L Lecompte, A Limasset, A Lefebvre, T Lecroq, P Peterlongo 
+- [Read correction for non-uniform coverages](https://www.biorxiv.org/content/10.1101/673624v1.abstract?%3Fcollection=), C Marchet, Y Dufresne, A Limasset 
 
 # Journal Publications
+-  [ELECTOR: Evaluator for long reads correction methods](https://www.biorxiv.org/content/10.1101/512889v1), C Marchet, P Morisse, L Lecompte, A Limasset, A Lefebvre, T Lecroq, P Peterlongo; _Nucleic acid research Genomics and Bioinformatics (in press)_, 2019
 - [Comparative assessment of long-read error-correction software applied to RNA-sequencing data](https://academic.oup.com/bib/advance-article-abstract/doi/10.1093/bib/bbz058/5512144), L Ishi Soares de Lima, C Marchet, S Caboche, C Da Silva, B Istace, J-M Aury, H Touzet, R Chikhi; _Briefings in Bioinformatics_, 2019
 - [Clustering _de Novo_ by Gene of Long Reads from Transcriptomics Data](https://academic.oup.com/nar/article/47/1/e2/5107577), C Marchet, L Lecompte, C Da Silva, C Cruaud, J-M Aury, J Nicolas, P Peterlongo; _Nucleic Acids Research_, 2018
 - [A _de novo approach_ to disentangle partner identity and function in holobiont systems](https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-018-0481-9) A Meng, C Marchet, E Corre, P Peterlongo, A Alberti, C Da Silva, P Wincker, E Pelletier, I Probert, J Decelle, S Le Crom, F Not, L Bittner; _Microbiome_, 2018
