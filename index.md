@@ -9,6 +9,7 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 
 
 # News
+- I'll present a review of sets of k-mer sets indexing methods (SBT, BIGSI,...) at [SeqBim](http://seqbim.cnrs.fr/seqbim-2019/) (16-17 dec, Marne-La-Vallée, France)
 - We released [our preprint on RNA-seq and metagenomics correction](https://www.biorxiv.org/content/10.1101/673624v1.abstract?%3Fcollection=) 
 
 # Ongoing work
