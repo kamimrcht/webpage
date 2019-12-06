@@ -9,10 +9,14 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 
 
 # News
+- New preprint: [Data structures based on k-mers for querying large collections of sequencing datasets
+](https://www.biorxiv.org/content/10.1101/866756v1)
 - I'll present a review of sets of k-mer sets indexing methods (SBT, BIGSI,...) at [SeqBim](http://seqbim.cnrs.fr/seqbim-2019/) (16-17 dec, Marne-La-Vallée, France)
 - We released [our preprint on RNA-seq and metagenomics correction](https://www.biorxiv.org/content/10.1101/673624v1.abstract?%3Fcollection=) 
 
 # Ongoing work
+- [Data structures based on k-mers for querying large collections of sequencing datasets
+](https://www.biorxiv.org/content/10.1101/866756v1), C Marchet, C Boucher, S Puglisi, P Medvedev, M Salson, R Chikhi
 - [Read correction for non-uniform coverages](https://www.biorxiv.org/content/10.1101/673624v1.abstract?%3Fcollection=), C Marchet, Y Dufresne, A Limasset 
 
 # Journal Publications
