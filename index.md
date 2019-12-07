@@ -108,6 +108,6 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 - Feb. 11-13 2014 / Nov. 26th-28th 2014: Tutor at PRABI training courses, "Analyse de données RNA-seq sous l'environnement Galaxy", Lyon
 
 # Reviews for journals/conferences
-- 2019: ISMB/ECCB, BMC Supplements, Bioinformatics
+- 2019: ISMB/ECCB, BMC Supplements, Bioinformatics, Nucleic Acids Research
 - 2018: GigaScience
 - 2017: BMC Bioinformatics
