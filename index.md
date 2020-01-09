@@ -9,7 +9,7 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 
 
 # News
-- [Slides of the assembly course at EVOMICS workshop on Genomics](files/ASSEMBLY_evomics.pdf)
+- [Slides of the assembly course at EVOMICS workshop on Genomics](https://github.com/kamimrcht/webpage/blob/master/files/ASSEMBLY_evomics.pdf)
 - New preprint: [Data structures based on k-mers for querying large collections of sequencing datasets
 ](https://www.biorxiv.org/content/10.1101/866756v1)
 - I'll present a review of sets of k-mer sets indexing methods (SBT, BIGSI,...) at [SeqBim](http://seqbim.cnrs.fr/seqbim-2019/) (16-17 dec, Marne-La-Vallée, France)
