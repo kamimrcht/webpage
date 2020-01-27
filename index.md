@@ -3,17 +3,18 @@
 I am a postdoc researcher working in [BONSAI](https://www.cristal.univ-lille.fr/bonsai/) team (Lille, France), with [Rayan Chikhi](http://rayan.chikhi.name/) and [Mikaël Salson](https://mikael-salson.univ-lille.fr/).
 After a MsC in Ecology and Evolution from Université Claude Bernard Lyon 1 and an engineer degree in Bioinformatics from INSA de Lyon, I worked for two years as an engineer in [ERABLE](https://team.inria.fr/erable/en/) team (LBBE, Lyon) with [Vincent Lacroix](https://lbbe.univ-lyon1.fr/-Lacroix-Vincent-.html?lang=fr). I obtained a PhD funding in [GenScale](https://team.inria.fr/genscale/) team (Rennes, France), where I was supervised by [Pierre Peterlongo](http://people.rennes.inria.fr/Pierre.Peterlongo/). I defended my PhD in 2018 and joined BONSAI afterwards.
 
-My postdoc takes part in [Transipedia ANR](https://anr.fr/Project-ANR-18-CE45-0020). Transipedia aims at being a transcriptome-encyclopedia, e.g., facilitating indexing, query and exploitation of the numerous publicly available RNA-seq data. I am mostly working on new data structures to index large collections of NGS datasets. I am currently visiting [Zamin Iqbal's group at the EBI](https://www.ebi.ac.uk/research/iqbal).
+My postdoc takes part in [Transipedia ANR](https://anr.fr/Project-ANR-18-CE45-0020). Transipedia aims at being a transcriptome-encyclopedia, e.g., facilitating indexing, query and exploitation of the numerous publicly available RNA-seq data. I am mostly working on new data structures to index large collections of NGS datasets. 
 
 Before and during my PhD I worked on methods for transcriptomics, in particular for _de novo_ variants discovery and RNA long read analysis.
 
 
 # News
+- I'll present REINDEER, an efficient index for k-mer presence and abundance in sequencing datasets at [DSB](https://dsb-meeting.github.io/DSB2020/program_DSB2020.pdf) conference in Rennes (4th Feb). Stay tuned for an incoming REINDEER manuscript.
+- I'll present my PhD thesis work at [SIF Congress] (https://congres.societe-informatique-de-france.fr/programme/) in Lyon (5th Feb)
 - [Slides of the assembly course at EVOMICS workshop on Genomics](https://github.com/kamimrcht/webpage/blob/master/files/ASSEMBLY_evomics.pdf)
 - New preprint: [Data structures based on k-mers for querying large collections of sequencing datasets
 ](https://www.biorxiv.org/content/10.1101/866756v1)
-- I'll present a review of sets of k-mer sets indexing methods (SBT, BIGSI,...) at [SeqBim](http://seqbim.cnrs.fr/seqbim-2019/) (16-17 dec, Marne-La-Vallée, France)
-- We released [our preprint on RNA-seq and metagenomics correction](https://www.biorxiv.org/content/10.1101/673624v1.abstract?%3Fcollection=) 
+
 
 # Ongoing work
 - [Data structures based on k-mers for querying large collections of sequencing datasets
@@ -42,7 +43,7 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 
 ## Invited talks
 
-- 2019 _New methodologies for the analysis of transcriptome sequences_, MAB team seminar, LIRMM Montpellier (France)
+- 2019 New methodologies for the analysis of transcriptome sequences, MAB team seminar, LIRMM Montpellier (France)
 - 2018 CARNAC-LR and C2C: de novo clustering and detection of alternative isoforms in Third Generation Sequencing transcriptomes, [Genotoul Biostats/Bioinfo day](https://bioinfo-biostat.sciencesconf.org/), INRA Toulouse (France)
 - 2018 From reads to transcripts: _de novo_ methods to analyze transcriptome 2d and 3d generations sequencing data, Roscoff Biological Station seminar (France)
 - 2018 A _de novo_ approach to disentangle partner identity and function in holobiont systems, Advances techniques to study and exploit the sponge and coral microbiomes Workshop, ULB Brussels (Belgium)
@@ -58,6 +59,7 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 - 2019 [Survey of _k_-mer set of sets data structures for querying large collections of sequencing datasets](https://dsb2019.gitlab.io/), DSB, Dortmund (Germany)
 - 2019 [Survey of _k_-mer set of sets data structures for querying large collections of sequencing datasets]( https://www.helsinki.fi/en/researchgroups/bioinformatics/bioinformatics-day-2019), Helsinki Bioinformatics Day (Finland)
 - 2019 Read correction for non-uniform coverages, [RCAM](http://maiage.jouy.inra.fr/?q=fr/rcam2019) Institut Pasteur Paris (France)
+- 2019  Survey of _k_-mer set of sets data structures for querying large collections of sequencing datasets, at [SeqBim](http://seqbim.cnrs.fr/seqbim-2019/), Marne La Vallée (France)
 - 2018 [BCOOL-Trans: accurate and variant-preserving correction for RNA-seq](http://bioinfo.univ-rouen.fr/seqbio2018/programme.php), Seqbio, Rouen (France)
 - 2018 [ELECTOR: EvaLuator of Error CorrectionTools for lOng Reads](http://bioinfo.univ-rouen.fr/seqbio2018/programme.php), Seqbio, Rouen (France)
 - 2018 [CARNAC-LR : Clustering coefficient-based Acquisition of RNA Communities in Long Reads](https://jobim2018.sciencesconf.org/data/pages/Program_A4_JOBIM2018.pdf), JOBIM, Marseille (France)
@@ -73,6 +75,9 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 <table>
   <tr>
     <th>Year</th><th>Level</th><th>Topic</th>
+  </tr>
+   <tr>
+    <td>2019/2020</td><td>L2 informatique Université de Lille</td><td>TP/TP Algorithmique et structures de données</td>
   </tr>
   <tr>
     <td>2018/2019</td><td>L2 informatique Université de Lille</td><td>TP/TP Algorithmique et structures de données</td>
