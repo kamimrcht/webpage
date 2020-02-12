@@ -43,6 +43,7 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 
 ## Invited talks
 
+- 2020 [From reads to transcripts: de novo methods for the analysis of transcriptome second and third generation sequencing],(https://congres.societe-informatique-de-france.fr/programme/), SIF congress, INSA de Lyon (France)
 - 2019 New methodologies for the analysis of transcriptome sequences, MAB team seminar, LIRMM Montpellier (France)
 - 2018 CARNAC-LR and C2C: de novo clustering and detection of alternative isoforms in Third Generation Sequencing transcriptomes, [Genotoul Biostats/Bioinfo day](https://bioinfo-biostat.sciencesconf.org/), INRA Toulouse (France)
 - 2018 From reads to transcripts: _de novo_ methods to analyze transcriptome 2d and 3d generations sequencing data, Roscoff Biological Station seminar (France)
@@ -54,6 +55,7 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 
 ## Workshops/conferences/seminars
 
+- 2020 [REINDEER: efficient indexing of _k_-mer presence and abundance in sequencing datasets](https://dsb-meeting.github.io/DSB2020/program_DSB2020.pdf), DSB, Rennes (France)
 - 2019 [Indexing De Bruijn graphs with minimizers](https://recombseq.recomb2019.org/schedule/#Sat), RECOMB-seq, Washington DC (US)
 - 2019 [Indexing De Bruijn graphs with minimizers](http://biata2019.spbu.ru/program/), BiATA, St Petersburg (Russia)
 - 2019 [Survey of _k_-mer set of sets data structures for querying large collections of sequencing datasets](https://dsb2019.gitlab.io/), DSB, Dortmund (Germany)
