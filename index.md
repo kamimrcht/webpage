@@ -108,7 +108,7 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 - 2014: Camille Sessegolo (L3 internship), subject: Improvements in the kissplice2refgenome software
 
 # Involvement in scientific events
-- Evomics, workshop on Genomics. Assembly course is [here](https://github.com/kamimrcht/webpage/blob/master/files/ASSEMBLY_evomics.pdf), practical session is [here](https://malfoy.github.io/)
+- January 2020, [Evomics, workshop on Genomics](http://evomics.org/2020-workshop-on-genomics-cesky-krumlov-czech-republic/), Cesky Krumlov, Czech Republic. Assembly course is [here](https://github.com/kamimrcht/webpage/blob/master/files/ASSEMBLY_evomics.pdf), practical session is [here](https://malfoy.github.io/)
 - June 13-14 2019: Tutor at Bilille training courses (RNA-seq analysis), Lille. The course I made with Pierre Pericard is [here](https://wikis.univ-lille.fr/bilille/_media/ngs2019-rna-seq.pdf) and the practical session is [here](https://github.com/kamimrcht/webpage/blob/master/files/FicheTP.pdf)
 - Apr. 19-24 2018: Volunteer at RECOMB-seq and RECOMB, Paris
 - Nov. 7-8 2016: Organisation commitee for "Biological insights from raw high-throughput sequencing data" - Colib'read ANR workshop, Paris
