@@ -91,10 +91,10 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
     <td>2016/2017</td><td>2ème année cycle prépa INSA Rennes</td><td>TP/TP Bases de Données</td>
   </tr>
   <tr>
-    <td>2016/2017</td><td>L3 ENS Rennes</td><td>Biostatistiques, programmation avec R</td>
+    <td>2016/2017</td><td>M1 ENS Rennes</td><td>Biostatistiques, programmation avec R</td>
   </tr>
     <tr>
-    <td>2015/2016</td><td>L3 ENS Rennes</td><td>Biostatistiques, programmation avec R</td>
+    <td>2015/2016</td><td>M1 ENS Rennes</td><td>Biostatistiques, programmation avec R</td>
   </tr>
    <tr>
     <td>2014/2015</td><td>L1 Université Lyon 1</td><td>TD Mathématiques pour les Sciences de la Vie</td>
