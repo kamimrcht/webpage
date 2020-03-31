@@ -17,6 +17,7 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 
 
 # Ongoing work
+- [REINDEER: efficient indexing of k-mer presence and abundance in sequencing datasets](https://www.biorxiv.org/content/10.1101/2020.03.29.014159v1), C Marchet, Z Iqbal, D Gautheret, M Salson, R Chikhi
 - [Data structures based on k-mers for querying large collections of sequencing datasets
 ](https://www.biorxiv.org/content/10.1101/866756v1), C Marchet, C Boucher, S Puglisi, P Medvedev, M Salson, R Chikhi
 - [Read correction for non-uniform coverages](https://www.biorxiv.org/content/10.1101/673624v1.abstract?%3Fcollection=), C Marchet, Y Dufresne, A Limasset 
