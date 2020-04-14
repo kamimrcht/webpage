@@ -9,6 +9,7 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 
 
 # News
+- REINDEER was accepted to ISMB! Link to the manuscript: [(biorxiv)](https://www.biorxiv.org/content/10.1101/2020.03.29.014159v1)
 - I'll present REINDEER, an efficient index for k-mer presence and abundance in sequencing datasets at [DSB](https://dsb-meeting.github.io/DSB2020/program_DSB2020.pdf) conference in Rennes (4th Feb). REINDEER's manuscript can be found [here](https://github.com/kamimrcht/webpage/blob/master/files/Reindeer.pdf).
 - I'll present my PhD thesis work at [SIF Congress](https://congres.societe-informatique-de-france.fr/programme/) in Lyon (5th Feb)
 - [Slides of the assembly course at EVOMICS workshop on Genomics](https://github.com/kamimrcht/webpage/blob/master/files/ASSEMBLY_evomics.pdf)
@@ -17,7 +18,6 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 
 
 # Ongoing work
-- [REINDEER: efficient indexing of k-mer presence and abundance in sequencing datasets](https://www.biorxiv.org/content/10.1101/2020.03.29.014159v1), C Marchet, Z Iqbal, D Gautheret, M Salson, R Chikhi
 - [Data structures based on k-mers for querying large collections of sequencing datasets
 ](https://www.biorxiv.org/content/10.1101/866756v1), C Marchet, C Boucher, S Puglisi, P Medvedev, M Salson, R Chikhi
 - [Read correction for non-uniform coverages](https://www.biorxiv.org/content/10.1101/673624v1.abstract?%3Fcollection=), C Marchet, Y Dufresne, A Limasset 
@@ -34,7 +34,8 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 - [Colibread on galaxy: a tools suite dedicated to biological information extraction from raw NGS reads](https://gigascience.biomedcentral.com/articles/10.1186/s13742-015-0105-2) E Rivals, A Andrieux, A Z El Aabidine, B Cazaux, C Marchet, C Lemaitre, C Monjeaud, G Sacomoto, L Salmela, O Collin, P Peterlongo, R Uricaru, S Alves-Carvalho, V Lacroix, V Miele, Y LeBras; _GigaScience_, 2016
 
 # Papers accepted to conferences
-- [Indexing De Bruijn graphs with minimizers](https://www.biorxiv.org/content/10.1101/546309v2), C Marchet, A Kerbiriou, A Limasset, RECOMB-seq 2019
+- [REINDEER: efficient indexing of k-mer presence and abundance in sequencing datasets](https://www.biorxiv.org/content/10.1101/2020.03.29.014159v1), C Marchet, Z Iqbal, D Gautheret, M Salson, R Chikhi
+- [Indexing De Bruijn graphs with minimizers](https://www.biorxiv.org/content/10.1101/546309v2), C Marchet, A Kerbiriou, A Limasset, ISMB 2020
 - [CONSENT: Scalable self-correction of long reads with multiple sequence alignment
 ](https://www.biorxiv.org/content/10.1101/546630v3), P Morisse, C Marchet, A Limasset, A Lefebvre, T Lecroq, RECOMB-Seq 2019
 - [A resource-frugal probabilistic dictionary and applications in (meta)genomics](https://hal.inria.fr/hal-01386744/document), C Marchet, A Limasset, L Bittner, P Peterlongo, PSC 2016
