@@ -9,7 +9,7 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 
 
 # News
-- REINDEER was accepted to ISMB! Link to the manuscript: [(biorxiv)](https://www.biorxiv.org/content/10.1101/2020.03.29.014159v1)
+- REINDEER was accepted to ISMB! Link to the manuscript: [(biorxiv)](https://www.biorxiv.org/content/10.1101/2020.03.29.014159v2)
 - I'll present REINDEER, an efficient index for k-mer presence and abundance in sequencing datasets at [DSB](https://dsb-meeting.github.io/DSB2020/program_DSB2020.pdf) conference in Rennes (4th Feb). REINDEER's manuscript can be found [here](https://github.com/kamimrcht/webpage/blob/master/files/Reindeer.pdf).
 - I'll present my PhD thesis work at [SIF Congress](https://congres.societe-informatique-de-france.fr/programme/) in Lyon (5th Feb)
 - [Slides of the assembly course at EVOMICS workshop on Genomics](https://github.com/kamimrcht/webpage/blob/master/files/ASSEMBLY_evomics.pdf)
