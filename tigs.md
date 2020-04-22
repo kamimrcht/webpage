@@ -115,7 +115,7 @@ Let's focus on bifurcations in de Bruijn graphs. In simple case like the followi
 <img src="files/YtoV.png" alt="drawing" width="450"/>
 
 In this example the red node is duplicated in the two children nodes. ATAACAATT and ATAACAACG are two "safe" sequences that will be found in contigs.
-I said Y to V do _almost_ all the work, because sometimes the prevent to find the longest "safe" sequences, so the operation is not always optimal. That's why omnitigs are introduced.
+I said Y to V do _almost_ all the work, because sometimes they prevent finding the longest "safe" sequences, so the operation is not always optimal. That's why omnitigs are introduced.
 
 ### Omnitigs 
 
