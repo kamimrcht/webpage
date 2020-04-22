@@ -12,7 +12,7 @@ Table of content:
   * [Introduction](#introduction)
   * [Unitigs: the old classic](#unitigs-the-old-classic)
   * [Simplitigs and USTs: harder better longer longer](#simplitigs-and-usts-harder-better-longer-longer)
-  * [Monotigs: do the (ac)counts](#monotigs-do-the-ac-counts)
+  * [Monotigs: do the accounts](#monotigs-do-the-accounts)
     + [Super-k-mers of unitigs](#super-k-mers-of-unitigs)
     + [Super k-mers of reads](#super-k-mers-of-reads)
     + [Monotigs](#monotigs)
@@ -79,7 +79,7 @@ Given the number of used nucleotides for the representation, the second one is m
 
 You can build UST using the code from that [repo](https://github.com/medvedevgroup/UST/blob/master/README.md), and simplitigs are available [here](https://github.com/prophyle/prophasm).
 
-## Monotigs: do the (ac)counts
+## Monotigs: do the accounts
 
 Let's get back to the introduction figure and consider the k-mer presence/absence in the graph. It is very easy to notice that unitigs can contain k-mers that have different presence/absence profiles. For instance the leftmost unitig ATAACA contains k-mers present in all three datasets and k-mers not present in the square dataset.
 
