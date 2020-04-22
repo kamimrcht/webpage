@@ -78,7 +78,7 @@ Super-k-mers of unitigs are often less efficient than unitigs in terms of nucleo
 ### Super k-mers of reads
 Historically, they were the [first super-k-mers](https://www.ncbi.nlm.nih.gov/pubmed/25609798) to be introduced. They differ from the super-k-mers of unitigs since they are built from the read sequences:
 
-<img src="files/superkmers_read.png" alt="drawing" width="350"/>
+<img src="files/superkmers_reads.png" alt="drawing" width="350"/>
 
 
 ## Omnitigs (and contigs): buckle up for more assembly 
