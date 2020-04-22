@@ -44,9 +44,9 @@ Sometimes you will encounter the term **unitig graph** or **compacted de Bruijn 
 
 ## Simplitigs and USTs: harder better longer longer
 
-Keeping up with the idea of SPSS, and of representing the k-mer set while minimizing the number of nucleotides, can we do better than unitigs? Sure, if we drop the "non-ambiguously-assembled-sequences" criterion. Two papers [here for simplitigs](https://www.biorxiv.org/content/10.1101/2020.01.12.903443v1.full) and [here for USTs](https://www.biorxiv.org/content/10.1101/2020.01.07.896928v2) described a solution simultaneously, though independantly.
+Keeping up with the idea of SPSS, and of representing the k-mer set while minimizing the number of nucleotides, can we do better than unitigs? Sure, if we drop the "non-ambiguously-assembled-sequences" criterion. Two papers [here for simplitigs](https://www.biorxiv.org/content/10.1101/2020.01.12.903443v1.full) and [here for USTs](https://www.biorxiv.org/content/10.1101/2020.01.07.896928v2) described a solution simultaneously, though independently.
 
-The intuition is that unitigs can be compacted to obtain longer sequences and reduce the number of k-1 redundances. Both paper proposes a greedy algorithm to achieve that. See the example below:
+The intuition is that unitigs can be compacted to obtain longer sequences and reduce the number of k-1 redundancies. Both papers propose a greedy algorithm to achieve that. See the example below:
 
 <img src="files/simplitigs.png" alt="drawing" width="500"/>
 
