@@ -111,9 +111,16 @@ I said Y to V do _almost_ all the work, because sometimes the prevent to find th
 
 ### Omnitigs
 
-In a graph, omnitigs (in their edge-centric definition) are a walk from node v0 to node vn (with edge ei from vi-1 to vi), such that for all 1<= i <= j <= n-1, there is no path that allows to go from vj to vi without having ej+1 as first edge, and ei as last edge.
+In a graph, omnitigs (in their edge-centric definition) are a walk from node v<sub>0</sub> to node v<sub>n</sub> (with edge e<sub>i</sub> from v<sub>i-1</sub> to v<sub>i</sub>), such that for all 1<= i <= j <= n-1, there is no path that allows to go from v<sub>j</sub> to v<sub>i</sub> without having e<sub>j+1</sub> as first edge, and e<sub>i</sub> as last edge. To illustrate this, I'll use two examples inspired from the paper, one shows a walk that **is** an omnitig, the second shows a walk that **is not** an omnitig.
 
 <img src="files/omnitigs.png" alt="drawing" width="400"/>
+<img src="files/not_omnitigs.png" alt="drawing" width="400"/>
+
+
+To describe the longest "safe" sequences from contigs, one can compute the set of maximal omnitigs.
+Finally, we'll see how the Y to V operation is sometimes not enough, and can prevent from finding the maximal omnitigs in a graph.
+
+<img src="files/omnitigs_ytov.png" alt="drawing" width="400"/>
 
 
 ## Disjointings: leaving the de Bruijn world
