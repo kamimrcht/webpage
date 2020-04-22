@@ -42,7 +42,7 @@ Sometimes you will encounter the term **unitig graph** or **compacted de Bruijn 
 
 Keeping up with the idea of SPSS, and of representing the k-mer set while minimizing the number of nucleotides, can we do better than unitigs? Sure, if we drop the "non-ambiguously-assembled-sequences" criterion. Two papers [here for simplitigs](https://www.biorxiv.org/content/10.1101/2020.01.12.903443v1.full) and [here for USTs](https://www.biorxiv.org/content/10.1101/2020.01.07.896928v2) described a solution simultaneously, though independantly.
 
-The intuition is that unitigs can be compacted to obtain longer sequences and reduce the number of k-1 redundance. Both paper proposes a greedy algorithm to achieve that. See the example below:
+The intuition is that unitigs can be compacted to obtain longer sequences and reduce the number of k-1 redundances. Both paper proposes a greedy algorithm to achieve that. See the example below:
 
 <img src="files/simplitigs.png" alt="drawing" width="500"/>
 
@@ -54,11 +54,33 @@ From the below example, one can be tempted to think that all compactions are equ
 
 To this second one:
 
-<img src="files/caveat_simplitig.png" alt="drawing" width="300"/>
+<img src="files/caveat_simplitig.png" alt="drawing" width="350"/>
+
+You can build UST using the code from that [repo](https://github.com/medvedevgroup/UST/blob/master/README.md), and simplitigs are available [here](https://github.com/prophyle/prophasm).
+
+## Monotigs: do the (ac)counts
+
+Let's get back to the introduction figure and consider the k-mer presence/absence in the graph. It is very easy to notice that unitigs can contain k-mers that have different presence/absence profiles. For instance the leftmost unitig ATAACA contains k-mers present in all three datasets and k-mers not present in the square dataset.
+
+Monotigs were [introduced](https://www.biorxiv.org/content/10.1101/2020.03.29.014159v2) in order to create SPSS that also guarantee that all k-mers in a sequence of the SPSS have the same presence/absence profile.
+
+But first, I need to introduce another SPSS with no -tig suffix, the super-k-mers.
+
+### Super-k-mers of unitigs
+Super-k-mers of unitigs are substring from unitigs.
+They are built by compacting all consecutive k-mers of a unitig that share a similar minimizer.
+Observe that these super-k-mers are also a SPSS. However, just as unitigs, it is not guaranteed that all k-mers have the same presence/absence pattern.
+
+<img src="files/superkmers_unitigs.png" alt="drawing" width="350"/>
+
+Super-k-mers of unitigs are often less efficient than unitigs in terms of nucleotide minimization to represent the set of k-mers, however they are handy when you need to partition a set of k-mer. Thus, with a wisely chosen minimizer scheme (in real life, we do not only use lexicographic order), one can dispatch k-mers in buckets per minimizer. For an example of this usage, see [this work](https://www.biorxiv.org/content/10.1101/546309v2).
+
+### Super k-mers of reads
+Historically, they were the [first super-k-mers](https://www.ncbi.nlm.nih.gov/pubmed/25609798) to be introduced. They differ from the super-k-mers of unitigs since they are built from the read sequences:
+
+<img src="files/superkmers_read.png" alt="drawing" width="350"/>
 
 
-## Monotigs: keep the counts
+## Omnitigs (and contigs): buckle up for more assembly 
 
-## Omnitigs (and contigs): buckle up for assembly 
-
-## Disjointings
+## Disjointings: leaving the de Bruijn world
