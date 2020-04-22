@@ -128,7 +128,7 @@ In a graph, omnitigs (in their edge-centric definition) are a walk from node v<s
 To describe the longest "safe" sequences from contigs, one can compute the set of maximal omnitigs.
 Finally, we'll see how the Y to V operation is sometimes not enough, and can prevent from finding the maximal omnitigs in a graph.
 
-<img src="files/omnitigs_ytov.png" alt="drawing" width="750"/>
+<img src="files/omnitigs_ytov.png" alt="drawing" width="800"/>
 
 ### Macrotigs
 Macrotigs [recently introduced](https://arxiv.org/pdf/2002.10498.pdf) a nice way to compute maximal omnitigs in O(m) time, with m the number of edges in the graph.
