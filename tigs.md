@@ -46,12 +46,12 @@ The intuition is that unitigs can be compacted to obtain longer sequences and re
 
 <img src="files/simplitigs.png" alt="drawing" width="400"/>
 
-From the below example, one can be tempted to think that all compactions are equivalent. Let me show you an example where it is not the case. Compare this first compaction choice:
+From the below example, one can be tempted to think that all compactions are equivalent. Let me show you an example where it is not the case. Compare this first compaction choice (in particular the number of nucleotides):
 
-<img src="files/simplitigs_caveat1.png" alt="drawing" width="400"/>
+<img src="files/caveat_simplitig2.png" alt="drawing" width="400"/>
 
 To this second one:
-<img src="files/simplitigs_caveat2.png" alt="drawing" width="400"/>
+<img src="files/caveat_simplitig.png" alt="drawing" width="400"/>
 
 
 ## Monotigs: keep the counts
