@@ -148,3 +148,7 @@ Macrotigs [recently introduced](https://arxiv.org/pdf/2002.10498.pdf) a nice way
 
 ## Disjointings: leaving the de Bruijn world
 I'm new to them! I first noticed them as they were mentionned [here](https://twitter.com/bioinfochat/status/1252912940384165889?s=20). It seems their spirit can be compared to simplitigs/UST, but they are defined on another type of assembly graph, the overlap graph, and the compaction algorithm is different.
+
+
+
+**Thanks** [@RayanChikhi](https://twitter.com/RayanChikhi) and [@BQPMalfoy](https://twitter.com/BQPMalfoy) for discussing these topics with me and for your feedback!
