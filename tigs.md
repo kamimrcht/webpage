@@ -82,10 +82,10 @@ Observe that these super-k-mers are also a SPSS. However, just as unitigs, it is
 
 <img src="files/superkmers_unitigs.png" alt="drawing" width="450"/>
 
-Super-k-mers of unitigs are often less efficient than unitigs in terms of nucleotide minimization to represent the set of k-mers, however they are handy when you need to partition a set of k-mer. Thus, with a wisely chosen minimizer scheme (in real life, we do not only use lexicographic order), one can dispatch k-mers in buckets per minimizer. For an example of this usage, see [this work](https://www.biorxiv.org/content/10.1101/546309v2).
+Super-k-mers of unitigs are often less efficient than unitigs in terms of nucleotide minimization to represent the set of k-mers, however they are handy when you need to partition a set of k-mers. Thus, with a wisely chosen minimizer scheme (in real life, we do not only use lexicographic order), one can dispatch k-mers in balanced buckets per minimizer. For an example of this usage, see [this work](https://www.biorxiv.org/content/10.1101/546309v2).
 
 ### Super k-mers of reads
-Historically, they were the [first super-k-mers](https://www.ncbi.nlm.nih.gov/pubmed/25609798) to be introduced. They differ from the super-k-mers of unitigs since they are built from the read sequences:
+Historically, they were the [first super-k-mers](https://arxiv.org/abs/1505.06550) to be introduced. They differ from the super-k-mers of unitigs since they are built from the read sequences:
 
 <img src="files/superkmers_reads.png" alt="drawing" width="700"/>
 
