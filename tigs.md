@@ -7,6 +7,22 @@ Following a recent discussion on [Twitter](https://twitter.com/bioinfochat/statu
 
 **Disclaimer:** my goal here is not to formally present the different types of sequences, nor to be exhaustive, since such information can be found in the related articles. However, if you find a mistake, I'll be glad to have an opportunity to amend the document!
 
+Table of content:
+
+  * [Introduction](#introduction)
+  * [Unitigs: the old classic](#unitigs-the-old-classic)
+  * [Simplitigs and USTs: harder better longer longer](#simplitigs-and-usts-harder-better-longer-longer)
+  * [Monotigs: do the (ac)counts](#monotigs-do-the-ac-counts)
+    + [Super-k-mers of unitigs](#super-k-mers-of-unitigs)
+    + [Super k-mers of reads](#super-k-mers-of-reads)
+    + [Monotigs](#monotigs)
+  * [Omnitigs (and contigs) and macrotigs: buckle up for more assembly](#omnitigs-and-contigs-and-macrotigs-buckle-up-for-more-assembly)
+    + [Y to V operation](#y-to-v-operation)
+    + [Omnitigs](#omnitigs)
+    + [Macrotigs](#macrotigs)
+  * [Disjointings: leaving the de Bruijn world](#disjointings-leaving-the-de-bruijn-world)
+
+
 ## Introduction
 I'll assume you know what's a de Bruijn graph and k-mer. In the following figure all the concepts we will need are present. Let's assume we deal with 3 datasets (shown using colored circle/star/square), two of them contain a single read, one of them contains two reads. We can build the de Bruijn graph from those reads (k=4). Remember that only distinct k-mers are present in the de Bruijn graph, so multiplicities are lost.
 
