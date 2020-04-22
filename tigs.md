@@ -78,7 +78,7 @@ Super-k-mers of unitigs are often less efficient than unitigs in terms of nucleo
 ### Super k-mers of reads
 Historically, they were the [first super-k-mers](https://www.ncbi.nlm.nih.gov/pubmed/25609798) to be introduced. They differ from the super-k-mers of unitigs since they are built from the read sequences:
 
-<img src="files/superkmers_reads.png" alt="drawing" width="600"/>
+<img src="files/superkmers_reads.png" alt="drawing" width="700"/>
 
 Notice that, unlike the other sequences we've reviewed, here the initial multiset of k-mers is represented in a SPSS.
 
@@ -120,7 +120,7 @@ In a graph, omnitigs (in their edge-centric definition) are a walk from node v<s
 To describe the longest "safe" sequences from contigs, one can compute the set of maximal omnitigs.
 Finally, we'll see how the Y to V operation is sometimes not enough, and can prevent from finding the maximal omnitigs in a graph.
 
-<img src="files/omnitigs_ytov.png" alt="drawing" width="650"/>
+<img src="files/omnitigs_ytov.png" alt="drawing" width="750"/>
 
 
 ## Disjointings: leaving the de Bruijn world
