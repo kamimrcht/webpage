@@ -5,9 +5,15 @@ Following a recent discussion on [Twitter](https://twitter.com/bioinfochat/statu
 **Disclaimer:** my goal here is not to formally present the different types of sequences, since such information can be found in the related articles. However, if you find a mistake, I'll be glad to have an opportunity to amend the document!
 
 ## Introduction
-I'll assume you know what's a de Bruijn graph and k-mers in the following. In the following figure all the concepts we will need are present:
+I'll assume you know what's a de Bruijn graph and k-mers in the following. In the following figure all the concepts we will need are present. Let's assume we deal with 3 datasets (shown using colored circle/star/square), two of them contain a single read, one of them contains two reads. We can build the de Bruijn graph from those reads (k=4). Remember that only distinct k-mers are present in the de Bruijn graph, so multiplicities are lost.
+
 
 <img src="files/intro.png" alt="drawing" width="600"/>
+
+Other needed concepts:
+
+* Minimizers. Here we will use minimizers computed from the k-mers, with a size (m) of 2.
+* K-mer presence/absence in datasets. Under each k-mer I represent whether it is present or not in each of the three datasets using the circle/star/square or an "empty set" symbol if they are absent.
 
 
 You'll see that I'll often write down the number of nucleotides of a representation.
