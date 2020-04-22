@@ -124,4 +124,4 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 - 2017: BMC Bioinformatics
 
 
-[test](https://github.com/kamimrcht/webpage/blob/master/tigs.md)
+[test](tigs.md)
