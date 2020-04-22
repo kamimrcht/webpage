@@ -31,11 +31,11 @@ Most SPSS do not handle multiplicity. Thus, they preserve a set of k-mers, but n
 ## Unitigs: the old classic
 Simply put, unitigs are maximal simple paths in the de Bruijn graph. See an exemple in the following:
 
-In assembly, unitigs are considered as safe sequences because you can assemble their k-mers without ambiguity. When an ambiguity happens, the unitig is stopped and another starts. These sequences are often output during the inner steps of an assembler, before being further elongated into contigs.
+In assembly, unitigs are considered as safe sequences because you can assemble their k-mers without ambiguity. When an ambiguity happens, the unitig is stopped and other ones start. These sequences are often output during the inner steps of an assembler, before being further elongated into contigs.
 
 Something that should be noticed from unitigs: they are a SPSS. You can retrieve the original set of k-mers, given a set of unitigs. At worst they use as much nucleotides to represent the k-mer set as the k-mer set itself, but usually, they represent it in a more compacted and efficient way (here we used 18 nucleotides in comparison to the 28 of the k-mer set).
 
-In order to discuss the next -tig, notice the red substring that shows some redundance that remains in the representation. This is because unitigs still share a k-1 overlap.
+In order to discuss the next -tig, notice the red substring that shows some redundancy that remains in the representation. This is because unitigs still share a k-1 overlap.
 Also keep in mind that for the sake of simplicity I used very small k-mers, but that the burden of redundancy increases with real-life-sized k-mers.
 
 <img src="files/unitigs.png" alt="drawing" width="450"/>
