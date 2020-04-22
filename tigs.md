@@ -9,14 +9,14 @@ Following a recent discussion on [Twitter](https://twitter.com/bioinfochat/statu
 **Disclaimer:** my goal here is not to formally present the different types of sequences, nor to be exhaustive, since such information can be found in the related articles. However, if you find a mistake, I'll be glad to have an opportunity to amend the document!
 
 ## Introduction
-I'll assume you know what's a de Bruijn graph and k-mers in the following. In the following figure all the concepts we will need are present. Let's assume we deal with 3 datasets (shown using colored circle/star/square), two of them contain a single read, one of them contains two reads. We can build the de Bruijn graph from those reads (k=4). Remember that only distinct k-mers are present in the de Bruijn graph, so multiplicities are lost.
+I'll assume you know what's a de Bruijn graph and k-mer. In the following figure all the concepts we will need are present. Let's assume we deal with 3 datasets (shown using colored circle/star/square), two of them contain a single read, one of them contains two reads. We can build the de Bruijn graph from those reads (k=4). Remember that only distinct k-mers are present in the de Bruijn graph, so multiplicities are lost.
 
 
 <img src="files/intro.png" alt="drawing" width="600"/>
 
 Other needed concepts:
 
-* **Minimizers.** There exist several definition. Here it we be sufficient to consider a minimizer as the smallest l-mer that appears within a k-mer, with l < k. In examples I'll use a a size (m) of 2, and we will assume we compute minimizers using the lexicographic order.
+* **Minimizers.** There exist several definitions. Here it we be sufficient to consider a minimizer as the smallest l-mer that appears within a k-mer, with l < k. In the example figures I'll use a size (m) of 2, and we will assume we compute minimizers using the lexicographic order.
 * K-mer **presence/absence** in datasets. Under each k-mer I represent whether it is present or not in each of the three datasets using the circle/star/square or an "empty set" symbol if they are absent.
 * A **compaction** is the operation through which two nodes u->v are fused in a single one, by taking all nucleotides from u and adding the last nucleotide of v, the edge e=(u,v) is removed (example: ATTC->TTCA is compacted in ATTCA).
 
@@ -98,10 +98,10 @@ Conversely, AATT and ATTG have the same presence/absence pattern, but different 
 
 More precisely, monotigs require that k-mers have the same count pattern over datasets. For instance, imagine that the circle symbol means: seen 10 times in green dataset and the star means: seen 50 times in the pink dataset. With that scheme REINDEER can output k-mers or sequences quantifications over a collection of datasets.
 
-## Omnitigs (and contigs): buckle up for more assembly 
+## Omnitigs (and contigs) and macrotigs: buckle up for more assembly 
 
 We leave the SPSS realm in this section, but we continue to review the -tig sequences.
-Omnitigs were described in the context of assembly. Their motivation is to represent a "safe" set of sequences that will be found in any assembly result from a de Bruijn graph. In short, when compacting unitigs in so-called contigs, the assembler has to make choices at ambiguous bifurcations. Omnitigs will be found in any contig set, regardless of the compaction choices.
+Omnitigs were described in the context of assembly. Their motivation is to represent a "safe" set of sequences, i.e. that will be found in any assembly solution from a de Bruijn graph. In short, when compacting unitigs in so-called contigs, the assembler has to make choices at ambiguous bifurcations. Omnitigs will be found in any contig set, regardless of the compaction choices.
 But first, I'll introduce a way to compact the graph that does most of the work, according to the [omnitig paper](https://www.ncbi.nlm.nih.gov/pubmed/27749096).
 
 ### Y to V operation
@@ -113,7 +113,7 @@ Let's focus on bifurcations in de Bruijn graphs. In simple case like the followi
 In this example the red node is duplicated in the two children nodes. ATAACAATT and ATAACAACG are two "safe" sequences that will be found in contigs.
 I said Y to V do _almost_ all the work, because sometimes the prevent to find the longest "safe" sequences, so the operation is not always optimal. That's why omnitigs are introduced.
 
-### Omnitigs
+### Omnitigs 
 
 In a graph, omnitigs (in their edge-centric definition) are a walk from node v<sub>0</sub> to node v<sub>n</sub> (with edge e<sub>i</sub> from v<sub>i-1</sub> to v<sub>i</sub>), such that for all 1<= i <= j <= n-1, there is no path that allows to go from v<sub>j</sub> to v<sub>i</sub> without having e<sub>j+1</sub> as first edge, and e<sub>i</sub> as last edge. To illustrate this, I'll use two examples inspired from the paper, one shows a walk that **is** an omnitig, the second shows a walk that **is not** an omnitig.
 
@@ -126,6 +126,8 @@ Finally, we'll see how the Y to V operation is sometimes not enough, and can pre
 
 <img src="files/omnitigs_ytov.png" alt="drawing" width="750"/>
 
+### Macrotigs
+Macrotigs [recently introduced](https://arxiv.org/pdf/2002.10498.pdf) a nice way to compute maximal omnitigs in O(m) time, with m the number of edges in the graph.
 
 ## Disjointings: leaving the de Bruijn world
 I'm new to them! I first noticed them as they were mentionned [here](https://twitter.com/bioinfochat/status/1252912940384165889?s=20). It seems their spirit can be compared to simplitigs/UST, but they are defined on another type of assembly graph, the overlap graph, and the compaction algorithm is different.
