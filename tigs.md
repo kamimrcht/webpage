@@ -104,7 +104,7 @@ But first, I'll introduce a way to compact the graph that does most of the work,
 
 Let's focus on bifurcations in de Bruijn graphs. In simple case like the following, the two child nodes have a single, unambiguous parent. Y to V operation proposes to duplicate the content of this parent node and to compact it to the children.
 
-<img src="files/YtoV.png" alt="drawing" width="400"/>
+<img src="files/YtoV.png" alt="drawing" width="450"/>
 
 In this example the red node is duplicated in the two children nodes. ATAACAATT and ATAACAACG are two "safe" sequences that will be found in contigs.
 I said Y to V do _almost_ all the work, because sometimes the prevent to find the longest "safe" sequences, so the operation is not always optimal. That's why omnitigs are introduced.
@@ -120,7 +120,8 @@ In a graph, omnitigs (in their edge-centric definition) are a walk from node v<s
 To describe the longest "safe" sequences from contigs, one can compute the set of maximal omnitigs.
 Finally, we'll see how the Y to V operation is sometimes not enough, and can prevent from finding the maximal omnitigs in a graph.
 
-<img src="files/omnitigs_ytov.png" alt="drawing" width="400"/>
+<img src="files/omnitigs_ytov.png" alt="drawing" width="650"/>
 
 
 ## Disjointings: leaving the de Bruijn world
+I'm new to them! I first noticed them as they were mentionned [here](https://twitter.com/bioinfochat/status/1252912940384165889?s=20). It seems their spirit can be compared to simplitigs/UST, but they are defined on another type of assembly graph, the overlap graph, and the compaction algorithm is different.
