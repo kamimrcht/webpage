@@ -7,6 +7,9 @@ Disclaimer: my goal here is not to formally present the different types of seque
 ## Introduction
 I'll assume you know what's a de Bruijn graph and k-mers in the following. In the following figure all the concepts we will need are present:
 
+<img src="files/intro.png" alt="drawing" width="600"/>
+
+
 You'll see that I'll often write down the number of nucleotides of a representation.
 It is because a lot of -tigs are related to the concept of **_spectrum preserving string sets_** (SPSS), that was [recently described](https://www.biorxiv.org/content/10.1101/2020.01.07.896928v2) in the context of sequence indexation.
 Basically, a SPSS built over a set of k-mers preserves all the k-mer sequences. The most obvious SPSS is the k-mer set itself.
