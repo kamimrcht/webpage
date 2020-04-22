@@ -12,7 +12,7 @@ I'll assume you know what's a de Bruijn graph and k-mers in the following. In th
 
 Other needed concepts:
 
-* Minimizers. Here we will use minimizers computed from the k-mers, with a size (m) of 2.
+* Minimizers. There exist several definition. Here it we be sufficient to consider a minimizer as the smallest l-mer that appears within a k-mer, with l < k. In examples I'll use a a size (m) of 2, and we will assume we compute minimizers using the lexicographic order.
 * K-mer presence/absence in datasets. Under each k-mer I represent whether it is present or not in each of the three datasets using the circle/star/square or an "empty set" symbol if they are absent.
 
 
