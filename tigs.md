@@ -104,12 +104,16 @@ But first, I'll introduce a way to compact the graph that does most of the work,
 
 Let's focus on bifurcations in de Bruijn graphs. In simple case like the following, the two child nodes have a single, unambiguous parent. Y to V operation proposes to duplicate the content of this parent node and to compact it to the children.
 
-<img src="files/ytov.png" alt="drawing" width="600"/>
+<img src="files/YtoV.png" alt="drawing" width="400"/>
 
+In this example the red node is duplicated in the two children nodes. ATAACAATT and ATAACAACG are two "safe" sequences that will be found in contigs.
+I said Y to V do _almost_ all the work, because sometimes the prevent to find the longest "safe" sequences, so the operation is not always optimal. That's why omnitigs are introduced.
 
 ### Omnitigs
 
-<img src="files/omnitigs.png" alt="drawing" width="600"/>
+In a graph, omnitigs (in their edge-centric definition) are a walk from node v0 to node vn (with edge ei from vi-1 to vi), such that for all 1<= i <= j <= n-1, there is no path that allows to go from vj to vi without having ej+1 as first edge, and ei as last edge.
+
+<img src="files/omnitigs.png" alt="drawing" width="400"/>
 
 
 ## Disjointings: leaving the de Bruijn world
