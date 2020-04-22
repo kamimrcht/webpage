@@ -10,17 +10,17 @@ Following a recent discussion on [Twitter](https://twitter.com/bioinfochat/statu
 Table of content:
 
   * [Introduction](#introduction)
-  * [Unitigs: the old classic](#unitigs-the-old-classic)
-  * [Simplitigs and USTs: harder better longer longer](#simplitigs-and-usts-harder-better-longer-longer)
-  * [Monotigs: do the accounts](#monotigs-do-the-accounts)
+  * [Unitigs](#unitigs-the-old-classic)
+  * [Simplitigs, USTs](#simplitigs-and-usts-harder-better-longer-longer)
+  * [Monotigs](#monotigs-do-the-accounts)
     + [Super-k-mers of unitigs](#super-k-mers-of-unitigs)
     + [Super k-mers of reads](#super-k-mers-of-reads)
     + [Monotigs](#monotigs)
-  * [Omnitigs (and contigs) and macrotigs: buckle up for more assembly](#omnitigs-and-contigs-and-macrotigs-buckle-up-for-more-assembly)
+  * [Omnitigs, contigs, macrotigs](#omnitigs-and-contigs-and-macrotigs-buckle-up-for-more-assembly)
     + [Y to V operation](#y-to-v-operation)
     + [Omnitigs](#omnitigs)
     + [Macrotigs](#macrotigs)
-  * [Disjointings: leaving the de Bruijn world](#disjointings-leaving-the-de-bruijn-world)
+  * [Disjointings](#disjointings-leaving-the-de-bruijn-world)
 
 
 ## Introduction
