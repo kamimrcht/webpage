@@ -7,6 +7,9 @@ My postdoc takes part in [Transipedia ANR](https://anr.fr/Project-ANR-18-CE45-00
 
 Before and during my PhD I worked on methods for transcriptomics, in particular for _de novo_ variants discovery and RNA long read analysis.
 
+# Blog posts
+
+* [Sneak peek at the -tigs!](tigs.md) a (very) high-level presentation of the population of -tigs sequences we encounter lately in k-mers related-papers (unitigs, simplitigs, monotigs, omnitigs, macrotigs) but that also includes UST and super-k-mers
 
 # News
 - REINDEER was accepted to ISMB! Link to the manuscript: [(biorxiv)](https://www.biorxiv.org/content/10.1101/2020.03.29.014159v2)
@@ -122,6 +125,3 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 - 2019: ISMB/ECCB, BMC Supplements, Bioinformatics, Nucleic Acids Research
 - 2018: GigaScience
 - 2017: BMC Bioinformatics
-
-
-[test](tigs.md)
