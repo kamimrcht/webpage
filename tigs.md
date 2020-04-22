@@ -1,8 +1,8 @@
 
 # First blog post: sneak peek at the -tigs!
-Following a recent discussion on [Twitter](https://twitter.com/bioinfochat/status/1252912873698988035?s=20), I decided to do a high-level presentation of the population of -tigs sequences we encounter lately in k-mers related-papers (counting, assembly, indexing...). We attempted to briefly review some of them our [REINDEER paper](https://www.biorxiv.org/content/10.1101/2020.03.29.014159v2), though they deserve more space! I'll mostly cover unitigs, simplitigs and their twin USTs, monotigs, omnitigs but also very related sequences such as super-k-mers. 
+Following a recent discussion on [Twitter](https://twitter.com/bioinfochat/status/1252912873698988035?s=20), I decided to do a (very) high-level presentation of the population of -tigs sequences we encounter lately in k-mers related-papers (counting, assembly, indexing...). We attempted to briefly review some of them our [REINDEER paper](https://www.biorxiv.org/content/10.1101/2020.03.29.014159v2), though they deserve more space! I'll mostly cover unitigs, simplitigs and their twin USTs, monotigs, omnitigs but also very related sequences such as super-k-mers. 
 
-**Disclaimer:** my goal here is not to formally present the different types of sequences, since such information can be found in the related articles. However, if you find a mistake, I'll be glad to have an opportunity to amend the document!
+**Disclaimer:** my goal here is not to formally present the different types of sequences, nor to be exhaustive, since such information can be found in the related articles. However, if you find a mistake, I'll be glad to have an opportunity to amend the document!
 
 ## Introduction
 I'll assume you know what's a de Bruijn graph and k-mers in the following. In the following figure all the concepts we will need are present. Let's assume we deal with 3 datasets (shown using colored circle/star/square), two of them contain a single read, one of them contains two reads. We can build the de Bruijn graph from those reads (k=4). Remember that only distinct k-mers are present in the de Bruijn graph, so multiplicities are lost.
@@ -34,7 +34,7 @@ Something that should be noticed from unitigs: they are a SPSS. You can retrieve
 In order to discuss the next -tig, notice the red substring that shows some redundance that remains in the representation. This is because unitigs still share a k-1 overlap.
 Also keep in mind that for the sake of simplicity I used very small k-mers, but that the burden of redundancy increases with real-life-sized k-mers.
 
-<img src="files/unitigs.png" alt="drawing" width="400"/>
+<img src="files/unitigs.png" alt="drawing" width="450"/>
 
 Sometimes you will encounter the term **unitig graph** or **compacted de Bruijn graph** (such as [here](https://www.ncbi.nlm.nih.gov/pubmed/27307618)). They denote the graph for which the set of nodes is the set of unitigs computed from the k-mers, and with edges remaining the same k-1 overlaps as in the original de Bruijn graph (for the node-centric definition). The graph in the above figure is one of those. 
 
@@ -89,13 +89,27 @@ Monotigs are compactions of consecutive k-mers in a de Bruijn graph, such that t
 
 <img src="files/monotigs.png" alt="drawing" width="600"/>
 
+Observe that despite being consecutive with TAAC and sharing the AA minimizer, ATAA is its own monotig because it is the only one to be present in the square dataset.
+Conversely, AATT and ATTG have the same presence/absence pattern, but different minimizers so the monotigs are different.
+
 More precisely, monotigs require that k-mers have the same count pattern over datasets. For instance, imagine that the circle symbol means: seen 10 times in green dataset and the star means: seen 50 times in the pink dataset. With that scheme REINDEER can output k-mers or sequences quantifications over a collection of datasets.
 
 ## Omnitigs (and contigs): buckle up for more assembly 
 
 We leave the SPSS realm in this section, but we continue to review the -tig sequences.
 Omnitigs were described in the context of assembly. Their motivation is to represent a "safe" set of sequences that will be found in any assembly result from a de Bruijn graph. In short, when compacting unitigs in so-called contigs, the assembler has to make choices at ambiguous bifurcations. Omnitigs will be found in any contig set, regardless of the compaction choices.
+But first, I'll introduce a way to compact the graph that does most of the work, according to the [omnitig paper](https://www.ncbi.nlm.nih.gov/pubmed/27749096).
 
+### Y to V operation
+
+Let's focus on bifurcations in de Bruijn graphs. In simple case like the following, the two child nodes have a single, unambiguous parent. Y to V operation proposes to duplicate the content of this parent node and to compact it to the children.
+
+<img src="files/ytov.png" alt="drawing" width="600"/>
+
+
+### Omnitigs
+
+<img src="files/omnitigs.png" alt="drawing" width="600"/>
 
 
 ## Disjointings: leaving the de Bruijn world
