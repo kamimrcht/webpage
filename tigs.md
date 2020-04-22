@@ -1,5 +1,9 @@
 ---
-layout: null
+theme: jekyll-theme-minimal
+title: null
+description: null
+logo: null
+show_downloads: null
 
 ---
 
