@@ -80,7 +80,22 @@ Historically, they were the [first super-k-mers](https://www.ncbi.nlm.nih.gov/pu
 
 <img src="files/superkmers_reads.png" alt="drawing" width="600"/>
 
+Notice that, unlike the other sequences we've reviewed, here the initial multiset of k-mers is represented in a SPSS.
+
+### Monotigs
+
+In REINDEER, a colored de Bruijn graph implementation, we relied on super-k-mers of unitigs for our indexation strategy. However, we were not happy with the incapacity of super-k-mers to guarantee that k-mers have the same presence/absence pattern. Thus, we needed this property to properly report the k-mers colors in REINDEER. Thus we introduced monotigs.
+Monotigs are compactions of consecutive k-mers in a de Bruijn graph, such that these k-mers share the same minimzer **and** the same presence/absence pattern.
+
+<img src="files/monotigs.png" alt="drawing" width="600"/>
+
+More precisely, monotigs require that k-mers have the same count pattern over datasets. For instance, imagine that the circle symbol means: seen 10 times in green dataset and the star means: seen 50 times in the pink dataset. With that scheme REINDEER can output k-mers or sequences quantifications over a collection of datasets.
 
 ## Omnitigs (and contigs): buckle up for more assembly 
+
+We leave the SPSS realm in this section, but we continue to review the -tig sequences.
+Omnitigs were described in the context of assembly. Their motivation is to represent a "safe" set of sequences that will be found in any assembly result from a de Bruijn graph. In short, when compacting unitigs in so-called contigs, the assembler has to make choices at ambiguous bifurcations. Omnitigs will be found in any contig set, regardless of the compaction choices.
+
+
 
 ## Disjointings: leaving the de Bruijn world
