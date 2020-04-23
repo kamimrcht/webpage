@@ -185,4 +185,4 @@ About omnitigs, macrotigs
 About disjointigs
 * [[12]](https://www.nature.com/articles/s41587-019-0072-8) Assembly of Long Error-Prone Reads Using Repeat Graphs, Kolmogorov et al., 2019 (**in the long read assembler Flye**)
 
-**Thanks** [@RayanChikhi](https://twitter.com/RayanChikhi) and [@BQPMalfoy](https://twitter.com/BQPMalfoy) for discussing these topics with me and for your feedback!
+**Thanks** [@RayanChikhi](https://twitter.com/RayanChikhi) and [@BQPMalfoy](https://twitter.com/BQPMalfoy) for discussing these topics with me and for your feedback, and to my [brother](https://www.linkedin.com/in/maxime-marchet-4a3587157/?originalSubdomain=fr) for his help with the page layout!
