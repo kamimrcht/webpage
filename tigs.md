@@ -58,7 +58,7 @@ Also keep in mind that for the sake of simplicity I used very small k-mers, but 
 
 Sometimes you will encounter the term **unitig graph** or **compacted de Bruijn graph** (such as [4](https://www.ncbi.nlm.nih.gov/pubmed/27307618)). They denote the graph for which the set of nodes is the set of unitigs computed from the k-mers, and with edges remaining the same k-1 overlaps as in the original de Bruijn graph (for the node-centric definition). The graph in the above figure is one of those. 
 
-Unitigs are obviously used in assembly context [[4]]((https://www.ncbi.nlm.nih.gov/pubmed/27307618)), but also, thanks to the k-mer set compaction, motivated indexation works such as [[5]](https://academic.oup.com/bioinformatics/article/34/13/i169/5045749).
+Unitigs are obviously used in assembly context [[4]](https://www.ncbi.nlm.nih.gov/pubmed/27307618), but also, thanks to the k-mer set compaction, motivated indexation works such as [[5]](https://academic.oup.com/bioinformatics/article/34/13/i169/5045749). I use [this tool](https://github.com/GATB/bcalm) when I need to build unitigs.
 
 ## Simplitigs and USTs: harder better longer longer
 
