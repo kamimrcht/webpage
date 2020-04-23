@@ -122,7 +122,7 @@ More precisely, monotigs require that k-mers have the same count pattern over da
 
 We leave the SPSS realm in this section, but we continue to review the -tig sequences.
 Omnitigs were described in the context of assembly. Their motivation is to represent a "safe" set of sequences, i.e. that will be found in any assembly solution from a de Bruijn graph. In short, when compacting unitigs in so-called contigs, the assembler has to make choices at ambiguous bifurcations. Omnitigs will be found in any contig set that is solution of an assembly graph, regardless of the compaction choices.
-But first, I'll introduce a way to compact the graph that does most of the work, according to the omnitig papers [[9,](https://www.ncbi.nlm.nih.gov/pubmed/27749096)[10]](https://drops.dagstuhl.de/opus/volltexte/2017/7342/).
+But first, I'll introduce a way to compact the graph that does most of the work, according to the omnitig papers [[9]](https://www.ncbi.nlm.nih.gov/pubmed/27749096) and [[10]](https://drops.dagstuhl.de/opus/volltexte/2017/7342/).
 
 ### Y to V operation
 
