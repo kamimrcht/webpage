@@ -1,3 +1,8 @@
+---	
+layout: blog
+
+---
+
 # Sneak peek at the -tigs!
 
 23 april 2020
