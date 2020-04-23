@@ -1,6 +1,5 @@
 ---	
-layout: blog
-
+layout: null
 ---
 
 # Sneak peek at the -tigs!
