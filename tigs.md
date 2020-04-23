@@ -1,5 +1,5 @@
 ---	
-layout: blog
+layout: default
 ---
 
 # Sneak peek at the -tigs!
@@ -168,7 +168,7 @@ About unitigs
 
 About simplitigs, USTs
 * [[3]](https://www.biorxiv.org/content/10.1101/2020.01.07.896928v2) Representation of k-mer sets using spectrum-preserving string sets, Rahman et al., 2020 (**UST**)
-* [6](https://www.biorxiv.org/content/10.1101/2020.01.12.903443v1.full) Simplitigs as an efficient and scalable representation of de Bruijn graphs, Brinda et al., 2020 (**simplitigs**)
+* [[6]](https://www.biorxiv.org/content/10.1101/2020.01.12.903443v1.full) Simplitigs as an efficient and scalable representation of de Bruijn graphs, Brinda et al., 2020 (**simplitigs**)
 
 About minimizers, super-k-mers
 * [[2]](https://academic.oup.com/bioinformatics/article/20/18/3363/202143) Reducing storage requirements for biological sequence comparison, Roberts et al., 2004 (**minimizers**)
