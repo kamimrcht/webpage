@@ -3,7 +3,7 @@
 23 april 2020
 
 
-Following a recent discussion on [Twitter](https://twitter.com/bioinfochat/status/1252912873698988035?s=20), I decided to do a (very) high-level presentation of the population of -tigs sequences we encounter lately in k-mers related-papers (counting, assembly, indexing...). We attempted to briefly review some of them our [REINDEER paper](https://www.biorxiv.org/content/10.1101/2020.03.29.014159v2), though they deserve more space! I'll mostly cover unitigs, simplitigs and their twin USTs, monotigs, omnitigs but also very related sequences such as super-k-mers. 
+Following a recent discussion on [Twitter](https://twitter.com/bioinfochat/status/1252912873698988035?s=20), I decided to do a (very) high-level presentation of the population of -tigs sequences we encounter lately in k-mers related-papers (counting, assembly, indexing...). Since I contributed to a new -tig myself, we attempted to briefly review some of them our REINDEER paper [[1]](https://www.biorxiv.org/content/10.1101/2020.03.29.014159v2), though they deserve more space! I'll mostly cover unitigs, simplitigs and their twin USTs, monotigs, omnitigs but also very related sequences such as super-k-mers. 
 
 **Disclaimer:** my goal here is not to formally present the different types of sequences, nor to be exhaustive, since such information can be found in the related articles. However, if you find a mistake, I'll be glad to have an opportunity to amend the document!
 
@@ -21,6 +21,7 @@ Table of content:
     + [Omnitigs](#omnitigs)
     + [Macrotigs](#macrotigs)
   * [Disjointings](#disjointings-leaving-the-de-bruijn-world)
+  * [References](#references)
 
 
 ## Introduction
@@ -31,12 +32,12 @@ I'll assume you know what's a de Bruijn graph and k-mer. In the following figure
 
 Other needed concepts:
 
-* **Minimizers.** There exist several definitions. Here it we be sufficient to consider a minimizer as the smallest l-mer that appears within a k-mer, with l < k. In the example figures I'll use a size (m) of 2, and we will assume we compute minimizers using the lexicographic order.
+* **Minimizers [[2]](https://academic.oup.com/bioinformatics/article/20/18/3363/202143)** There exist several definitions. Here it we be sufficient to consider a minimizer as the smallest l-mer that appears within a k-mer, with l < k. In the example figures I'll use a size (m) of 2, and we will assume we compute minimizers using the lexicographic order.
 * K-mer **presence/absence** in datasets. Under each k-mer I represent whether it is present or not in each of the three datasets using the circle/star/square or an "empty set" symbol if they are absent.
 * A **compaction** is the operation through which two nodes u->v are fused in a single one, by taking all nucleotides from u and adding the last nucleotide of v, the edge e=(u,v) is removed (example: ATTC->TTCA is compacted in ATTCA).
 
 You'll see that I'll often write down the number of nucleotides of a representation.
-It is because a lot of -tigs are related to the concept of **_spectrum preserving string sets_** (SPSS), that was [recently described](https://www.biorxiv.org/content/10.1101/2020.01.07.896928v2) in the context of sequence indexation.
+It is because a lot of -tigs are related to the concept of **_spectrum preserving string sets_** (SPSS), that was recently described [[3]](https://www.biorxiv.org/content/10.1101/2020.01.07.896928v2) in the context of sequence indexation.
 Basically, a SPSS built over a set of k-mers preserves all the k-mer sequences. The most obvious SPSS is the k-mer set itself.
 
 <img src="files/kmer_set.png" alt="drawing" width="600"/>
@@ -55,11 +56,13 @@ Also keep in mind that for the sake of simplicity I used very small k-mers, but 
 
 <img src="files/unitigs.png" alt="drawing" width="450"/>
 
-Sometimes you will encounter the term **unitig graph** or **compacted de Bruijn graph** (such as [here](https://www.ncbi.nlm.nih.gov/pubmed/27307618)). They denote the graph for which the set of nodes is the set of unitigs computed from the k-mers, and with edges remaining the same k-1 overlaps as in the original de Bruijn graph (for the node-centric definition). The graph in the above figure is one of those. 
+Sometimes you will encounter the term **unitig graph** or **compacted de Bruijn graph** (such as [4](https://www.ncbi.nlm.nih.gov/pubmed/27307618)). They denote the graph for which the set of nodes is the set of unitigs computed from the k-mers, and with edges remaining the same k-1 overlaps as in the original de Bruijn graph (for the node-centric definition). The graph in the above figure is one of those. 
+
+Unitigs are obviously used in assembly context [[4]]((https://www.ncbi.nlm.nih.gov/pubmed/27307618)), but also, thanks to the k-mer set compaction, motivated indexation works such as [[5]](https://academic.oup.com/bioinformatics/article/34/13/i169/5045749).
 
 ## Simplitigs and USTs: harder better longer longer
 
-Keeping up with the idea of SPSS, and of representing the k-mer set while minimizing the number of nucleotides, can we do better than unitigs? Sure, if we drop the "non-ambiguously-assembled-sequences" criterion. Two papers [here for simplitigs](https://www.biorxiv.org/content/10.1101/2020.01.12.903443v1.full) and [here for USTs](https://www.biorxiv.org/content/10.1101/2020.01.07.896928v2) described a solution simultaneously, though independently.
+Keeping up with the idea of SPSS, and of representing the k-mer set while minimizing the number of nucleotides, can we do better than unitigs? Sure, if we drop the "non-ambiguously-assembled-sequences" criterion. Two papers [[6]](https://www.biorxiv.org/content/10.1101/2020.01.12.903443v1.full) for simplitigs and [[3]](https://www.biorxiv.org/content/10.1101/2020.01.07.896928v2) for USTs  described a solution simultaneously, though independently.
 
 The intuition is that unitigs can be compacted to obtain longer sequences and reduce the number of k-1 redundancies. Both papers propose a greedy algorithm to achieve that. See the example below:
 
@@ -83,7 +86,7 @@ You can build UST using the code from that [repo](https://github.com/medvedevgro
 
 Let's get back to the introduction figure and consider the k-mer presence/absence in the graph. It is very easy to notice that unitigs can contain k-mers that have different presence/absence profiles. For instance the leftmost unitig ATAACA contains k-mers present in all three datasets and k-mers not present in the square dataset.
 
-Monotigs were [introduced](https://www.biorxiv.org/content/10.1101/2020.03.29.014159v2) in order to create SPSS that also guarantee that all k-mers in a sequence of the SPSS have the same presence/absence profile.
+Monotigs were introduced in [[1]](https://www.biorxiv.org/content/10.1101/2020.03.29.014159v2) in order to create SPSS that also guarantee that all k-mers in a sequence of the SPSS have the same presence/absence profile.
 
 But first, I need to introduce another SPSS with no -tig suffix, the super-k-mers.
 
@@ -94,10 +97,10 @@ Observe that these super-k-mers are also a SPSS. However, just as unitigs, it is
 
 <img src="files/superkmers_unitigs.png" alt="drawing" width="450"/>
 
-Super-k-mers of unitigs are often less efficient than unitigs in terms of nucleotide minimization to represent the set of k-mers, however they are handy when you need to partition a set of k-mers. Thus, with a wisely chosen minimizer scheme (in real life, we do not only use lexicographic order), one can dispatch k-mers in balanced buckets per minimizer. For an example of this usage, see [this work](https://www.biorxiv.org/content/10.1101/546309v2).
+Super-k-mers of unitigs are often less efficient than unitigs in terms of nucleotide minimization to represent the set of k-mers, however they are handy when you need to partition a set of k-mers. Thus, with a wisely chosen minimizer scheme (in real life, we do not only use lexicographic order), one can dispatch k-mers in balanced buckets per minimizer. For an example of this usage, see [[7]](https://www.biorxiv.org/content/10.1101/546309v2).
 
 ### Super k-mers of reads
-Historically, they were the [first super-k-mers](https://arxiv.org/abs/1505.06550) to be introduced. They differ from the super-k-mers of unitigs since they are built from the read sequences:
+Historically, they were the first super-k-mers [8](https://arxiv.org/abs/1505.06550) to be introduced. They differ from the super-k-mers of unitigs since they are built from the read sequences:
 
 <img src="files/superkmers_reads.png" alt="drawing" width="700"/>
 
@@ -119,7 +122,7 @@ More precisely, monotigs require that k-mers have the same count pattern over da
 
 We leave the SPSS realm in this section, but we continue to review the -tig sequences.
 Omnitigs were described in the context of assembly. Their motivation is to represent a "safe" set of sequences, i.e. that will be found in any assembly solution from a de Bruijn graph. In short, when compacting unitigs in so-called contigs, the assembler has to make choices at ambiguous bifurcations. Omnitigs will be found in any contig set that is solution of an assembly graph, regardless of the compaction choices.
-But first, I'll introduce a way to compact the graph that does most of the work, according to the [omnitig paper](https://www.ncbi.nlm.nih.gov/pubmed/27749096).
+But first, I'll introduce a way to compact the graph that does most of the work, according to the omnitig papers [[9,](https://www.ncbi.nlm.nih.gov/pubmed/27749096)[10]](https://drops.dagstuhl.de/opus/volltexte/2017/7342/).
 
 ### Y to V operation
 
@@ -144,11 +147,40 @@ Finally, we'll see how the Y to V operation is sometimes not enough, and can pre
 <img src="files/omnitigs_ytov.png" alt="drawing" width="1000"/>
 
 ### Macrotigs
-Macrotigs [recently introduced](https://arxiv.org/pdf/2002.10498.pdf) a nice way to compute maximal omnitigs in O(m) time, with m the number of edges in the graph.
+Macrotigs recently introduced [[11]](https://arxiv.org/pdf/2002.10498.pdf) a nice way to compute maximal omnitigs in O(m) time, with m the number of edges in the graph.
 
 ## Disjointings: leaving the de Bruijn world
-I'm new to them! I first noticed them as they were mentionned [here](https://twitter.com/bioinfochat/status/1252912940384165889?s=20). It seems their spirit can be compared to simplitigs/UST, but they are defined on another type of assembly graph, the overlap graph, and the compaction algorithm is different.
+I'm new to them! I first noticed them as they were mentionned [here](https://twitter.com/bioinfochat/status/1252912940384165889?s=20). It seems their spirit can be compared to simplitigs/UST, but they are defined on another type of assembly graph, the overlap graph, and the compaction algorithm is different [[12]](https://www.nature.com/articles/s41587-019-0072-8).
 
 
+## References
+About SPSS
+* [[3]](https://www.biorxiv.org/content/10.1101/2020.01.07.896928v2) Representation of k-mer sets using spectrum-preserving string sets, Rahman et al., 2020 (**definition**)
+* [[1]](https://www.biorxiv.org/content/10.1101/2020.03.29.014159v2) REINDEER: efficient indexing of k-mer presence and abundance in sequencing datasets, Marchet et al., 2020 (**overview**)
+
+About unitigs
+* [[4]](https://www.ncbi.nlm.nih.gov/pubmed/27307618) Compacting de Bruijn graphs from sequencing data quickly and in low memory, Chikhi et al., 2016 (**unitigs in assembly**)
+* [[5]](https://academic.oup.com/bioinformatics/article/34/13/i169/5045749) A space and time-efficient index for the compacted colored de Bruijn graph, Almodaresi et al., 2018 (**unitigs in indexation**)
+
+About simplitigs, USTs
+* [[3]](https://www.biorxiv.org/content/10.1101/2020.01.07.896928v2) Representation of k-mer sets using spectrum-preserving string sets, Rahman et al., 2020 (**UST**)
+* [6](https://www.biorxiv.org/content/10.1101/2020.01.12.903443v1.full) Simplitigs as an efficient and scalable representation of de Bruijn graphs, Brinda et al., 2020 (**simplitigs**)
+
+About minimizers, super-k-mers
+* [[2]](https://academic.oup.com/bioinformatics/article/20/18/3363/202143) Reducing storage requirements for biological sequence comparison, Roberts et al., 2004 (**minimizers**)
+* [[8]](https://arxiv.org/abs/1505.06550) MSPKmerCounter: A Fast and Memory Efficient Approach for K-mer Counting, Li and Yan, 2015 (**super-k-mers of reads**)
+* [[7]](https://www.biorxiv.org/content/10.1101/546309v2) Indexing De Bruijn graphs with minimizers, Marchet et al., 2019 (**super-kmer-mers of unitigs for indexation**)
+
+
+About monotigs
+* [[1]](https://www.biorxiv.org/content/10.1101/2020.03.29.014159v2) REINDEER: efficient indexing of k-mer presence and abundance in sequencing datasets, Marchet et al. 2020 (**definition**)
+
+About omnitigs, macrotigs
+* [[9]](https://www.ncbi.nlm.nih.gov/pubmed/27749096) Safe and Complete Contig Assembly Through Omnitigs, Tomescu et al., 2017 (**omnitigs**)
+* [[10]](https://drops.dagstuhl.de/opus/volltexte/2017/7342/) Optimal Omnitig Listing for Safe and Complete Contig Assembly, Cairo et al., 2017 (**omnitigs**)
+* [[11]](https://arxiv.org/pdf/2002.10498.pdf) From omnitigs to macrotigs: a linear-time algorithm for safe walks – common to all closed arc-coverings of a directed graph, Cairo et al., 2020 (**macrotigs**)
+
+About disjointigs
+* [[12]](https://www.nature.com/articles/s41587-019-0072-8) Assembly of Long Error-Prone Reads Using Repeat Graphs, Kolmogorov et al., 2019 (**in the long read assembler Flye**)
 
 **Thanks** [@RayanChikhi](https://twitter.com/RayanChikhi) and [@BQPMalfoy](https://twitter.com/BQPMalfoy) for discussing these topics with me and for your feedback!
