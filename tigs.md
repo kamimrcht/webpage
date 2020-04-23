@@ -49,7 +49,7 @@ Basically, a SPSS built over a set of k-mers preserves all the k-mer sequences. 
 Most SPSS do not handle multiplicity. Thus, they preserve a set of k-mers, but not a multiset. There is one exception that is presented in the following.
 
 ## Unitigs: the old classic
-Simply put, unitigs are maximal simple paths in the de Bruijn graph. In assembly, unitigs are considered as safe sequences because you can assemble their k-mers without ambiguity. When an ambiguity happens, the unitig is stopped and other ones start. These sequences are often output during the inner steps of an assembler, before being further elongated into contigs. See an exemple in the following:
+Simply put, unitigs are maximal simple paths in the de Bruijn graph. In assembly, unitigs are considered as safe sequences because you can assemble their k-mers without ambiguity. When an ambiguity happens, the unitig is stopped and other ones start. These sequences are often output during the inner steps of an assembler, before being further elongated into **contigs**. See an exemple in the following:
 
 <img src="files/unitigs.png" alt="drawing" width="450"/>
 
@@ -99,14 +99,14 @@ Observe that these super-k-mers are also a SPSS. However, just as unitigs, it is
 
 <img src="files/superkmers_unitigs.png" alt="drawing" width="450"/>
 
-Super-k-mers of unitigs are often less efficient than unitigs in terms of nucleotide minimization to represent the set of k-mers, however they are handy when you need to partition a set of k-mers. Thus, with a wisely chosen minimizer scheme (in real life, we do not only use lexicographic order), one can dispatch k-mers in balanced buckets per minimizer. For an example of this usage, see [[7]](https://www.biorxiv.org/content/10.1101/546309v2).
+Super-k-mers of unitigs are often less efficient than unitigs in terms of nucleotide minimization to represent the set of k-mers, however they are handy when you need to partition a set of k-mers. Thus, with a wisely chosen minimizer scheme (in real life, we do not only use lexicographic order), one can dispatch k-mers in **balanced buckets** per minimizer. For an example of this usage, see [[7]](https://www.biorxiv.org/content/10.1101/546309v2) that introduced super-k-mers of unitigs usage.
 
 ### Super k-mers of reads
 Historically, they were the first super-k-mers [[8]](https://arxiv.org/abs/1505.06550) to be introduced. They differ from the super-k-mers of unitigs since they are built from the read sequences:
 
 <img src="files/superkmers_reads.png" alt="drawing" width="700"/>
 
-Notice that, unlike the other sequences we've reviewed, here the initial multiset of k-mers is represented in a SPSS.
+Notice that, unlike the other sequences we've reviewed, here the initial **multiset** of k-mers is represented in a SPSS.
 
 ### Monotigs
 
@@ -118,7 +118,7 @@ Monotigs are compactions of consecutive k-mers in a de Bruijn graph, such that t
 Observe that despite being consecutive with TAAC and sharing the AA minimizer, ATAA is its own monotig because it is the only one to be present in the square dataset.
 Conversely, AATT and ATTG have the same presence/absence pattern, but different minimizers so the monotigs are different.
 
-More precisely, monotigs require that k-mers have the same count pattern over datasets. For instance, imagine that the circle symbol means: seen 10 times in green dataset and the star means: seen 50 times in the pink dataset. With that scheme REINDEER can output k-mers or sequences quantifications over a collection of datasets.
+More precisely, monotigs require that k-mers have the **same count pattern** over datasets. For instance, imagine that the circle symbol means: seen 10 times in green dataset and the star means: seen 50 times in the pink dataset. With that scheme REINDEER can output k-mers or sequences quantifications over a collection of datasets.
 
 ## Omnitigs (and contigs) and macrotigs: buckle up for more assembly 
 
@@ -154,7 +154,7 @@ Finally, we'll see how the Y to V operation is sometimes not enough, and can pre
 <img src="files/omnitigs_ytov.png" alt="drawing" width="800"/>
 
 ### Macrotigs
-Macrotigs recently introduced [[11]](https://arxiv.org/pdf/2002.10498.pdf) a nice way to compute maximal omnitigs in O(m) time, with m the number of edges in the graph.
+Macrotigs recently introduced [[11]](https://arxiv.org/pdf/2002.10498.pdf) a nice way to compute maximal omnitigs in _O(n)_ time, with _n_ the number of edges in the graph.
 
 ## Disjointings: leaving the de Bruijn world
 I'm new to them! I first noticed them as they were mentionned [here](https://twitter.com/bioinfochat/status/1252912940384165889?s=20). It seems their spirit can be compared to simplitigs/UST, but they are defined on another type of assembly graph, the overlap graph, and the compaction algorithm is different [[12]](https://www.nature.com/articles/s41587-019-0072-8).
