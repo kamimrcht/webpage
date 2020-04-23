@@ -49,16 +49,14 @@ Basically, a SPSS built over a set of k-mers preserves all the k-mer sequences. 
 Most SPSS do not handle multiplicity. Thus, they preserve a set of k-mers, but not a multiset. There is one exception that is presented in the following.
 
 ## Unitigs: the old classic
-Simply put, unitigs are maximal simple paths in the de Bruijn graph. See an exemple in the following:
+Simply put, unitigs are maximal simple paths in the de Bruijn graph. In assembly, unitigs are considered as safe sequences because you can assemble their k-mers without ambiguity. When an ambiguity happens, the unitig is stopped and other ones start. These sequences are often output during the inner steps of an assembler, before being further elongated into contigs. See an exemple in the following:
 
-In assembly, unitigs are considered as safe sequences because you can assemble their k-mers without ambiguity. When an ambiguity happens, the unitig is stopped and other ones start. These sequences are often output during the inner steps of an assembler, before being further elongated into contigs.
+<img src="files/unitigs.png" alt="drawing" width="450"/>
 
 Something that should be noticed from unitigs: they are a SPSS. You can retrieve the original set of k-mers, given a set of unitigs. At worst they use as much nucleotides to represent the k-mer set as the k-mer set itself, but usually, they represent it in a more compacted and efficient way (here we used 18 nucleotides in comparison to the 28 of the k-mer set).
 
 In order to discuss the next -tig, notice the red substring that shows some redundancy that remains in the representation. This is because unitigs still share a k-1 overlap.
 Also keep in mind that for the sake of simplicity I used very small k-mers, but that the burden of redundancy increases with real-life-sized k-mers.
-
-<img src="files/unitigs.png" alt="drawing" width="450"/>
 
 Sometimes you will encounter the term **unitig graph** or **compacted de Bruijn graph** (such as [[4]](https://www.ncbi.nlm.nih.gov/pubmed/27307618)). They denote the graph for which the set of nodes is the set of unitigs computed from the k-mers, and with edges remaining the same k-1 overlaps as in the original de Bruijn graph (for the node-centric definition). The graph in the above figure is one of those. 
 
@@ -148,7 +146,7 @@ In a graph, omnitigs (in their edge-centric definition) are a walk from node v<s
 To describe the longest "safe" sequences from contigs, one can compute the set of maximal omnitigs.
 Finally, we'll see how the Y to V operation is sometimes not enough, and can prevent from finding the maximal omnitigs in a graph.
 
-<img src="files/omnitigs_ytov.png" alt="drawing" width="1000"/>
+<img src="files/omnitigs_ytov.png" alt="drawing" width="800"/>
 
 ### Macrotigs
 Macrotigs recently introduced [[11]](https://arxiv.org/pdf/2002.10498.pdf) a nice way to compute maximal omnitigs in O(m) time, with m the number of edges in the graph.
