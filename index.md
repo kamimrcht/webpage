@@ -7,20 +7,19 @@ My postdoc takes part in [Transipedia ANR](https://anr.fr/Project-ANR-18-CE45-00
 
 Before and during my PhD I worked on methods for transcriptomics, in particular for _de novo_ variants discovery and RNA long read analysis.
 
+
+# News
+- Sequence search with abundance across SARS-CoV2 public raw sequencing data and genomes based on REINDEER: [link](https://covid19seqsearch.pasteur.cloud/)
+- REINDEER was accepted to ISMB! Link to the manuscript: [(biorxiv)](https://www.biorxiv.org/content/10.1101/2020.03.29.014159v2)
+- New preprint: [Data structures based on k-mers for querying large collections of sequencing datasets
+](https://www.biorxiv.org/content/10.1101/866756v1)
+
+
 # Blog posts / short articles
 
 * [Sneak peek at the -tigs!](tigs.md) a (very) high-level presentation of the population of -tigs sequences we encounter lately in k-mers related-papers (unitigs, simplitigs, monotigs, omnitigs, macrotigs) but that also includes UST and super-k-mers
 * [A short popularization article about coronavirus assembly](https://www.lemonde.fr/blog/binaire/2020/05/06/sars-cov-2-et-covid-19-on-va-jouer-sur-les-mots/) with long reads (in French)
 * [A short popularization article about my PhD work](https://www.lemonde.fr/blog/binaire/2020/02/07/rencontre-a-la-frontiere-entre-linformatique-et-la-biologie/) (in French)
-
-
-# News
-- REINDEER was accepted to ISMB! Link to the manuscript: [(biorxiv)](https://www.biorxiv.org/content/10.1101/2020.03.29.014159v2)
-- I'll present REINDEER, an efficient index for k-mer presence and abundance in sequencing datasets at [DSB](https://dsb-meeting.github.io/DSB2020/program_DSB2020.pdf) conference in Rennes (4th Feb). REINDEER's manuscript can be found [here](https://github.com/kamimrcht/webpage/blob/master/files/Reindeer.pdf).
-- I'll present my PhD thesis work at [SIF Congress](https://congres.societe-informatique-de-france.fr/programme/) in Lyon (5th Feb)
-- [Slides of the assembly course at EVOMICS workshop on Genomics](https://github.com/kamimrcht/webpage/blob/master/files/ASSEMBLY_evomics.pdf)
-- New preprint: [Data structures based on k-mers for querying large collections of sequencing datasets
-](https://www.biorxiv.org/content/10.1101/866756v1)
 
 
 # Ongoing work
