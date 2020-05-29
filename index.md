@@ -51,6 +51,7 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 ## Invited talks
 
 - 2020 [From reads to transcripts: de novo methods for the analysis of transcriptome second and third generation sequencing](https://congres.societe-informatique-de-france.fr/programme/), SIF congress, INSA de Lyon (France)
+- 2020 Scalable data structures for sequencing data, Symposium GDR Madics, Lyon (France) (covid-19 : canceled)
 - 2019 New methodologies for the analysis of transcriptome sequences, MAB team seminar, LIRMM Montpellier (France)
 - 2018 CARNAC-LR and C2C: de novo clustering and detection of alternative isoforms in Third Generation Sequencing transcriptomes, [Genotoul Biostats/Bioinfo day](https://bioinfo-biostat.sciencesconf.org/), INRA Toulouse (France)
 - 2018 From reads to transcripts: _de novo_ methods to analyze transcriptome 2d and 3d generations sequencing data, Roscoff Biological Station seminar (France)
