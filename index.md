@@ -28,7 +28,8 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 - [Read correction for non-uniform coverages](https://www.biorxiv.org/content/10.1101/673624v1.abstract?%3Fcollection=), C Marchet, Y Dufresne, A Limasset 
 
 # Journal Publications
--  [ELECTOR: Evaluator for long reads correction methods](https://academic.oup.com/nargab/article/2/1/lqz015/5625503?guestAccessKey=3c7f948f-457f-4585-b6b3-5fbed1fa40db), C Marchet, P Morisse, L Lecompte, A Limasset, A Lefebvre, T Lecroq, P Peterlongo; _Nucleic acid research Genomics and Bioinformatics_, 2019
+- REINDEER: efficient indexing of k-mer presence and abundance in sequencing datasets, C Marchet, Z Iqbal, D Gautheret, M Salson, R Chikhi; _Bioinformatics_, 2020 (in press)
+- [ELECTOR: Evaluator for long reads correction methods](https://academic.oup.com/nargab/article/2/1/lqz015/5625503?guestAccessKey=3c7f948f-457f-4585-b6b3-5fbed1fa40db), C Marchet, P Morisse, L Lecompte, A Limasset, A Lefebvre, T Lecroq, P Peterlongo; _Nucleic acid research Genomics and Bioinformatics_, 2019
 - [Comparative assessment of long-read error-correction software applied to RNA-sequencing data](https://academic.oup.com/bib/advance-article-abstract/doi/10.1093/bib/bbz058/5512144), L Ishi Soares de Lima, C Marchet, S Caboche, C Da Silva, B Istace, J-M Aury, H Touzet, R Chikhi; _Briefings in Bioinformatics_, 2019
 - [Clustering _de Novo_ by Gene of Long Reads from Transcriptomics Data](https://academic.oup.com/nar/article/47/1/e2/5107577), C Marchet, L Lecompte, C Da Silva, C Cruaud, J-M Aury, J Nicolas, P Peterlongo; _Nucleic Acids Research_, 2018
 - [A _de novo approach_ to disentangle partner identity and function in holobiont systems](https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-018-0481-9) A Meng, C Marchet, E Corre, P Peterlongo, A Alberti, C Da Silva, P Wincker, E Pelletier, I Probert, J Decelle, S Le Crom, F Not, L Bittner; _Microbiome_, 2018
