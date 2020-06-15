@@ -11,7 +11,7 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 # News
 - I will be presenting REINDEER a the virtual conference [JOBIM](https://jobim2020.sciencesconf.org/program) (june 30-july 3 2020)
 - Sequence search with abundance across SARS-CoV2 public raw sequencing data and genomes based on REINDEER: [link](https://covid19seqsearch.pasteur.cloud/)
-- REINDEER was accepted to ISMB! I will participate to in the [virtual conference](https://www.iscb.org/cms_addon/conferences/ismb2020/proceedings.php#HitSeq:%20High-throughput%20Sequencing) (july 13-16 2020). Link to the manuscript: [(biorxiv)](https://www.biorxiv.org/content/10.1101/2020.03.29.014159v2)
+- REINDEER was accepted to ISMB! I will participate in the [virtual conference](https://www.iscb.org/cms_addon/conferences/ismb2020/proceedings.php#HitSeq:%20High-throughput%20Sequencing) (july 13-16 2020). Link to the manuscript: [(biorxiv)](https://www.biorxiv.org/content/10.1101/2020.03.29.014159v2)
 
 
 # Blog posts / short articles
