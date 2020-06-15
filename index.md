@@ -9,9 +9,9 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 
 
 # News
-- I will be presenting REINDEER a the virtual conference [JOBIM](https://jobim2020.sciencesconf.org/program) (june 30-july 3)
+- I will be presenting REINDEER a the virtual conference [JOBIM](https://jobim2020.sciencesconf.org/program) (june 30-july 3 2020)
 - Sequence search with abundance across SARS-CoV2 public raw sequencing data and genomes based on REINDEER: [link](https://covid19seqsearch.pasteur.cloud/)
-- REINDEER was accepted to ISMB! Link to the manuscript: [(biorxiv)](https://www.biorxiv.org/content/10.1101/2020.03.29.014159v2)
+- REINDEER was accepted to ISMB! I will participate to in the [virtual conference](https://www.iscb.org/cms_addon/conferences/ismb2020/proceedings.php#HitSeq:%20High-throughput%20Sequencing) (july 13-16 2020). Link to the manuscript: [(biorxiv)](https://www.biorxiv.org/content/10.1101/2020.03.29.014159v2)
 
 
 # Blog posts / short articles
@@ -27,7 +27,7 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 - [Read correction for non-uniform coverages](https://www.biorxiv.org/content/10.1101/673624v1.abstract?%3Fcollection=), C Marchet, Y Dufresne, A Limasset 
 
 # Journal Publications
-- REINDEER: efficient indexing of k-mer presence and abundance in sequencing datasets, C Marchet, Z Iqbal, D Gautheret, M Salson, R Chikhi; _Bioinformatics_, 2020 (in press)
+- [REINDEER: efficient indexing of k-mer presence and abundance in sequencing datasets](https://www.biorxiv.org/content/10.1101/2020.03.29.014159v1), C Marchet, Z Iqbal, D Gautheret, M Salson, R Chikhi; _Bioinformatics_, 2020 (in press)
 - [ELECTOR: Evaluator for long reads correction methods](https://academic.oup.com/nargab/article/2/1/lqz015/5625503?guestAccessKey=3c7f948f-457f-4585-b6b3-5fbed1fa40db), C Marchet, P Morisse, L Lecompte, A Limasset, A Lefebvre, T Lecroq, P Peterlongo; _Nucleic acid research Genomics and Bioinformatics_, 2019
 - [Comparative assessment of long-read error-correction software applied to RNA-sequencing data](https://academic.oup.com/bib/advance-article-abstract/doi/10.1093/bib/bbz058/5512144), L Ishi Soares de Lima, C Marchet, S Caboche, C Da Silva, B Istace, J-M Aury, H Touzet, R Chikhi; _Briefings in Bioinformatics_, 2019
 - [Clustering _de Novo_ by Gene of Long Reads from Transcriptomics Data](https://academic.oup.com/nar/article/47/1/e2/5107577), C Marchet, L Lecompte, C Da Silva, C Cruaud, J-M Aury, J Nicolas, P Peterlongo; _Nucleic Acids Research_, 2018
@@ -62,7 +62,8 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 - 2017 Rconnector: a resource-frugal probabilistic dictionary and applications in (meta)genomics and transcriptomics, LBBE NGS group seminar, Lyon (France)
 
 ## Workshops/conferences/seminars
-
+- _incoming_ [REINDEER: efficient indexing of _k_-mer presence and abundance in sequencing datasets](https://jobim2020.sciencesconf.org/program), JOBIM, virtual conference
+- _incoming_ [REINDEER: efficient indexing of _k_-mer presence and abundance in sequencing datasets](https://www.iscb.org/cms_addon/conferences/ismb2020/proceedings.php#HitSeq:%20High-throughput%20Sequencing), ISMB, virtual conference
 - 2020 [REINDEER: efficient indexing of _k_-mer presence and abundance in sequencing datasets](https://dsb-meeting.github.io/DSB2020/program_DSB2020.pdf), DSB, Rennes (France)
 - 2019 [Indexing De Bruijn graphs with minimizers](https://recombseq.recomb2019.org/schedule/#Sat), RECOMB-seq, Washington DC (US)
 - 2019 [Indexing De Bruijn graphs with minimizers](http://biata2019.spbu.ru/program/), BiATA, St Petersburg (Russia)
@@ -111,6 +112,7 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 
 
 # Supervision
+- 2020: Agathénaïs Adiguna (L3 internship)
 - 2018: Benjamin Churcheward (M2 internship), subject: Isoform prediction using long reads sequencing
 - 2017: Lolita Lecompte (M2 internship), subject: Conception and evaluation of a pipeline for de novo study of long reads in transcriptomics
 - 2014: Camille Sessegolo (L3 internship), subject: Improvements in the kissplice2refgenome software
