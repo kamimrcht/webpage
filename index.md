@@ -9,7 +9,7 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 
 
 # News
-- I will be presenting REINDEER at the virtual conferences [JOBIM](https://jobim2020.sciencesconf.org/program) (june 2 2020) and [BIATA](http://biata2020.spbu.ru/) (july 27-28 2020)
+- I will be presenting REINDEER in the virtual conference [BIATA](http://biata2020.spbu.ru/) (july 27-28 2020)
 - Sequence search with abundance across SARS-CoV2 public raw sequencing data and genomes based on REINDEER: [link](https://covid19seqsearch.pasteur.cloud/)
 - REINDEER was accepted to ISMB! I will participate in the [virtual conference](https://www.iscb.org/cms_addon/conferences/ismb2020/proceedings.php#HitSeq:%20High-throughput%20Sequencing) (july 13-16 2020). Link to the manuscript: [(biorxiv)](https://www.biorxiv.org/content/10.1101/2020.03.29.014159v2)
 
@@ -63,8 +63,8 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 
 ## Workshops/conferences/seminars
 - _incoming_ [REINDEER: efficient indexing of _k_-mer presence and abundance in sequencing datasets](http://biata2020.spbu.ru/), BIATA, virtual conference
-- _incoming_ [REINDEER: efficient indexing of _k_-mer presence and abundance in sequencing datasets](https://jobim2020.sciencesconf.org/program), JOBIM, virtual conference
 - _incoming_ [REINDEER: efficient indexing of _k_-mer presence and abundance in sequencing datasets](https://www.iscb.org/cms_addon/conferences/ismb2020/proceedings.php#HitSeq:%20High-throughput%20Sequencing), ISMB, virtual conference
+- 2020 [REINDEER: efficient indexing of _k_-mer presence and abundance in sequencing datasets](https://jobim2020.sciencesconf.org/program), JOBIM, virtual conference
 - 2020 [REINDEER: efficient indexing of _k_-mer presence and abundance in sequencing datasets](https://dsb-meeting.github.io/DSB2020/program_DSB2020.pdf), DSB, Rennes (France)
 - 2019 [Indexing De Bruijn graphs with minimizers](https://recombseq.recomb2019.org/schedule/#Sat), RECOMB-seq, Washington DC (US)
 - 2019 [Indexing De Bruijn graphs with minimizers](http://biata2019.spbu.ru/program/), BiATA, St Petersburg (Russia)
