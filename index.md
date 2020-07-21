@@ -62,7 +62,7 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 - 2017 Rconnector: a resource-frugal probabilistic dictionary and applications in (meta)genomics and transcriptomics, LBBE NGS group seminar, Lyon (France)
 
 ## Workshops/conferences/seminars
-- _incoming_ [REINDEER: efficient indexing of _k_-mer presence and abundance in sequencing datasets](http://biata2020.spbu.ru/), BIATA, St Petersburg (Russia, virtual conference)
+- _incoming_ (july 28th, 5p.m. UTC+2) [REINDEER: efficient indexing of _k_-mer presence and abundance in sequencing datasets](http://biata2020.spbu.ru/), BIATA, St Petersburg (Russia, virtual conference)
 - 2020 [REINDEER: efficient indexing of _k_-mer presence and abundance in sequencing datasets](https://www.iscb.org/cms_addon/conferences/ismb2020/proceedings.php#HitSeq:%20High-throughput%20Sequencing), ISMB, Montreal (Canada, virtual conference)
 - 2020 [REINDEER: efficient indexing of _k_-mer presence and abundance in sequencing datasets](https://jobim2020.sciencesconf.org/program), JOBIM, Montpellier (France, virtual conference)
 - 2020 [REINDEER: efficient indexing of _k_-mer presence and abundance in sequencing datasets](https://dsb-meeting.github.io/DSB2020/program_DSB2020.pdf), DSB, Rennes (France)
