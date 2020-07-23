@@ -16,6 +16,7 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 
 # Blog posts / short articles
 
+* [Othello hashing in bioinformatics](othello.md)
 * [Sneak peek at the -tigs!](tigs.md) a (very) high-level presentation of the population of -tigs sequences we encounter lately in k-mers related-papers (unitigs, simplitigs, monotigs, omnitigs, macrotigs) but that also includes UST and super-k-mers
 * [A short popularization article about coronavirus assembly](https://www.lemonde.fr/blog/binaire/2020/05/06/sars-cov-2-et-covid-19-on-va-jouer-sur-les-mots/) with long reads (in French)
 * [A short popularization article about my PhD work](https://www.lemonde.fr/blog/binaire/2020/02/07/rencontre-a-la-frontiere-entre-linformatique-et-la-biologie/) (in French)
