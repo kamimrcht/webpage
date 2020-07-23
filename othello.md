@@ -8,7 +8,7 @@ Hi all,
 
 **In a summer series of blog posts, I will follow up on some data-structures that have been mentioned in our manuscript _Data structures based on k-mers for querying large collections of sequencing datasets_[[1]](https://www.biorxiv.org/content/10.1101/866756v2.full), but that would benefit from more insight. Today I focus on Othello hashing and its application to bioinformatics.**
 
-As a short reminder, the manuscript deals with structure indexing sets of read sets for querying sequence presence/absence.
+As a short reminder, our manuscript deals with structures indexing sets of read sets for querying sequence presence/absence.
 Let's assume you have the genomic signature of a mutation, that you'd like to look for in a collection of samples (read datasets). These data-structures allow you to 
 
 * 1-index the whole collection of datasets (up to a few thousand for eukaryotes), 
@@ -31,11 +31,7 @@ In methods such as the different Sequence Bloom Trees [[2]](nature.com/articles/
 
 Bloom filters pertain to the large family of hash-based techniques, that rely on **hash functions**. 
 Hash functions are functions used to map elements (of arbitrary length, such as a sequence) to fixed-sized numeric values.
-For instance, for the sequence "BIOINFO", a (bad) hash function gets the ASCII representation of the last character and applies a modulo (10). Working with the [decimal values](http://www.asciitable.com/), we obtain 79 for O, and 79%10=9 as a final value.
-Remarks:
-* The function ensures that we will have values from 0 to 9 for any input element. Very useful in order to put these elements in a fixed-size table, for instance.
-* The function will return different values for different elements and is deterministic. "BIOINFO" will always be hashed to 9 with this function. "BIATA" for instance will end up mapped to 5.
-* Why bad? Because, in the general case, a "good" hash function is supposed (among other characteristics) to map similar strings to very different values. Here, any word finishing with "O" will be hashed to the same value as "BIOINFO", which is not a nice property. Why? Let's switch to the RNA world. Many different k-mers end with a poly-A tail. If a hash function works only with the last characters, the data-structure that relies on this function will accumulate these k-mers in a similar place in the memory, which can be harmful to the method's performances.
+For instance, for the sequence "BIOINFO", a (dummy) hash function gets the ASCII representation of the last character and applies a modulo (10). Working with the [decimal values](http://www.asciitable.com/), we obtain 79 for O, and 79%10=9 as a final value.
 
 Another data-structure based on hash functions is the **quotient filter** (and the counting quotient filter). Again for these methods, there already exist online documentation such as: [gakhov.com/articles/quotient-filters.html](https://www.gakhov.com/articles/quotient-filters.html) , [blog.acolyer.org/2017/08/08/a-general-purpose-counting-filter-making-every-bit-count/](https://blog.acolyer.org/2017/08/08/a-general-purpose-counting-filter-making-every-bit-count/).
 
