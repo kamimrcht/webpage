@@ -11,7 +11,7 @@ July, 23th 2020.
 
 Hi all, 
 
-**In a summer series of blog posts, I will follow up on some data-structures that have been mentionned in our manuscript _Data structures based on k-mers for querying large collections of sequencing datasets_[[1]](https://www.biorxiv.org/content/10.1101/866756v2.full), but that would benefit from more insight.**
+**In a summer series of blog posts, I will follow up on some data-structures that have been mentionned in our manuscript _Data structures based on k-mers for querying large collections of sequencing datasets_[[1]](https://www.biorxiv.org/content/10.1101/866756v2.full), but that would benefit from more insight. Today I focus on Othello hashing and its application to bioinformatics.**
 
 As a short reminder, the manuscript deals with structure indexing sets of read sets for querying sequence presence/absence.
 Let's assume you have the genomic signature of a mutation, that you'd like to look for in a collection of samples (read datasets). These data-structures allow you to 
@@ -61,7 +61,7 @@ As I've said earlier, one Bloom filters informs you on the presence of an elemen
 A Othello tells you if an element is present in a set of disjoint sets.
 Let's have a look at an example:
 
-<img src="files/othello1.png" alt="drawing" width="700"/>
+<img src="files/othello1.png" alt="drawing" width="600"/>
 
 How does it work? 
 
@@ -74,16 +74,18 @@ I choose to simplify the original article in which integers (not booleans) are u
 I use a red stroke to show that these two positions are linked.
 I'll also write in grey, next to the vectors, the elements (though this is not an information that is effectively retained).
 
-* In **(3)** same occurs for the second element b of S1. In (4), the third element c of S1 is added too. However, it is hashed to two places that are already occupied. It leads to a contradiction because if values associated to c are (0,1), then the value in the right vector must be changed to 1 (colored position), which is problematic because b has now a (1,1) pair.
+* In **(3)** same occurs for the second element b of S1. 
+
+<img src="files/othello2.png" alt="drawing" width="700"/>
+
+* In **(4)** above, the third element c of S1 is added too. However, it is hashed to two places that are already occupied. It leads to a contradiction because if values associated to c are (0,1), then the value in the right vector must be changed to 1 (colored position), which is problematic because b has now a (1,1) pair.
 To solve this issue, we can represent the occupied positions as a graph, with edges being the red links I draw before.
 The leftmost graph shows what happens when a and b are added. Two nodes that share an edge must have different values in this graph.
 When adding c, the blue edge is created and leads to change 0 to 1 (red node). But there is now a (1,1) edge. 
 So the change can be propagated along this edge, i.e., the other node's value is switched as well (from 1 to 0).
-This leads us again to a graph that respects the given property, and to proper vectors in (5).
+This leads us again to a graph that respects the given property, and to proper vectors in **(5)**.
 
-<img src="files/othello2.png" alt="drawing" width="700"/>
-
-Fast forward in **(6)** below, we continued filling the structure with elements from S2. You can notice that any element from S2 is associated to a pair of similar values (I put green strokes to draw the links between values of a pair).
+* Fast forward in **(6)** below, we continued filling the structure with elements from S2. You can notice that any element from S2 is associated to a pair of similar values (I put green strokes to draw the links between values of a pair).
 For the query, we know that if a queried element is associated to a pair of different values in the structure, it comes from S1. If it is associated to a pair of similar values, it comes from S2. This can be converted to logical operations, XOR and XNOR. Elements are hashed and these operations are performed on the result to check the membership (**7 and 8** below).
 In practice, the structure can yield false positives (i.e., it tells you an element is in one of the indexed set, while in reality it is not).
 
@@ -99,9 +101,7 @@ Next up : **minimal perfect hashing** and in particular the paper by Limasset et
 
 # References
 
-* Survey:
-
-[[1]](https://www.biorxiv.org/content/10.1101/866756v2.full)
+* [[1]](https://www.biorxiv.org/content/10.1101/866756v2.full) Survey _Data structures based on k-mers for querying large collections of sequencing datasets_
 
 * Tools working with Bloom filters
 
@@ -123,7 +123,8 @@ Next up : **minimal perfect hashing** and in particular the paper by Limasset et
 
 * Othello hashing
 
-[[9]](https://arxiv.org/pdf/1608.05699.pdf) original paper
+[[9]](https://arxiv.org/pdf/1608.05699.pdf) Original paper
+
 [[10]](https://link.springer.com/article/10.1186/s13059-018-1535-9) SeqOthello
 
 
