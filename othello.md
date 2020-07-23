@@ -52,7 +52,7 @@ Counting quotient filters are used in Mantis [[8]](https://www.sciencedirect.com
 ### Intuition of Othello hashing
 
 A third method that I believe is less popularized is Othello hashing. 
-Introduced by Yu et al.[[9]](https://arxiv.org/pdf/1608.05699.pdf), it realizes a slightly different goal than Bloom filters and quotient filters.
+Introduced by Yu et al.[[9]](https://arxiv.org/pdf/1608.05699.pdf), it is a hashing technique that realizes a slightly different goal than Bloom filters and quotient filters.
 The original article is motivated by network algorithms and quite far from bioinformatics.
 Here I'll give you an intuition of how it works.
 
@@ -94,37 +94,56 @@ This concept can be further extended to more than two sets.
 
 ### Othello in SeqOthello
 Othello appears in bioinformatics in the method SeqOthello [[10]](https://link.springer.com/article/10.1186/s13059-018-1535-9).
+The context is still the same: associate k-mers with the datasets they appear in.
+In order to obtain sets that are equivalent to S1, S2 in my previous example, we can compute _equivalence classes_ on k-mers presence/absence in each dataset.
+
+In the example below, two datasets contain each 3 k-mers, some are repeated, some are shared. 
+We can summarize the presence/absence per distinct k-mer in a table. Then, we notice that only two patterns appear: 
+
+* 1- the k-mer appears in the green and orange dataset
+
+* 2- the k-mer appears only in the orange dataset
+
+Equivalence classes E1 and E2 record that information.
+
+<img src="files/seqothello.png" alt="drawing" width="700"/>
+
+Then, a Othello can be used to map k-mers to E1 or E2 in a similar fashion than in previous examples. Thus, their original datasets can be guessed from the equivalence class they are mapped to (see below).
+
+<img src="files/seqothello2.png" alt="drawing" width="700"/>
+
+Again, there are lots of simplifications here. SeqOthello performs k-mer partitioning for better efficiency, thus Othello is also used to compute k-mer buckets that will be compressed with adequate strategies, according to their presence/absence patterns.
 
 
-Next up : **minimal perfect hashing** and in particular the paper by Limasset et al. in 2017.
+Next up : another hashing technique, **minimal perfect hashing** and in particular the paper by Limasset et al. in 2017, and how to index k-mers with it.
 
 # References
 
 * [[1]](https://www.biorxiv.org/content/10.1101/866756v2.full) Survey _Data structures based on k-mers for querying large collections of sequencing datasets_
 
-* Tools working with Bloom filters
+Tools working with Bloom filters
 
-[[2]](nature.com/articles/nbt.3442) SBT
+* [[2]](nature.com/articles/nbt.3442) SBT
 
-[[3]](https://www.liebertpub.com/doi/full/10.1089/cmb.2017.0258?casa_token=aJfQ9NULKVYAAAAA%3AwlbfsCl9XVFiVjpkimFC0gkKDDpiktZGOSk0UTN8ofy86XW6pnrhYHXRXJAKvOcmu4xgkzaFXnAy) AllSome SBT
+* [[3]](https://www.liebertpub.com/doi/full/10.1089/cmb.2017.0258?casa_token=aJfQ9NULKVYAAAAA%3AwlbfsCl9XVFiVjpkimFC0gkKDDpiktZGOSk0UTN8ofy86XW6pnrhYHXRXJAKvOcmu4xgkzaFXnAy) AllSome SBT
 
-[[4]](https://link.springer.com/chapter/10.1007/978-3-319-56970-3_16) SSBT
+* [[4]](https://link.springer.com/chapter/10.1007/978-3-319-56970-3_16) SSBT
 
-[[5]](https://academic.oup.com/bioinformatics/article-abstract/36/3/721/5553093) HowDeSBT
+* [[5]](https://academic.oup.com/bioinformatics/article-abstract/36/3/721/5553093) HowDeSBT
 
-[[6]](https://www.nature.com/articles/s41587-018-0010-1) BIGSI
+* [[6]](https://www.nature.com/articles/s41587-018-0010-1) BIGSI
 
-[[7]](https://link.springer.com/chapter/10.1007/978-3-030-32686-9_21) COBS
+* [[7]](https://link.springer.com/chapter/10.1007/978-3-030-32686-9_21) COBS
 
-* Tools working with counting quotient filters
+Tools working with counting quotient filters
 
-[[8]](https://www.sciencedirect.com/science/article/pii/S2405471218302394) Mantis
+* [[8]](https://www.sciencedirect.com/science/article/pii/S2405471218302394) Mantis
 
-* Othello hashing
+Othello hashing
 
-[[9]](https://arxiv.org/pdf/1608.05699.pdf) Original paper
+* [[9]](https://arxiv.org/pdf/1608.05699.pdf) Original paper
 
-[[10]](https://link.springer.com/article/10.1186/s13059-018-1535-9) SeqOthello
+* [[10]](https://link.springer.com/article/10.1186/s13059-018-1535-9) SeqOthello
 
 
 
