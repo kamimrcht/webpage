@@ -1,3 +1,7 @@
+---	
+layout: blog
+---
+
 # Additional content for _Data structures based on k-mers for querying large collections of sequencing datasets_
 
 July, 23th 2020.
