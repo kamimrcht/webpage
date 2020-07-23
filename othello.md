@@ -112,7 +112,7 @@ Then, a Othello can be used to map k-mers to E1 or E2 in a similar fashion than 
 
 <img src="files/seqothello2.png" alt="drawing" width="700"/>
 
-Again, there are lots of simplifications here. SeqOthello performs k-mer partitioning for better efficiency, thus Othello is also used to compute k-mer buckets that will be compressed with adequate strategies, according to their presence/absence patterns.
+Again, there are lots of simplifications here. SeqOthello performs k-mer partitioning for better efficiency, thus Othello is also used to compute k-mer buckets that will be compressed with adequate strategies, according to their presence/absence patterns. Othello will also work with way more classes in real life.
 
 
 Next up : another hashing technique, **minimal perfect hashing** and in particular the paper by Limasset et al. in 2017, and how to index k-mers with it.
