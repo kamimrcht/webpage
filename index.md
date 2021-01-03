@@ -1,18 +1,17 @@
 # Bio / topics
 
-I am a postdoc researcher working in [BONSAI](https://www.cristal.univ-lille.fr/bonsai/) team (Lille, France), with [Rayan Chikhi](http://rayan.chikhi.name/) and [Mikaël Salson](https://mikael-salson.univ-lille.fr/).
-After a MsC in Ecology and Evolution from Université Claude Bernard Lyon 1 and an engineer degree in Bioinformatics from INSA de Lyon, I worked for two years as an engineer in [ERABLE](https://team.inria.fr/erable/en/) team (LBBE, Lyon) with [Vincent Lacroix](https://lbbe.univ-lyon1.fr/-Lacroix-Vincent-.html?lang=fr). I obtained a PhD funding in [GenScale](https://team.inria.fr/genscale/) team (Rennes, France), where I was supervised by [Pierre Peterlongo](http://people.rennes.inria.fr/Pierre.Peterlongo/). I defended my PhD in 2018 and joined BONSAI afterwards.
+I am researcher in [BONSAI](https://www.cristal.univ-lille.fr/bonsai/) team (Lille, France). My work focuses on sequence bioinformatics and data structures, with applications to RNA in particular.
 
-My postdoc takes part in [Transipedia ANR](https://anr.fr/Project-ANR-18-CE45-0020). Transipedia aims at being a transcriptome-encyclopedia, e.g., facilitating indexing, query and exploitation of the numerous publicly available RNA-seq data. I am mostly working on new data structures to index large collections of NGS datasets. 
+After an engineer degree in Bioinformatics from INSA de Lyon and a MsC in Ecology and Evolution from Université Claude Bernard Lyon 1, I worked for two years as an engineer in [ERABLE](https://team.inria.fr/erable/en/) team (LBBE, Lyon) with [Vincent Lacroix](https://lbbe.univ-lyon1.fr/-Lacroix-Vincent-.html?lang=fr). I obtained a PhD funding in [GenScale](https://team.inria.fr/genscale/) team (Rennes, France), where I was supervised by [Pierre Peterlongo](http://people.rennes.inria.fr/Pierre.Peterlongo/). I defended my PhD in 2018 and joined BONSAI in the CRIStAL lab  afterwards as a postdoc. Lately I was recruited by the CNRS to work as a researcher in the same lab.
 
+My postdoc took part in [Transipedia ANR](https://anr.fr/Project-ANR-18-CE45-0020), with [Rayan Chikhi](http://rayan.chikhi.name/) and [Mikaël Salson](https://mikael-salson.univ-lille.fr/). Transipedia aims at being a transcriptome-encyclopedia, e.g., facilitating indexing, query and exploitation of the numerous publicly available RNA-seq data. I am mostly working on new data structures to index large collections of NGS datasets. 
 Before and during my PhD I worked on methods for transcriptomics, in particular for _de novo_ variants discovery and RNA long read analysis.
 
 
 # News
-- I will be presenting REINDEER at the virtual conference [BIATA](http://biata2020.spbu.ru/) (july 27-28 2020)
-- Sequence search with abundance across SARS-CoV2 public raw sequencing data and genomes based on REINDEER: [link](https://covid19seqsearch.pasteur.cloud/)
-- REINDEER was accepted at ISMB and published in [Bioinformatics](https://academic.oup.com/bioinformatics/article/36/Supplement_1/i177/5870500?guestAccessKey=55740e31-df79-4471-a5c0-7af969f98cbe)
-
+- Oct 2020 -Jan 2021: I am currently on a maternity leave so I'm not super active here.
+- Dec 2020: Our work [Data structures based on k-mers for querying large collections of sequencing datasets
+](https://www.biorxiv.org/content/10.1101/866756v1) has been published in Genome Research.
 
 # Blog posts / short articles
 
@@ -23,8 +22,6 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 
 
 # Ongoing work
-- [Data structures based on k-mers for querying large collections of sequencing datasets
-](https://www.biorxiv.org/content/10.1101/866756v1), C Marchet, C Boucher, S Puglisi, P Medvedev, M Salson, R Chikhi
 - [Read correction for non-uniform coverages](https://www.biorxiv.org/content/10.1101/673624v1.abstract?%3Fcollection=), C Marchet, Y Dufresne, A Limasset 
 
 # Journal Publications
@@ -39,13 +36,16 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 - [SNP calling from RNA-seq data without a reference genome: identification, quantification, differential analysis and impact on the protein sequence](https://www.ncbi.nlm.nih.gov/pubmed/27458203) H Lopez Maestre, L Brinza, C Marchet, J Kielbassa, S Bastien, M Boutigny, D Monnin, A El Filali, CM Carareto, C Vieira, F Picard, N Kremer, F Vavre, M-F Sagot, V Lacroix; _Nucleic Acids Research_, 2016
 - [Colibread on galaxy: a tools suite dedicated to biological information extraction from raw NGS reads](https://gigascience.biomedcentral.com/articles/10.1186/s13742-015-0105-2) E Rivals, A Andrieux, A Z El Aabidine, B Cazaux, C Marchet, C Lemaitre, C Monjeaud, G Sacomoto, L Salmela, O Collin, P Peterlongo, R Uricaru, S Alves-Carvalho, V Lacroix, V Miele, Y LeBras; _GigaScience_, 2016
 
-# Papers accepted to conferences
-- [REINDEER: efficient indexing of k-mer presence and abundance in sequencing datasets](https://www.biorxiv.org/content/10.1101/2020.03.29.014159v1), C Marchet, Z Iqbal, D Gautheret, M Salson, R Chikhi, ISMB 2020
-- [Indexing De Bruijn graphs with minimizers](https://www.biorxiv.org/content/10.1101/546309v2), C Marchet, A Kerbiriou, A Limasset, RECOMB-Seq 2019
+# Research papers accepted to conferences
+- [REINDEER: efficient indexing of k-mer presence and abundance in sequencing datasets](https://www.biorxiv.org/content/10.1101/2020.03.29.014159v1), C Marchet, Z Iqbal, D Gautheret, M Salson, R Chikhi; _ISMB_ 2020
+- [Indexing De Bruijn graphs with minimizers](https://www.biorxiv.org/content/10.1101/546309v2), C Marchet, A Kerbiriou, A Limasset; _RECOMB-Seq_ 2019
 - [CONSENT: Scalable self-correction of long reads with multiple sequence alignment
-](https://www.biorxiv.org/content/10.1101/546630v3), P Morisse, C Marchet, A Limasset, A Lefebvre, T Lecroq, RECOMB-Seq 2019
-- [A resource-frugal probabilistic dictionary and applications in (meta)genomics](https://hal.inria.fr/hal-01386744/document), C Marchet, A Limasset, L Bittner, P Peterlongo, PSC 2016
-- [Navigating in a Sea of Repeats in RNA-seq without Drowning](https://link.springer.com/chapter/10.1007/978-3-662-44753-6_7), G Sacomoto, B Sinaimeri, C Marchet, V Miele, MF Sagot, V Lacroix, International Workshop on Algorithms in Bioinformatics (WABI) 2014
+](https://www.biorxiv.org/content/10.1101/546630v3), P Morisse, C Marchet, A Limasset, A Lefebvre, T Lecroq; RECOMB-Seq 2019
+- [A resource-frugal probabilistic dictionary and applications in (meta)genomics](https://hal.inria.fr/hal-01386744/document), C Marchet, A Limasset, L Bittner, P Peterlongo; _PSC_ 2016
+- [Navigating in a Sea of Repeats in RNA-seq without Drowning](https://link.springer.com/chapter/10.1007/978-3-662-44753-6_7), G Sacomoto, B Sinaimeri, C Marchet, V Miele, MF Sagot, V Lacroix; _WABI_ 2014
+
+# Surveys
+- [Data structures based on k-mers for querying large collections of sequencing data sets](https://genome.cshlp.org/content/early/2020/12/16/gr.260604.119.abstract), C Marchet, C Boucher, S. J. Puglisi, P Medvedev, M Salson, R Chikhi; _Genome Research_ 2020
 
 # Communications
 
@@ -63,7 +63,7 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 - 2017 Rconnector: a resource-frugal probabilistic dictionary and applications in (meta)genomics and transcriptomics, LBBE NGS group seminar, Lyon (France)
 
 ## Workshops/conferences/seminars
-- _incoming_ (july 28th, 5p.m. UTC+2) [REINDEER: efficient indexing of _k_-mer presence and abundance in sequencing datasets](http://biata2020.spbu.ru/), BIATA, St Petersburg (Russia, virtual conference)
+- 2020 [REINDEER: efficient indexing of _k_-mer presence and abundance in sequencing datasets](http://biata2020.spbu.ru/), BIATA, St Petersburg (Russia, virtual conference)
 - 2020 [REINDEER: efficient indexing of _k_-mer presence and abundance in sequencing datasets](https://www.iscb.org/cms_addon/conferences/ismb2020/proceedings.php#HitSeq:%20High-throughput%20Sequencing), ISMB, Montreal (Canada, virtual conference)
 - 2020 [REINDEER: efficient indexing of _k_-mer presence and abundance in sequencing datasets](https://jobim2020.sciencesconf.org/program), JOBIM, Montpellier (France, virtual conference)
 - 2020 [REINDEER: efficient indexing of _k_-mer presence and abundance in sequencing datasets](https://dsb-meeting.github.io/DSB2020/program_DSB2020.pdf), DSB, Rennes (France)
@@ -109,7 +109,7 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 - 2017: BMC Bioinformatics
 
 # Supervision
-- 2020 Agathénaïs Adiguna (L3 internship)
+- 2020 Agathénaïs Adiguna (L3 internship), subject: Data-structures for large scale RNA queries
 - 2018 Benjamin Churcheward (M2 internship), subject: Isoform prediction using long reads sequencing
 - 2017 Lolita Lecompte (M2 internship), subject: Conception and evaluation of a pipeline for de novo study of long reads in transcriptomics
 - 2014 Camille Sessegolo (L3 internship), subject: Improvements in the kissplice2refgenome software
