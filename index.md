@@ -10,7 +10,7 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 
 # News
 - Oct 2020 -Jan 2021: I am currently on a maternity leave so I'm not super active here.
-- An [introduction](https://github.com/kamimrcht/webpage/blob/master/files/presentation_ens_marchet.pdf) to data-structures for _k_-mer sets indexing for ENS Rennes students.
+- An [introduction](https://github.com/kamimrcht/webpage/raw/master/files/presentation_ens_marchet.pdf) to data-structures for _k_-mer sets indexing for ENS Rennes students.
 - Dec 2020: Our work [Data structures based on k-mers for querying large collections of sequencing datasets
 ](https://www.biorxiv.org/content/10.1101/866756v1) has been published in Genome Research.
 
