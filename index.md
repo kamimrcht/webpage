@@ -1,8 +1,8 @@
 # Bio / topics
 
-I am researcher in [BONSAI](https://www.cristal.univ-lille.fr/bonsai/) team (Lille, France). My work focuses on sequence bioinformatics and data structures, with applications to RNA in particular.
+I am **researcher in [BONSAI](https://www.cristal.univ-lille.fr/bonsai/) team (Lille, France)**. My work focuses on sequence **bioinformatics and data structures**, with applications to RNA in particular.
 
-After an engineer degree in Bioinformatics from INSA de Lyon and a MsC in Ecology and Evolution from Université Claude Bernard Lyon 1, I worked for two years as an engineer in [ERABLE](https://team.inria.fr/erable/en/) team (LBBE, Lyon) with [Vincent Lacroix](https://lbbe.univ-lyon1.fr/-Lacroix-Vincent-.html?lang=fr). I obtained a PhD funding in [GenScale](https://team.inria.fr/genscale/) team (Rennes, France), where I was supervised by [Pierre Peterlongo](http://people.rennes.inria.fr/Pierre.Peterlongo/). I defended my PhD in 2018 and joined BONSAI in the CRIStAL lab  afterwards as a postdoc. Lately I was recruited by the CNRS to work as a researcher in the same lab.
+After an engineer degree in Bioinformatics from INSA de Lyon and a MsC in Ecology and Evolution from Université Claude Bernard Lyon 1, I worked for two years as an engineer in [ERABLE](https://team.inria.fr/erable/en/) team (LBBE, Lyon) with [Vincent Lacroix](https://lbbe.univ-lyon1.fr/-Lacroix-Vincent-.html?lang=fr). I obtained a PhD funding in [GenScale](https://team.inria.fr/genscale/) team (Rennes, France), where I was supervised by [Pierre Peterlongo](http://people.rennes.inria.fr/Pierre.Peterlongo/). I defended my PhD in 2018 and joined [BONSAI](http://www.lifl.fr/bonsai/) in the CRIStAL lab  afterwards as a postdoc. Lately I was recruited by the CNRS to work as a researcher in the same lab.
 
 My postdoc took part in [Transipedia ANR](https://anr.fr/Project-ANR-18-CE45-0020), with [Rayan Chikhi](http://rayan.chikhi.name/) and [Mikaël Salson](https://mikael-salson.univ-lille.fr/). Transipedia aims at being a transcriptome-encyclopedia, e.g., facilitating indexing, query and exploitation of the numerous publicly available RNA-seq data. I am mostly working on new data structures to index large collections of NGS datasets. 
 Before and during my PhD I worked on methods for transcriptomics, in particular for _de novo_ variants discovery and RNA long read analysis.
@@ -10,8 +10,8 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 
 # News
 - **[Open PhD position: algorithmics for pangenome graphs](https://jobs.inria.fr/public/classic/fr/offres/2020-03187)** please use the application form!
-- Oct 2020 -Jan 2021: I am currently on a maternity leave so I'm not super active here.
-- An [introduction](https://github.com/kamimrcht/webpage/raw/master/files/presentation_ens_marchet.pdf) to data-structures for _k_-mer sets indexing for ENS Rennes students.
+- Jan 2021: the [CONSENT](https://www.nature.com/articles/s41598-020-80757-5) corrector was published 
+- Jan 2021: [introduction](https://github.com/kamimrcht/webpage/raw/master/files/presentation_ens_marchet.pdf) to data-structures for _k_-mer sets indexing for ENS Rennes students.
 - Dec 2020: Our work [Data structures based on k-mers for querying large collections of sequencing datasets
 ](https://www.biorxiv.org/content/10.1101/866756v1) has been published in Genome Research.
 
@@ -27,6 +27,7 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 - [Read correction for non-uniform coverages](https://www.biorxiv.org/content/10.1101/673624v1.abstract?%3Fcollection=), C Marchet, Y Dufresne, A Limasset 
 
 # Journal Publications
+- [Scalable long read self-correction and assembly polishing with multiple sequence alignment](https://www.nature.com/articles/s41598-020-80757-5), P Morisse, C Marchet, A Limasset, T Lecroq, A Lefebvre; _Scientific Reports_, 2021
 - [REINDEER: efficient indexing of k-mer presence and abundance in sequencing datasets](https://academic.oup.com/bioinformatics/article/36/Supplement_1/i177/5870500?guestAccessKey=55740e31-df79-4471-a5c0-7af969f98cbe), C Marchet, Z Iqbal, D Gautheret, M Salson, R Chikhi; _Bioinformatics_, 2020 
 - [ELECTOR: Evaluator for long reads correction methods](https://academic.oup.com/nargab/article/2/1/lqz015/5625503?guestAccessKey=3c7f948f-457f-4585-b6b3-5fbed1fa40db), C Marchet, P Morisse, L Lecompte, A Limasset, A Lefebvre, T Lecroq, P Peterlongo; _Nucleic acid research Genomics and Bioinformatics_, 2019
 - [Comparative assessment of long-read error-correction software applied to RNA-sequencing data](https://academic.oup.com/bib/advance-article-abstract/doi/10.1093/bib/bbz058/5512144), L Ishi Soares de Lima, C Marchet, S Caboche, C Da Silva, B Istace, J-M Aury, H Touzet, R Chikhi; _Briefings in Bioinformatics_, 2019
@@ -84,6 +85,9 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 - 2016 Rconnector: a resource-frugal probabilistic dictionary and applications in (meta)genomics and transcriptomics, SeqBio, Nantes (France)
 - 2015 kissDE : a replicate-wise and annotation-free R package for testing the association between differential variants and experimental conditions in high throughput sequencing data, SeqBio 2015, Orsay (France)
 - 2015 kissDE : a package to test for differences in reads counts derived from variants in RNA sequencing data, Quatriemes rencontres R 2015, Lyon (France)
+
+## Other talks
+- 2021 [An introduction to data-structures for _k_-mer sets indexing](https://github.com/kamimrcht/webpage/raw/master/files/presentation_ens_marchet.pdf) for ENS Rennes students
 
 # Awards
 - 2019 Accessit to the [Prix de Thèse Gilles Kahn delivered by the Société Informatique de France](https://www.societe-informatique-de-france.fr/recherche-prix-de-these-gilles-kahn-laureats-2019/)
