@@ -103,8 +103,8 @@ In the example below, I use a k-mer (and minimizer) size k=3, window size s=5 an
 <img src="files/minstrobe.png" alt="drawing" width="850"/>
 
 The first one starts with the k-mer ACT in blue, it is called the first **strobe** k1. The three other strobes are minimizers k2, k3, k4.
-The minimizers are computed using k-mers extracted from consecutive, non overlapping n-1 windows.
-For instance; in the first window, 5 positions give 5 k-mers: CTAAAC CTA, TAA, AAA, AAC, ACG. If we keep the hash based on lexicographic order for this example, then AAA is the minimizer, and the second strobe.
+The minimizers are computed using k-mers extracted from consecutive, non overlapping n-1 windows (shown in red).
+For instance; in the first window, 5 positions give 5 k-mers: CTAAAC CTA, TAA, AAA, AAC, ACG. If we keep the hash based on lexicographic order for this example, then AAA is the minimizer (the position of the minimizer is shown using the green stroke in the window), and the second strobe.
 Following the same procedure AAT is the strobe in the second window, and CGT in the third.
 See how the second strobemer, that starts at the next position by the k-mer CTC, shares two strobes with the first strobemer.
 Note also that **this protocol guarantees a minimal coverage of |k1| strobemers on each position, since strobemers overlap**.
