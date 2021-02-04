@@ -32,7 +32,7 @@ If k increases, it is even worse, as shown in the next figure. However, a **larg
 <img src="files/kmer1.png" alt="drawing" width="600"/>
 
 Moreover, if the mutations are at certain distances, it is possible that no k-mer at all is shared (imagine a mutation on the first T and last A in the example).
-This method is thus sensible to mutations as simple as substitutions, and will do worse with indels. **There will be a loss in sensitivity as k increases.**
+This method is thus sensible to mutations as simple as substitutions, and will do worse with >1 nt indels or close consecutive substitutions. **There will be a loss in sensitivity as k increases.**
 
 # 3- Similar k-mer sets _may_ involve similar sequences
 
@@ -42,7 +42,7 @@ The two sequences are not alike but share a handful of k-mers due to a repeat (I
 <img src="files/kmer3.png" alt="drawing" width="600"/>
 
 As a small conclusion, k-mers are very correlated due to the way they are constructed. **Each k-mer carries little entropy given the previous ones.**
-Coupled k-mers and other techniques were proposed to improve that, but remained limitated to substitution or fixed small gaps (see the preprint for more information about that).
+Coupled k-mers and other techniques were proposed to improve that, but remained limitated to substitution or fixed small gaps (see the preprint for more information about that). A good rule of thumb for k size is usually that k >> log4(size of your sequence).
 
 # 4- Minimizers do the job
 Let me recall how minimizers can be computed from k-mers.
@@ -54,7 +54,7 @@ Here to illustrate, I imagine that my hash function will give a value correlated
 
 <img src="files/minimizer.png" alt="drawing" width="600"/>
 
-I show that in the 1st window in both sequences, the minimizer would be ACTG.
+Here and in the following, **a window of size n means that there are n starting positions for minimizers**. So I enumerate 6 k-mers, let's assumed they are hashed using lexicographic order. I show that in the 1st window in both sequences, the minimizer would be ACTG.
 Then we move to the next window, which starts at the position after the end of the previous window. The minimizer is ACTA.
 Notice that despite having very different k-mer sets because of the mutation, we still end up with the same minimizer for the two sequences.
 Finally in the last window (where the sets are smaller, I won't cover strategies for sequence ends since it's just an example), minimizers for both sequences are AACC.
@@ -95,7 +95,7 @@ Coupled k-mers need a fixed gap and are robust to this gap only. In order to int
 
 ## First strobemers: the minstrobes
 As coupled k-mers are seeds splitted in two parts, strobemers are **seeds splitted into n parts**.
-Strobemers always start with a k-mer, followed by n-1 minimizers. Thus, strobemers can be couples of a k-mer combined to a minimizer, or triplets of a k-mer and two minimizers, and so on.
+Strobemers always start with a k-mer, followed by n-1 minimizers. Thus, strobemers can be couples (k-mer,minimizer), or triplets (k-mer, minimizer, minimzer), and so on.
 Each couple (or triplet, or quadruplet...) starts one base after the previous one, just like k-mers. 
 
 In the example below, I use a k-mer (and minimizer) size k=3, window size s=5 and n=4 (size of the n-uplet with 1 k-mer and n-1 minimizers), and I show what **two consecutive strobemers** look like.
@@ -104,7 +104,9 @@ In the example below, I use a k-mer (and minimizer) size k=3, window size s=5 an
 
 The first one starts with the k-mer ACT in blue, it is called the first **strobe** k1. The three other strobes are minimizers k2, k3, k4.
 The minimizers are computed using k-mers extracted from consecutive, non overlapping n-1 windows (shown in red).
-For instance; in the first window, 5 positions give 5 k-mers: CTAAAC CTA, TAA, AAA, AAC, ACG. If we keep the hash based on lexicographic order for this example, then AAA is the minimizer (the position of the minimizer is shown using the green stroke in the window), and the second strobe.
+**As I shown above, windows represent starting positions for minimizers** (this is why you see some k-mers going beyond the limit of the window, at least their 1st base must be in the window). 
+
+For instance; in the first window, 5 positions give 5 k-mers: CTA, TAA, AAA, AAC, ACG. If we keep the hash based on lexicographic order for this example, then AAA is the minimizer (the position of the minimizer is shown using the green stroke in the window), and the second strobe.
 Following the same procedure AAT is the strobe in the second window, and CGT in the third.
 See how the second strobemer, that starts at the next position by the k-mer CTC, shares two strobes with the first strobemer.
 Note also that **this protocol guarantees a minimal coverage of |k1| strobemers on each position, since strobemers overlap**.
@@ -126,6 +128,10 @@ So I made up a minimum based on this hashing, let's say at the position associat
 In the next window, ACT+TAA will be concatenated to the k-mers and so on.
 
 Note that in the second strobemer, k1 changes by construction, so the value concatenated for the next windows also changes, thus the minimum might change as well. **By integrated previous strobes to the minimizer computation, a better coverage of the region's position can be achieved.**
+
+## Summary
+Strobemers generalize the concept of coupled minimizers. Minstrobes and randstrobes represent two different ways to generate strobemers, with different properties. In both case the goal is to cover the sequence with a set of seeds containing deterministic random gaps.
+Minstrobes will generate consecutive strobes that will be more likely to share subsequences than randstrobes (this can be of interest for instance for clustering or partitioning). Randstrobe are designed to create seeds more different from each other, even when they are consecutive on the sequence.
 
 As for me, the next interesting thing will be: how to index such things in an efficient way.
 
