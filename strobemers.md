@@ -11,7 +11,7 @@ For an introduction to related techniques, i.e. sequence comparison using k-mer 
 
 The main motivation of the preprint is **sequence similarity search**, and in particular, finding similar but not identical pairs of sequences. The differences might come from **mutations or errors such as in TGS** reads. 
 I'll just come back to two simple notions:  that a distance can be computed between two sequences by comparing their k-mer sets, and that minimizers do that job too, before we get to strobemers.
-**Please skip these paragraphs if you want to [go directly to the strobemers](#the-strobemers).**
+**Please skip these paragraphs if you want to [go directly to the strobemers](#5--the-strobemers).**
 
 # 1-Similar sequences will lead to similar k-mer sets
 
