@@ -135,7 +135,7 @@ In the next window, ACT+TAA will be concatenated to the k-mers and so on.
 Note that in the second strobemer, k1 changes by construction, so the value concatenated for the next windows also changes, thus the minimum might change as well. **By integrated previous strobes to the minimizer computation, a better coverage of the region's position can be achieved.**
 
 ## Summary
-Strobemers generalize the concept of coupled minimizers. Minstrobes and randstrobes represent two different ways to generate strobemers, with different properties. In both cases the goal is to cover the sequence with a set of seeds containing deterministic random gaps. 
+Strobemers generalize the concept of coupled minimizers. Minstrobes and randstrobes represent **two different ways to generate strobemers, with different properties**. In both cases the goal is to **cover the sequence with a set of seeds containing deterministic random gaps**. 
 In practice, minstrobes have a better construction complexity because minimizers computed for a strobemer can be cached for the next one, which is not the case for randstrobes.
 Minstrobes will generate consecutive strobes that will be more likely to share subsequences than randstrobes (this can be of interest for instance for clustering or partitioning). Randstrobes are designed to create seeds more different from each other, even when they are consecutive on the sequence.
 
