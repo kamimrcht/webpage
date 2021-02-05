@@ -17,6 +17,7 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 
 # Blog posts / short articles
 
+* **New**: [Strobemers](strobemers.md), a new kind of spaced seeds from [K Sahlin's preprint](https://www.biorxiv.org/content/10.1101/2021.01.28.428549v1)
 * [Othello hashing in bioinformatics](othello.md)
 * [Sneak peek at the -tigs!](tigs.md) a (very) high-level presentation of the population of -tigs sequences we encounter lately in k-mers related-papers (unitigs, simplitigs, monotigs, omnitigs, macrotigs) but that also includes UST and super-k-mers
 * [A short popularization article about coronavirus assembly](https://www.lemonde.fr/blog/binaire/2020/05/06/sars-cov-2-et-covid-19-on-va-jouer-sur-les-mots/) with long reads (in French)
