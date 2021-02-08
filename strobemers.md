@@ -6,7 +6,7 @@ layout: blog
 
 February, 4th 2021.
 
-In a recent preprint [Kristoffer Sahlin](https://sahlingroup.github.io/) ([@krsahlin](https://twitter.com/krsahlin)) introduces [_strobemers_](https://www.biorxiv.org/content/10.1101/2021.01.28.428549v1.full.pdf), a new technique derived from k-mers and minimizers to sample and match sequences.
+In a recent preprint [Kristoffer Sahlin](https://sahlingroup.github.io/) ([@krsahlin](https://twitter.com/krsahlin)) introduces [_strobemers_](https://www.biorxiv.org/content/10.1101/2021.01.28.428549v2), a new technique derived from k-mers and minimizers to sample and match sequences.
 For an introduction to related techniques, i.e. sequence comparison using k-mer sets, minimizers, pairs of k-mers or of minimizers, I'll let the reader refer to the preprint's introduction.
 
 The main motivation of the preprint is **sequence similarity search**, and in particular, finding similar but not identical pairs of sequences. The differences might come from **mutations or errors such as in third generation sequencing** reads. 
@@ -133,6 +133,8 @@ So I made up a minimum based on this hashing, let's say at the position associat
 In the next window, ACT+TAA will be concatenated to the k-mers and so on.
 
 Note that in the second strobemer, k1 changes by construction, so the value concatenated for the next windows also changes, thus the minimum might change as well. **By integrated previous strobes to the minimizer computation, a better coverage of the region's position can be achieved.**
+
+**Why should strobemers start with a k-mer?** is a question I've been asked. I think strobemers _could_ be composed of minimizers only for instance. Or have a k-mer in the middle instead of the beginning. In this work, there are k-mers in the strobemers so that the original sequence sample is as dense as for k-mers, to enable a fair comparison.
 
 ## Summary
 Strobemers generalize the concept of coupled minimizers. Minstrobes and randstrobes represent **two different ways to generate strobemers, with different properties**. In both cases the goal is to **cover the sequence with a set of seeds containing deterministic random gaps**. 
