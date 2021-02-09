@@ -1,6 +1,6 @@
 # Bio / topics
 
-I am **researcher in [BONSAI](https://www.cristal.univ-lille.fr/bonsai/) team (Lille, France)**. My work focuses on sequence **bioinformatics and data structures**, with applications to RNA in particular.
+I am **researcher in [BONSAI](https://www.cristal.univ-lille.fr/bonsai/) team (Lille, France)**. My work focuses on **methods and data structures** in **sequence bioinformatics**, with applications to **RNA** in particular.
 
 After an engineer degree in Bioinformatics from INSA de Lyon and a MsC in Ecology and Evolution from Université Claude Bernard Lyon 1, I worked for two years as an engineer in [ERABLE](https://team.inria.fr/erable/en/) team (LBBE, Lyon) with [Vincent Lacroix](https://lbbe.univ-lyon1.fr/-Lacroix-Vincent-.html?lang=fr). I obtained a PhD funding in [GenScale](https://team.inria.fr/genscale/) team (Rennes, France), where I was supervised by [Pierre Peterlongo](http://people.rennes.inria.fr/Pierre.Peterlongo/). I defended my PhD in 2018 and joined [BONSAI](http://www.lifl.fr/bonsai/) in the CRIStAL lab  afterwards as a postdoc. Lately I was recruited by the CNRS to work as a researcher in the same lab.
 
