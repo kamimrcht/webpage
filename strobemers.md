@@ -15,7 +15,7 @@ Before we get into strobemers, I’ll just come back to two simple notions: that
 
 # 1 Similar sequences will lead to similar k-mer sets
 
-Here I show to sequences that differ only by one nucleotide, marked in red in the second sequence. Let's have a look at the following figure:
+Here I show two sequences that differ only by one nucleotide, marked in red in the second sequence. Let's have a look at the following figure:
 
 <img src="files/kmer0.png" alt="drawing" width="600"/>
 
@@ -42,7 +42,7 @@ The two sequences are not alike but share a handful of k-mers due to a repeat (I
 <img src="files/kmer3.png" alt="drawing" width="600"/>
 
 As a small conclusion, k-mers are very correlated due to the way they are constructed. **Each k-mer carries little entropy given the previous ones.**
-Coupled k-mers and other techniques were proposed to improve that, but remained limitated to substitution or fixed small gaps (see the preprint for more information about that). A good rule of thumb for k size to assure reasonable uniqueness is usually that k >> log4(size of your sequence).
+Coupled k-mers and other techniques were proposed to improve that, but remained limited to substitution or fixed small gaps (see the preprint for more information about that). A good rule of thumb for k size to assure reasonable uniqueness is usually that k >> log4(size of your sequence).
 
 # 4 Minimizers do the job
 Let me recall how minimizers can be computed from k-mers.
@@ -50,7 +50,7 @@ We need a new parameter in addition to k, w the size of a **window**.
 We also need some **hash function**.
 
 In the example below w=6, k=4. We compute the set of 4-mers of a window w that starts at the beginning of the sequence. 
-When describing minimizers below, I consider non overlapping windows for the sake of example, while in reality they are often computed from consecutive overlapping windows
+When describing minimizers below, I consider non overlapping windows for the sake of example, while in reality they are often computed from consecutive overlapping windows.
 **The minimizer will be the k-mer associated with the smallest value obtained by hashing each k-mer of the set.**
 Another simplification in my example is that the minimizer size and the k-mer size are the same. I choose to present it this way because it will be relevant to strobemers.
 
@@ -58,7 +58,7 @@ To illustrate, I here imagine that my hash function will give a value correlated
 
 <img src="files/minimizer.png" alt="drawing" width="600"/>
 
-Here and in the following, **a window of size n means that there are n starting positions for minimizers**. So I enumerate 6 k-mers, let's assumed they are hashed using lexicographic order. I show that in the 1st window in both sequences, the minimizer would be ACTG.
+Here and in the following, **a window of size n means that there are n starting positions for minimizers**. So I enumerate 6 k-mers, let's assume they are hashed using lexicographic order. I show that in the 1st window in both sequences, the minimizer would be ACTG.
 Then we move to the next window, which starts at the position after the end of the previous window. The minimizer is ACTA.
 Notice that despite having very different k-mer sets because of the mutation, we still end up with the same minimizer for the two sequences.
 Finally, in the last window minimizers for both sequences are AACC. In the last window the sets are smaller, I won’t cover strategies for sequence ends since it’s just an example.
@@ -70,7 +70,7 @@ A nice **property of minimizers is that they allow indels to happen**. In the ex
 
 This is because, contrary to k-mers, there can be **random-size gaps between two minimizers**. While being random, these gaps are also deterministically computed, which means that the same gaps will appear on two identical sequences. **The minimizers allow to deterministically "skip" some mutations by subsampling the two sequences, which is an important feature used by strobemers.**
 
-However, long reads have been so crippled with errors than the k size to compute minimizers has to remain rather small (11-15 usually) in comparison to genomic k-mers computed from NGS (20-50 nucleotides that ensure more robustness to repeats). The same caveat can be applied than for k-mers regarding small k for minimizers, so strategies involving linked minimizers, chains of minimizers have been used in practice.
+However, long reads have been so crippled with errors that the k size to compute minimizers has to remain rather small (11-15 usually) in comparison to genomic k-mers computed from NGS (20-50 nucleotides that ensure more robustness to repeats). The same caveat can be applied then for k-mers regarding small k for minimizers, so strategies involving linked minimizers, chains of minimizers have been used in practice.
 
 Of course in some cases, minimizers can be "broken" just as k-mers because of bad luck, in particular with a high level of mutations. 
  I show an example where I computed for you minimizers for each of the windows. The two sequence differ by an inserted A in red. Only one minimizer out of 3 is shared in this case.
@@ -84,7 +84,7 @@ This is why other strategies are proposed, such as the strobemers.
 # 5 The strobemers
 
 ## Coupled k-mers
-Strobemers were created intending to **increase specificity by mitigating redundancy (from small matches) while preserving sensitivity (finding large matches**.
+Strobemers were created intending to **increase specificity by mitigating redundancy (from small matches) while preserving sensitivity (finding large matches)**.
 In order to introduce the strobemers idea, we could observe coupled k-mers first. In the next figure, we compute 8-mers from two sequences that differ because of a C/T mismatch. Actually only one k-mer is shared (in green).
 Coupled k-mers are smaller k-mer that come in pairs of 4+4 nucleotides to reach the original 8 bases size. There is a fixed gap between the two, let's say 3 here. I won't spend time on how the pairs are computed in practice.
 
@@ -98,8 +98,8 @@ Coupled k-mers need a fixed gap and are robust to this fixed gap size only. In o
 
 
 ## First strobemers: the minstrobes
-As coupled k-mers are seeds splitted in two parts, strobemers are **seeds splitted into n parts**.
-Strobemers always start with a k-mer, followed by n-1 minimizers. Thus, strobemers can be couples (k-mer,minimizer), or triplets (k-mer, minimizer, minimzer), and so on.
+As coupled k-mers are seeds split in two parts, strobemers are **seeds split into n parts**.
+Strobemers always start with a k-mer, followed by n-1 minimizers. Thus, strobemers can be couples (k-mer,minimizer), or triplets (k-mer, minimizer, minimizer), and so on.
 Each couple (or triplet, or quadruplet...) starts one base after the previous one, just like k-mers. 
 
 In the example below, I use a k-mer (and minimizer) size k=3, window size w=5 and n=4 (size of the n-tuple with 1 k-mer and n-1 minimizers), and 
@@ -113,11 +113,11 @@ The minimizers are computed using k-mers extracted from consecutive, non overlap
 
 For instance; in the first window, 5 positions give 5 k-mers: CTA, TAA, AAA, AAC, ACA. If we keep the hash based on lexicographic order for this example, then AAA is the minimizer (the position of the minimizer is shown using the green stroke in the window), and the second strobe.
 Following the same procedure AAT is the strobe in the second window, and CGT in the third.
-See how the second strobemer, that starts at the next position by the k-mer CTC, shares two strobes with the first strobemer.
+See how the second strobemer, that starts at the next position by the k-mer CTC, shares three strobes with the first strobemer.
 Note also that **this protocol guarantees a minimal coverage of |k1| strobemers on each position, since strobemers overlap**.
 
 Now can a strobemer be "broken" by a mutation like k-mers and, to a less extent, minimizers? Of course that can happen, just think of a mutation that will change the minimizer of a window.
-In the same way than the information in a k-mer is mostly carried by the previous k-mer overlapping by k-1 on the sequence, a **rather high correlation remains between the strobes of two consecutive minstrobes**. Thus, if by chance a strobemer is "broken" by a mutation, a chance remains that the next strobemer will be "broken" too. Thus, when the motivation is sequence comparison allowing mutations, it would be good if gaps between strobes appear more randomly and uniformly on the sequence. This is what motivates randstrobes.
+In the same way that the information in a k-mer is mostly carried by the previous k-mer overlapping by k-1 on the sequence, a **rather high correlation remains between the strobes of two consecutive minstrobes**. Thus, if by chance a strobemer is "broken" by a mutation, a chance remains that the next strobemer will be "broken" too. Thus, when the motivation is sequence comparison allowing mutations, it would be good if gaps between strobes appear more randomly and uniformly on the sequence. This is what motivates randstrobes.
 
 
 ## Second strobemers: the randstrobes
@@ -128,11 +128,11 @@ While in the minstrobe protocol, each strobemer is computed without taking the o
 
 
 Let's examine the first strobemer. We keep the same idea of the starting k-mer, windows and minimizers.
-k1 remains the same. Then for the first window (CTAAA), instead of finding the minimum in {h(CTA), h(TAA), h(AAA), h(AAC), h(ACA)} to select the minimizer, ACT is concatenated to the k-mer, and this set is hashed: {h(ACTCTA), h(ACTTAA), h(ACTAAA), h(ACTAAC), h(ACTACA)}. (this is why I dropped the lexicographic order, because in that situation the order wouldn't change).
+k1 remains the same. Then for the first window (CTAAA), instead of finding the minimum in {h(CTA), h(TAA), h(AAA), h(AAC), h(ACA)} to select the minimizer, ACT is concatenated to the k-mer, and this set is hashed: {h(ACTCTA), h(ACTTAA), h(ACTAAA), h(ACTAAC), h(ACTACA)} (this is why I dropped the lexicographic order, because in that situation the order wouldn't change).
 So I made up a minimum based on this hashing, let's say at the position associated to TAA. 
 In the next window, ACT+TAA will be concatenated to the k-mers and so on.
 
-Note that in the second strobemer, k1 changes by construction, so the value concatenated for the next windows also changes, thus the minimum might change as well. **By integrated previous strobes to the minimizer computation, a better coverage of the region's position can be achieved.**
+Note that in the second strobemer, k1 changes by construction, so the value concatenated for the next windows also changes, thus the minimum might change as well. **By integrating previous strobes to the minimizer computation, a better coverage of the region's position can be achieved.**
 
 **Why should strobemers start with a k-mer?** is a question I've been asked. I think strobemers _could_ be composed of minimizers only for instance. Or have a k-mer in the middle instead of the beginning. In this work, there are k-mers in the strobemers so that the original sequence sample is as dense as for k-mers, to enable a fair comparison.
 
