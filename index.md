@@ -11,7 +11,7 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 
 
 # News
-- **[Open PhD position: algorithmics for pangenome graphs](https://jobs.inria.fr/public/classic/fr/offres/2020-03187)** please use the application form!
+- April 2021: [BLight](https://academic.oup.com/bioinformatics/advance-article-abstract/doi/10.1093/bioinformatics/btab217/6209734) is published in Bioinformatics
 - Jan 2021: the [CONSENT](https://www.nature.com/articles/s41598-020-80757-5) corrector was published 
 - Jan 2021: [introduction](https://github.com/kamimrcht/webpage/raw/master/files/presentation_ens_marchet.pdf) to data-structures for _k_-mer sets indexing for ENS Rennes students.
 - Dec 2020: Our work [Data structures based on k-mers for querying large collections of sequencing datasets
@@ -30,6 +30,7 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 - [Read correction for non-uniform coverages](https://www.biorxiv.org/content/10.1101/673624v1.abstract?%3Fcollection=), C Marchet, Y Dufresne, A Limasset 
 
 # Journal Publications
+- [BLight: Efficient exact associative structure for k-mers](https://academic.oup.com/bioinformatics/advance-article-abstract/doi/10.1093/bioinformatics/btab217/6209734), C Marchet, M Kerbiriou, A Limasset; _Bioinformatics_, 2021
 - [Scalable long read self-correction and assembly polishing with multiple sequence alignment](https://www.nature.com/articles/s41598-020-80757-5), P Morisse, C Marchet, A Limasset, T Lecroq, A Lefebvre; _Scientific Reports_, 2021
 - [REINDEER: efficient indexing of k-mer presence and abundance in sequencing datasets](https://academic.oup.com/bioinformatics/article/36/Supplement_1/i177/5870500?guestAccessKey=55740e31-df79-4471-a5c0-7af969f98cbe), C Marchet, Z Iqbal, D Gautheret, M Salson, R Chikhi; _Bioinformatics_, 2020 
 - [ELECTOR: Evaluator for long reads correction methods](https://academic.oup.com/nargab/article/2/1/lqz015/5625503?guestAccessKey=3c7f948f-457f-4585-b6b3-5fbed1fa40db), C Marchet, P Morisse, L Lecompte, A Limasset, A Lefebvre, T Lecroq, P Peterlongo; _Nucleic acid research Genomics and Bioinformatics_, 2019
