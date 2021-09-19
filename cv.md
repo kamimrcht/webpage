@@ -31,7 +31,7 @@ Education
 
 Professional background
 ----------
-**Chargée de recherche CNRS in BONSAI team, CRIStAL lab, Lille, France (2021-..)**
+**Chargée de recherche (research associate) CNRS in BONSAI team, CRIStAL lab, Lille, France (2021-..)**
 
 **Career break (sept 2020-sept 2021)**
 Maternity leave followed by parental leave.
