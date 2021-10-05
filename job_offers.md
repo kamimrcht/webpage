@@ -43,7 +43,7 @@ A CS/programming background is strongly encouraged, as well as previous experien
 
 
 **Contact:**
-Camille Marchet camille.marchet@univ-lille.fr
+Camille Marchet camille.marchet /AT/ univ-lille.fr
 
 **References:**
 
