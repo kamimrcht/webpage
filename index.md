@@ -11,11 +11,8 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 
 
 # News
-- April 2021: [BLight](https://academic.oup.com/bioinformatics/advance-article-abstract/doi/10.1093/bioinformatics/btab217/6209734) is published in Bioinformatics
-- Jan 2021: the [CONSENT](https://www.nature.com/articles/s41598-020-80757-5) corrector was published 
-- Jan 2021: [introduction](https://github.com/kamimrcht/webpage/raw/master/files/presentation_ens_marchet.pdf) to data-structures for _k_-mer sets indexing for ENS Rennes students.
-- Dec 2020: Our work [Data structures based on k-mers for querying large collections of sequencing datasets
-](https://www.biorxiv.org/content/10.1101/866756v1) has been published in Genome Research.
+- [Job offer (M2 internship)](job_offers.md)
+- [SPIRE and WCTA 2021](https://www.cristal.univ-lille.fr/spire2021/) take place (remotely) in Lille. Join us!
 
 # Blog posts / short articles
 
