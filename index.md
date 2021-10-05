@@ -96,26 +96,23 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 # Involvement in scientific events
 
 **Program committee and venue organization**
+- 2021 OC @SPIRE (virtual)
 - 2020 PC @SPIRE (virtual)
 - 2020 PC @RECOMB-Seq (virtual)
 - 2019 PC @SeqBIM (France)
 - 2018 Volunteer @RECOMB-seq and RECOMB, Paris
-- 2016 Organisation commitee for "Biological insights from raw high-throughput sequencing data" - Colib'read ANR workshop, Paris
+- 2016 OC "Biological insights from raw high-throughput sequencing data" - Colib'read ANR workshop, Paris
 
 **Tutoring for scientists**
+- October 16-17 Tutor at [Bilille training courses](https://wikis.univ-lille.fr/bilille/formation) (RNA-seq analysis), Lille.
 - January 2020, [Evomics, workshop on Genomics](http://evomics.org/2020-workshop-on-genomics-cesky-krumlov-czech-republic/), Cesky Krumlov, Czech Republic. Assembly course is [here](https://github.com/kamimrcht/webpage/blob/master/files/ASSEMBLY_evomics.pdf), practical session is [here](https://malfoy.github.io/)
 - June 13-14 2019: Tutor at Bilille training courses (RNA-seq analysis), Lille. The course I made with Pierre Pericard is [here](https://wikis.univ-lille.fr/bilille/_media/ngs2019-rna-seq.pdf) and the practical session is [here](https://github.com/kamimrcht/webpage/blob/master/files/FicheTP.pdf)
 - Mar. 24-27 2015: Tutor at CNRS course: "Bioinformatique pour les NGS", Montpellier
 - May 26 2014: Tutor at BGE & EMBnet tutorials: "RNA-seq analysis", Lyon
 - Feb. 11-13 2014 / Nov. 26th-28th 2014: Tutor at PRABI training courses, "Analyse de données RNA-seq sous l'environnement Galaxy", Lyon
 
-**Reviews for journals/conferences**
-- 2020: Gigascience, RECOMB-Seq, RECOMB, Bioinformatics, SPIRE
-- 2019: ISMB/ECCB, BMC Supplements, Bioinformatics, Nucleic Acids Research
-- 2018: GigaScience
-- 2017: BMC Bioinformatics
-
 # Supervision
+- 2021-.. Khodor Hannoush (PhD student), subject: Dynamic pangenome graphs
 - 2020 Agathénaïs Adiguna (L3 internship), subject: Data-structures for large scale RNA queries
 - 2018 Benjamin Churcheward (M2 internship), subject: Isoform prediction using long reads sequencing
 - 2017 Lolita Lecompte (M2 internship), subject: Conception and evaluation of a pipeline for de novo study of long reads in transcriptomics
