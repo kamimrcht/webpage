@@ -11,12 +11,13 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 
 
 # News
-- [Job offer (M2 internship)](job_offers.md)
+- [blog post](sketch.md): sketching for bioinformatics
 - [SPIRE and WCTA 2021](https://www.cristal.univ-lille.fr/spire2021/) take place (remotely) in Lille. Join us!
 
 # Blog posts / short articles
 
-* **New**: [Strobemers](strobemers.md), a new kind of spaced seeds from [K Sahlin's preprint](https://www.biorxiv.org/content/10.1101/2021.01.28.428549v1)
+* **NEW** [Sketching for bioinformatics](sketch.md): featuring Niqki (Clément Agret et al.'s [recent preprint](https://www.biorxiv.org/content/10.1101/2021.11.04.467355v1))
+* [Strobemers](strobemers.md), a new kind of spaced seeds from [K Sahlin's preprint](https://www.biorxiv.org/content/10.1101/2021.01.28.428549v1)
 * [Othello hashing in bioinformatics](othello.md)
 * [Sneak peek at the -tigs!](tigs.md) a (very) high-level presentation of the population of -tigs sequences we encounter lately in k-mers related-papers (unitigs, simplitigs, monotigs, omnitigs, macrotigs) but that also includes UST and super-k-mers
 * [A short popularization article about coronavirus assembly](https://www.lemonde.fr/blog/binaire/2020/05/06/sars-cov-2-et-covid-19-on-va-jouer-sur-les-mots/) with long reads (in French)
