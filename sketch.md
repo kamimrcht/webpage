@@ -9,13 +9,15 @@ Following Niqki's preprint I decided to write a small post to group a few concep
 
 ## MinHash principle
 
+MinHash is a type of local sensitive hashing technique: it means that similar input sets will be hashed similarly with high probability. Thus, similar sets of hashes can be used to retrieve similar sets with some confidence.
+
 Let’s assume we have a set of size n E={x1,x2...xn} (see figure below) and a set of hash functions H={h1,h2,… hs}. 
 For each function of H we compute:
 fi = min(hy(x1), hy(x2), ...hy(xn))
 for a given order relation O.
 We obtain a set F(H,E)={f0 .. fi ..fn} of size S=|H| containing minimal elements  for O of hashes of elements from E (that we will call **fingerprints**).
 
-When this procedure is used on two sets E and G, a **Jaccard index J(E,G)** can be approximated on the elements of F(H,E) and F(H,G). Work on MinHash[[1]](https://ieeexplore.ieee.org/abstract/document/666900) has shown that computing J(F(H,E), F(H,G)) is a **good proxy of J(E,G)**. In the figure below, hashes over E and G are represented using small colored crosses:
+When this procedure is used on two sets E and G, a **Jaccard index J(E,G)** can be approximated on the elements of F(H,E) and F(H,G). Work on MinHash[[1]](https://ieeexplore.ieee.org/abstract/document/666900) has shown that computing J(F(H,E), F(H,G)) is a **good proxy of J(E,G)**. In the figure below, minimal hashes over E and G are represented using small red crosses:
 
 <img src="files/jaccard.png" alt="drawing" width="600"/>
 
