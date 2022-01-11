@@ -11,8 +11,8 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 
 
 # News
+- MIAT Seminar [Structures de données pour les grands ensembles de k-mers](https://miat.inrae.fr/site/S%C3%A9minaires#28.2F01.2F2022.C2.A0:_Structures_de_donn.C3.A9es_pour_les_grands_ensembles_de_k-mers_Camille_Marchet_.28CNRS.2C_Universit.C3.A9_de_Lille.29_.5Bpr.C3.A9sentiel.5D) on 02/14/2022
 - [blog post](sketch.md): sketching for bioinformatics
-- [SPIRE and WCTA 2021](https://www.cristal.univ-lille.fr/spire2021/) take place (remotely) in Lille. Join us!
 
 # Blog posts / short articles
 
@@ -126,6 +126,9 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
     <th>Year</th><th>Level</th><th>Topic</th>
   </tr>
    <tr>
+    <td>2019/2020</td><td>M1 bioinformatique Université de Lille</td><td>UE structures de données</td>
+  </tr>
+   <tr>
     <td>2019/2020</td><td>L2 informatique Université de Lille</td><td>TP/TP Algorithmique et structures de données</td>
   </tr>
   <tr>
@@ -147,4 +150,9 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
     <td>2014/2015</td><td>L1 Université Lyon 1</td><td>TD Mathématiques pour les Sciences de la Vie</td>
   </tr>
 </table>
+
+# Press review
+
+- [Camille Marchet, bioinformaticienne des séquences
+](https://www.ins2i.cnrs.fr/fr/cnrsinfo/camille-marchet-bioinformaticienne-des-sequences)
 
