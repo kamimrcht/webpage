@@ -12,6 +12,8 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 
 # News
 - MIAT Seminar [Structures de données pour les grands ensembles de k-mers](https://miat.inrae.fr/site/S%C3%A9minaires#28.2F01.2F2022.C2.A0:_Structures_de_donn.C3.A9es_pour_les_grands_ensembles_de_k-mers_Camille_Marchet_.28CNRS.2C_Universit.C3.A9_de_Lille.29_.5Bpr.C3.A9sentiel.5D) on 02/14/2022
+- TBA Seminar _Data-structures for querying large k-mer (collections of) sets_
+ in Montpellier on Feb. 15th 2022
 - [blog post](sketch.md): sketching for bioinformatics
 
 # Blog posts / short articles
