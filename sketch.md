@@ -41,13 +41,13 @@ In the following, we will see on which aspects works focused to improve the perf
 Let's first recall the construction procedure and its complexity in the case of the**original MinHash** approach.
 Constructing a sketch means computing S hash functions (h0, ...hS) on n elements, thus will leads to a O(Sn) complexity. Several hash functions are shown in different colors (orange, black, blue). For each hash function, the minimal element is kept as a fingerprint (fi, same color as the hash function) for the final sketch (in grey).
 
-<img src="files/minhash_flavours0.png" alt="drawing" width="400"/>
+<img src="files/minhash_flavours0.png" alt="drawing" width="200"/>
 
 First alignment free comparison tools used k-mer sets without subsampling (such as COMMET or Simka for instance).  **Mash**[[2]](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-0997-x) overtook the field when it was published, because of its uncomparable performances. MASH used a variant of Minhash sometimes called **Bottom Minhash**[[8]](https://link.springer.com/chapter/10.1007/3-540-45726-7_1). This second approach uses a single hash function (h) and keeps the S minimal values (in color) as fingerprints among hashes of elements of E. This leads to computing only n hashes which be sorted in order to keep the S (with S<n) smallest, thus a O(n log(S)) construction complexity.
 
 <img src="files/minhash_flavours00.png" alt="drawing" width="400"/>
 
-**Sourmash**[4](https://f1000research.com/articles/8-1006/v1) proposed Scaled Minhash as a simple and effective way to adapt the sketch size to the sets. They propose to keep any fingerprints values in the sketch when they are lower than a fixed threshold. Scaled Minhash is recently described in two preprints[here](https://www.biorxiv.org/content/10.1101/2022.01.11.475838v2.full) and [here](https://www.biorxiv.org/content/10.1101/2022.01.11.475870v2) and switched names for **FracMinHash**. Quoting [the first preprint](https://www.biorxiv.org/content/10.1101/2022.01.11.475838v2.full) illustrates brilliant sides of Twitter's scientific discussions:
+**Sourmash**[[4]](https://f1000research.com/articles/8-1006/v1) proposed Scaled Minhash as a simple and effective way to adapt the sketch size to the sets. They propose to keep any fingerprints values in the sketch when they are lower than a fixed threshold. Scaled Minhash is recently described in two preprints[here](https://www.biorxiv.org/content/10.1101/2022.01.11.475838v2.full) and [here](https://www.biorxiv.org/content/10.1101/2022.01.11.475870v2) and switched names for **FracMinHash**. Quoting [the first preprint](https://www.biorxiv.org/content/10.1101/2022.01.11.475838v2.full) illustrates brilliant sides of Twitter's scientific discussions:
 
 > We note that the FracMinHash technique has been used under a number of different names, including Scaled MinHash, [universe minimizers](https://www.sciencedirect.com/science/article/pii/S240547122100332X), [Shasta markers](https://www.nature.com/articles/s41587-020-0503-6), and [mincode syncmers](https://peerj.com/articles/10805/). The name FracMinHash was coined by Kristoffer Sahlin in an online discussion on Twitter and chosen by discussants as the least ambiguous option. We use it here accordingly.
 
@@ -56,7 +56,7 @@ First alignment free comparison tools used k-mer sets without subsampling (such 
 
 Another approach, **S partition MinHash**[[9]](http://proceedings.mlr.press/v70/shrivastava17a.html), still works with a single hash function (h), partitions the hashes in S buckets (each represented by a color: orange, black, blue in the figure below) and keeps the minimum element of each partition (also colored in the figure). As the partitioning can be done in constant time, the construction is in O(n). Due to non optimal randow allocation of hashes to buckets, this type of approach requires additional procedures of densification, which deterministically complete empty buckets to reduce collisions. This procedure was implemented in **Bindash**[[10]](https://academic.oup.com/bioinformatics/article/35/4/671/5058094?login=true). Bindash also implemented compression of the fingerprints, which is covered in the next paragraph.
 
-<img src="files/minhash_flavours.png" alt="drawing" width="400"/>
+<img src="files/minhash_flavours.png" alt="drawing" width="500"/>
 
 
 # Reduce the memory footprint of hashes
