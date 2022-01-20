@@ -3,7 +3,7 @@ layout: blog
 ---
 
 # Sketching for set comparison in bioinformatics
-November, 18th 2021
+January 21, 2022
 
 Following the release of several recent preprints, I decided to write a post to group a few concepts about sketching. It is meant to serve as a reminder of the main approaches, for myself as well, as I easily get lost about who's who between bindash/dashing/mash and so on. If you're already familiar with MinHash, skip directly to the [next section](#reduce-the-memory-footprint-of-hashes).
 
