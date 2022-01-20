@@ -112,7 +112,7 @@ Hashing/set theory:
 - [[7] **Hyperminhash**](https://arxiv.org/abs/1710.08436)
 - [[8] **S-minimal values MinHash**](https://link.springer.com/chapter/10.1007/3-540-45726-7_1)
 - [[9] **S-partition MinHash + densification**](http://proceedings.mlr.press/v70/shrivastava17a.html)
-
+- [[10] **FracMinHash**](https://www.biorxiv.org/content/10.1101/2022.01.11.475870v2)(Scaled MinHash)
 
 Bioinformatics:
 - [[2] **Mash**](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-0997-x)
