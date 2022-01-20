@@ -51,12 +51,12 @@ First alignment free comparison tools used k-mer sets without subsampling (such 
 
 > We note that the FracMinHash technique has been used under a number of different names, including Scaled MinHash, [universe minimizers](https://www.sciencedirect.com/science/article/pii/S240547122100332X), [Shasta markers](https://www.nature.com/articles/s41587-020-0503-6), and [mincode syncmers](https://peerj.com/articles/10805/). The name FracMinHash was coined by Kristoffer Sahlin in an online discussion on Twitter and chosen by discussants as the least ambiguous option. We use it here accordingly.
 
-<img src="files/minhash_flavours3.png" alt="drawing" width="500"/>
+<img src="files/minhash_flavours3.png" alt="drawing" width="580"/>
 
 
 Another approach, **S partition MinHash**[[9]](http://proceedings.mlr.press/v70/shrivastava17a.html), still works with a single hash function (h), partitions the hashes in S buckets (each represented by a color: orange, black, blue in the figure below) and keeps the minimum element of each partition (also colored in the figure). As the partitioning can be done in constant time, the construction is in O(n). Due to non optimal randow allocation of hashes to buckets, this type of approach requires additional procedures of densification, which deterministically complete empty buckets to reduce collisions. This procedure was implemented in **Bindash**[[10]](https://academic.oup.com/bioinformatics/article/35/4/671/5058094?login=true). Bindash also implemented compression of the fingerprints, which is covered in the next paragraph.
 
-<img src="files/minhash_flavours.png" alt="drawing" width="600"/>
+<img src="files/minhash_flavours.png" alt="drawing" width="670"/>
 
 
 # Reduce the memory footprint of hashes
