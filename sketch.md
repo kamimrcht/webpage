@@ -75,7 +75,7 @@ The lossy aspect leads to more fingerprint collision, however, it can be mitigat
 
 Bindash and then **Dashing**[[11]](https://link.springer.com/article/10.1186/s13059-019-1875-0) implemented these compressions. Bindash integrated b-bits compressed sketches while Dashing opted for hyperloglog-inspired fingerprints (i.e they store logs of the value). These methods mitigate the error due to the loss in compression by storing more fingerprints.
 
-<img src="files/minhash_flavours2.png" alt="drawing" width="400"/>
+<img src="files/minhash_flavours2.png" alt="drawing" width="600"/>
 
 
 
