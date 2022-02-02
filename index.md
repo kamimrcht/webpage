@@ -115,11 +115,13 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 - Feb. 11-13 2014 / Nov. 26th-28th 2014: Tutor at PRABI training courses, "Analyse de données RNA-seq sous l'environnement Galaxy", Lyon
 
 # Supervision
-- 2021-.. Khodor Hannoush (PhD student), subject: Dynamic pangenome graphs
-- 2020 Agathénaïs Adiguna (L3 internship), subject: Data-structures for large scale RNA queries
-- 2018 Benjamin Churcheward (M2 internship), subject: Isoform prediction using long reads sequencing
-- 2017 Lolita Lecompte (M2 internship), subject: Conception and evaluation of a pipeline for de novo study of long reads in transcriptomics
-- 2014 Camille Sessegolo (L3 internship), subject: Improvements in the kissplice2refgenome software
+- 2022 Louis-Maël Gueguen (M2 internship, with Laurent Jacob), subject: GWAS for metagenomics
+- 2022 Thomas Baudeau (M2 internship), subject: Mapping of structural long reads
+- 2021-.. Khodor Hannoush (PhD student, with Pierre Peterlongo), subject: Dynamic pangenome graphs
+- 2020 Agathénaïs Adiguna (L3 internship, with Rayan Chikhi), subject: Data-structures for large scale RNA queries
+- 2018 Benjamin Churcheward (M2 internship, with Pierre Peterlongo), subject: Isoform prediction using long reads sequencing
+- 2017 Lolita Lecompte (M2 internship, with Pierre Peterlongo), subject: Conception and evaluation of a pipeline for de novo study of long reads in transcriptomics
+- 2014 Camille Sessegolo (L3 internship, with Vincent Lacroix), subject: Improvements in the kissplice2refgenome software
 
 # Teaching
 
