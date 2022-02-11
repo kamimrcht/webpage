@@ -57,7 +57,8 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 # Communications
 
 ## Invited talks
-
+- 2022 [Data-structures for querying large _k_-mer (collections of) sets](https://muse.edu.umontpellier.fr/2022/02/08/online-seminar-data-structures-for-querying-large-k-mer-collections-of-sets/), KIM Data and Life Sciences seminars, Montpellier (France, online)
+- 2022 [Data structures for large _k_-mer sets](https://miat.inrae.fr/site/S%C3%A9minaires#28.2F01.2F2022.C2.A0:_Structures_de_donn.C3.A9es_pour_les_grands_ensembles_de_k-mers_Camille_Marchet_.28CNRS.2C_Universit.C3.A9_de_Lille.29_.5Bdistanciel.5D), MIAT seminars, Toulouse (France, online)
 - 2020 [From reads to transcripts: de novo methods for the analysis of transcriptome second and third generation sequencing](https://congres.societe-informatique-de-france.fr/programme/), SIF congress, INSA de Lyon (France)
 - 2020 Scalable data structures for sequencing data, Symposium GDR Madics, Lyon (France) (covid-19 : canceled)
 - 2019 New methodologies for the analysis of transcriptome sequences, MAB team seminar, LIRMM Montpellier (France)
