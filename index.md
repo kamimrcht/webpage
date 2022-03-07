@@ -129,7 +129,7 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
     <th>Year</th><th>Level</th><th>Topic</th>
   </tr>
    <tr>
-    <td>2021/2022</td><td>M1 bioinformatique Université de Lille</td><td>UE structures de données</td>
+    <td>2021/2022</td><td>M1 bioinformatique Université de Lille</td><td> responsable de l'UE structures de données</td>
   </tr>
    <tr>
     <td>2019/2020</td><td>L2 informatique Université de Lille</td><td>TP/TP Algorithmique et structures de données</td>
