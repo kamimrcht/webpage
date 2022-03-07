@@ -11,8 +11,7 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 
 
 # News
-- KIM Data and Life Sciences online seminar: [Data-structures for querying large _k_-mer (collections of) sets](https://muse.edu.umontpellier.fr/2022/02/08/online-seminar-data-structures-for-querying-large-k-mer-collections-of-sets/) on 02/14/2022
-- [blog post](sketch.md): sketching for bioinformatics
+- New preprint : [PAC](https://www.biorxiv.org/content/10.1101/2022.02.11.480089v2.abstract), a datastructure to index and query >10,000 RNA-seq datasets
 
 # Blog posts / short articles
 
@@ -25,6 +24,7 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 
 
 # Ongoing work
+- [Scalable sequence database search using Partitioned Aggregated Bloom Comb-Trees](https://www.biorxiv.org/content/10.1101/2022.02.11.480089v2.abstract), C Marchet & A Limasset
 - [Read correction for non-uniform coverages](https://www.biorxiv.org/content/10.1101/673624v1.abstract?%3Fcollection=), C Marchet, Y Dufresne, A Limasset 
 
 # Journal Publications
