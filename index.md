@@ -11,7 +11,7 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 
 
 # News
-- New preprint : [PAC](https://www.biorxiv.org/content/10.1101/2022.02.11.480089v2.abstract), a datastructure to index and query >10,000 RNA-seq datasets
+- Paper accepted @ RECOMB-SEQ 2022 : [PAC](https://www.biorxiv.org/content/10.1101/2022.02.11.480089v2.abstract), a datastructure to index and query >10,000 RNA-seq datasets
 
 # Blog posts / short articles
 
@@ -42,10 +42,11 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 - [Colibread on galaxy: a tools suite dedicated to biological information extraction from raw NGS reads](https://gigascience.biomedcentral.com/articles/10.1186/s13742-015-0105-2) E Rivals, A Andrieux, A Z El Aabidine, B Cazaux, C Marchet, C Lemaitre, C Monjeaud, G Sacomoto, L Salmela, O Collin, P Peterlongo, R Uricaru, S Alves-Carvalho, V Lacroix, V Miele, Y LeBras; _GigaScience_, 2016
 
 # Research papers accepted to conferences
+- [Scalable sequence database search using Partitioned Aggregated Bloom Comb-Trees](https://www.biorxiv.org/content/10.1101/2022.02.11.480089v2), C Marchet & A Limasset; RECOMB-SEQ 2022.
 - [REINDEER: efficient indexing of k-mer presence and abundance in sequencing datasets](https://www.biorxiv.org/content/10.1101/2020.03.29.014159v1), C Marchet, Z Iqbal, D Gautheret, M Salson, R Chikhi; _ISMB_ 2020
 - [Indexing De Bruijn graphs with minimizers](https://www.biorxiv.org/content/10.1101/546309v2), C Marchet, A Kerbiriou, A Limasset; _RECOMB-Seq_ 2019
 - [CONSENT: Scalable self-correction of long reads with multiple sequence alignment
-](https://www.biorxiv.org/content/10.1101/546630v3), P Morisse, C Marchet, A Limasset, A Lefebvre, T Lecroq; RECOMB-Seq 2019
+](https://www.biorxiv.org/content/10.1101/546630v3), P Morisse, C Marchet, A Limasset, A Lefebvre, T Lecroq; RECOMB-SEQ 2019
 - [A resource-frugal probabilistic dictionary and applications in (meta)genomics](https://hal.inria.fr/hal-01386744/document), C Marchet, A Limasset, L Bittner, P Peterlongo; _PSC_ 2016
 - [Navigating in a Sea of Repeats in RNA-seq without Drowning](https://link.springer.com/chapter/10.1007/978-3-662-44753-6_7), G Sacomoto, B Sinaimeri, C Marchet, V Miele, MF Sagot, V Lacroix; _WABI_ 2014
 
