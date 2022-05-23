@@ -11,11 +11,12 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 
 
 # News
-- Paper accepted @ RECOMB-SEQ 2022 : [PAC](https://www.biorxiv.org/content/10.1101/2022.02.11.480089v2.abstract), a datastructure to index and query >10,000 RNA-seq datasets
+- New preprint [A survey of mapping algorithms in the long-reads era](https://biorxiv.org/cgi/content/short/2022.05.21.492932v1)
+- Presented @RECOMB-SEQ 2022 : [PAC](https://www.biorxiv.org/content/10.1101/2022.02.11.480089v2.abstract), a datastructure to index and query >10,000 RNA-seq datasets
 
 # Blog posts / short articles
 
-* **NEW** [Sketching for bioinformatics](sketch.md): featuring Niqki (Clément Agret et al.'s [recent preprint](https://www.biorxiv.org/content/10.1101/2021.11.04.467355v1))
+* [Sketching for bioinformatics](sketch.md): featuring Niqki (Clément Agret et al.'s [recent preprint](https://www.biorxiv.org/content/10.1101/2021.11.04.467355v1))
 * [Strobemers](strobemers.md), a new kind of spaced seeds from [K Sahlin's preprint](https://www.biorxiv.org/content/10.1101/2021.01.28.428549v1)
 * [Othello hashing in bioinformatics](othello.md)
 * [Sneak peek at the -tigs!](tigs.md) a (very) high-level presentation of the population of -tigs sequences we encounter lately in k-mers related-papers (unitigs, simplitigs, monotigs, omnitigs, macrotigs) but that also includes UST and super-k-mers
