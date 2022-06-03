@@ -15,15 +15,13 @@ Education
 :	Eric Coissac (MCF, LECA) - Rapporteur
 :	Hélène Touzet (DR, CRISTAL) - Rapportrice
 :	Thomas Derrien (CR, IGDR) - Rapporteur
-:	Dominique Lavenier (DR, IRISA) - Examinateur
-:	Thierry Lecroq, (PR, LITIS) - Examinateur
+:	Examinateurs, examinatrices: Dominique Lavenier (DR, IRISA),	Thierry Lecroq (PR, LITIS), Anne Siegel (DR, IRISA), Hagen Tilgner (Lecturer, Weil Cornell NY)
 :	Pierre Peterlongo, (CR, IRISA) - Directeur
-:	Anne Siegel, (DR, IRISA) - Examinatrice
-:	Hagen Tilgner, (Lecturer, Weil Cornell NY) - Examinateur
+
 
 2013
-: **MS in Ecology Evolution Biometry**, Claude Bernad University of Lyon (France)
 : **Engineer degree in Bioinformatics and modeling**, INSA Lyon (France)
+: **MS in Ecology Evolution Biometry**, Claude Bernad University of Lyon (France)
 
 2007
 : **Baccalauréat**, Lycée Romain Rolland (Clamecy, France)
@@ -78,6 +76,7 @@ P Morisse, **C Marchet**, A Limasset, T Lecroq, A Lefebvre; _Scientific reports 
 
 **Papers accepted to conferences with proceedings**
 
+* [Scalable sequence database search using Partitioned Aggregated Bloom Comb-Trees](https://www.biorxiv.org/content/10.1101/2022.02.11.480089v2), C Marchet & A Limasset; _RECOMB-SEQ_, **2022**
 * [REINDEER: efficient indexing of k-mer presence and abundance in sequencing datasets](https://academic.oup.com/bioinformatics/article/36/Supplement_1/i177/5870500?login=true), C Marchet, Z Iqbal, D Gautheret, M Salson, R Chikhi; _ISMB_, **2020**
 * [Indexing De Bruijn graphs with minimizers](https://www.biorxiv.org/content/10.1101/546309v2), **C Marchet**, A Kerbiriou, A Limasset, _RECOMB-seq_, **2019**
 * [CONSENT: Scalable self-correction of long reads with multiple sequence alignment
@@ -98,6 +97,7 @@ Communications
 
 **Invited talks to international workshops/conferences**
 
+- 2022 TBA Genome Informatics
 - 2018 A _de novo_ approach to disentangle partner identity and function in holobiont systems, Advances techniques to study and exploit the sponge and coral microbiomes Workshop, ULB Brussels (Belgium)
 
 **Invited talks to national workshops/conferences**
@@ -108,7 +108,8 @@ Communications
 - 2017 _De novo_ Clustering of Gene Expressed Variants in Transcriptomic Long Reads Data Sets at workshop RNA-Seq and Nanopore sequencing, Genoscope Evry (France)
 
 **Invited talks to lab seminars**
-
+- 2022 Data-structures for querying large _k_-mer (collections of) sets, KIM Data and Life Sciences seminars, Montpellier (France, online)
+- 2022 Eata structures for large _k_-mer sets, MIAT seminar, INRAE Toulouse (France, online)
 - 2019 New methodologies for the analysis of transcriptome sequences, MAB team seminar, LIRMM Montpellier (France)
 - 2018 From reads to transcripts: _de novo_ methods to analyze transcriptome 2d and 3d generations sequencing data, Roscoff Biological Station seminar (France)
 - 2018 A highly scalable data structure for read similarity computation and its application to marine holobionts, EEB group meeting, ULB Brussels (Belgium)
@@ -147,14 +148,16 @@ Scientific life
 
 **Involvement in scientific events**
 
-- 2020 PC, SPIRE
-- 2020 PC, RECOMB-seq (Italy)
-- 2020 PC, seqBIM (France)
+- 2022 coordinator, TUDASTIC (DAta Structures for Text Indexation and Compression) (France)
+- 2022 organiser, Transipedia ANR K-mer days seminar (France)
+- 2022 organiser, GDR IM days (France)
+- 2021 organiser, SPIRE (France)
 - 2018 Volunteer at RECOMB-seq and RECOMB (France)
 - 2016 Organisation commitee for “Biological insights from raw high-throughput sequencing data” - Colib’read ANR workshop (France)
 
 **Participation in research projects**
 
+- 2022-.. INSSANE ANR project (structural modelling of RNA using sequencing data)
 - 2020 Seqdigger ANR project (large scale indexation of sets of datasets)
 - 2018-20 Transipédia ANR project (index data structures for collections of RNA-seq data)
 - 2018-20 ASTER ANR project (algorithms for RNA Nanopore reads)
@@ -164,13 +167,15 @@ Scientific life
 
 **Training for scientists/staff**
 
-- 2020 Teacher at Evomics Workshop on Genomics (Czech Republic)
-- 2019, 2021 Teacher at Bilille training courses on RNA-seq analysis. The course I made with Pierre Pericard is [here](https://wikis.univ-lille.fr/bilille/_media/ngs2019-rna-seq.pdf) (France)
+- 2021 Teacher at (JC)2BIM, GDR BIM's school on algorithmics and statistics for bioinformatics (France)
+- 2020, 2022 Teacher at Evomics Workshop on Genomics (Czech Republic)
+- 2019, 2021, 2022 Teacher at Bilille training courses on RNA-seq analysis. The course I made with Pierre Pericard is [here](https://wikis.univ-lille.fr/bilille/_media/ngs2019-rna-seq.pdf) (France)
 - 2015 Tutor at CNRS course: “Bioinformatique pour les NGS” (France)
 - 2014 Tutor at BGE & EMBnet tutorials: “RNA-seq analysis” (France)
 - 2014 Tutor at PRABI training courses, “Analyse de données RNA-seq sous l’environnement Galaxy” (France)
 
-**Vulgarization**
+**Popularization of science**
+
 - 2021 [Press article](https://www.lemonde.fr/blog/binaire/2020/05/06/sars-cov-2-et-covid-19-on-va-jouer-sur-les-mots/) ,a short popularization article about coronavirus assembly with long reads (in French)
 - 2020 [Press article](https://www.lemonde.fr/blog/binaire/2020/02/07/rencontre-a-la-frontiere-entre-linformatique-et-la-biologie/) about my PhD thesis (in French)
 - 2015 Genome Assembly workshop, IRISA Lab open day (France)
@@ -184,10 +189,18 @@ Scientific life
 - 2017 GenScale team's retreat organization (Rennes, France)
 - 2017 Animation of a working group on long read correction (Rennes, France)
 
+**PhD juries, PhD committees**
+- 2021 examiner, Claudio Lorenzi, _Design and implementation of bioinformatic tools
+for RNA sequencing data analysis_ (directed by William RITCHIE & Alban MANCHERON), IGH Montpellier (France)
+
+- 2022-2025 advisory committee, Sandra Romain, _Représentation, détection et quantification de variants de structure dans les pan-génomes_ (directed by Claire Lemaitre), IRISA Rennes (France)
 
 
 Teaching
 --------
+2021/2022
+: Lille University, bioinformatics (master 1): data structures
+
 2019/2020
 : Lille University, informatics (license 2): algorithmics and data structures
 2018/2019
@@ -206,6 +219,8 @@ Teaching
 
 Supervision
 -------------
+* 2022 Thomas Baudeau (Master 2 internship), subject: Long read mapping of viral sequences
+* 2022 Louis-Maël Gueguen (Master 2 internship) subject: GWAS for metagenomic data. Co-supervised with Laurent Jacob (LBBE Lyon)
 * 2021-.. Khodor Hannoush (PhD student), subject: Dynamic pangenome graphs. Co-supervised with Pierre Peterlongo (Inria Rennes)
 * 2020 Agathénaïs Adiguna (L3 internship), subject: Data-structures for large scale RNA queries. Co-supervised with Rayan Chikhi (Institut Pasteur)
 * 2018 Benjamin Churcheward (Master 2 internship), subject: Isoform prediction using long reads sequencing. Co-supervised with Pierre Peterlongo (Inria Rennes)
@@ -217,6 +232,29 @@ Supervision
 
 Reviews for journals/conferences
 --------------------------------
+
+**Reviewing for journals**
+
+* 2022 Bioinformatics, BMC Bioinformatics
+* 2021 BMC Bioinformatics, Natural Computing
+* 2020 BMC Supplements, Bioinformatics, Nucleic Acids Research, Gigascience, Bioinformatics, Natural Computing (NACO)
+* 2019 BMC Supplements, Bioinformatics, Nucleic Acid Research
+* 2018 GigaScience
+* 2017 BMC Bioinformatics
+
+**Program committee for conferences/workshops**
+
+* 2022 ISMB (USA), JOBIM (France), WABI (Germany), ECCB (Spain)
+* 2021 SeqBIM (France)
+* 2020 SPIRE (Online), RECOMB-seq (Italy/Online), SeqBIM (France)
+
+### External reviewer for conferences
+
+* 2022 RECOMB
+* 2020 ISMB/ECCB,RECOMB-Seq, RECOMB, SPIRE
+* 2019 RECOMB
+* 2022 Bioinformatics, BMC Bioinformatics
+* 2021 BMC Bioinformatics, Natural Computing
 * 2020 ISMB/ECCB, BMC Supplements, Bioinformatics, Nucleic Acids Research, Gigascience, RECOMB-Seq, RECOMB, Bioinformatics, SPIRE
 * 2019 BMC Supplements, Bioinformatics, RECOMB, Nucleic Acid Research
 * 2018 GigaScience
