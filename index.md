@@ -11,6 +11,7 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 
 
 # News
+- I'll give an introduction on July 7 at JOBIM's [mini symposium on indexing sequencing data](https://jobim2022.sciencesconf.org/resource/page/id/7)
 - New preprint [A survey of mapping algorithms in the long-reads era](https://biorxiv.org/cgi/content/short/2022.05.21.492932v1)
 - Presented @RECOMB-SEQ 2022 : [PAC](https://www.biorxiv.org/content/10.1101/2022.02.11.480089v2.abstract), a datastructure to index and query >10,000 RNA-seq datasets
 
