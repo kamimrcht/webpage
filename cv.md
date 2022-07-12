@@ -229,10 +229,10 @@ P Morisse, **C Marchet**, A Limasset, T Lecroq, A Lefebvre; _Scientific reports 
 * 2022-.. INSSANE ANR, _Novel methods for studying RNA structures_
 * 2021-.. ALPACA ITN, _Methods for pangenomics_
 * 2019-.. Seqdigger ANR, _Indexing large scale genomic samples"_
-* 2018-2022 Transipédia ANR, _Indexing large scale RNA-seq datasets__
+* 2018-2022 Transipédia ANR, _Indexing large scale RNA-seq datasets_
 * 2018-.. ASTER ANR, _Algorithms for 3rd generation RNA sequencing"_
 * 2017 CNRS MASTODONS project, _Correction of 3rd generation sequencing data_
-* 2015-18 Hydrogen ANR_, _Indexing datasets for environmental genomics_
+* 2015-18 Hydrogen ANR, _Indexing datasets for environmental genomics_
 * 2013-16 Colib’read ANR, _De novo_ methods for the variant calling in short read sequencing
 
 ### Communication
