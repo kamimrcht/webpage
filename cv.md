@@ -7,7 +7,7 @@ I am a CNRS researcher in sequence bioinformatics. My topics are data structures
 
 ----
 
-1. Education
+**1. Education**
 ---------
 
 2015-2018
