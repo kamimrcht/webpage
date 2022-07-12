@@ -26,7 +26,7 @@ I am a CNRS researcher in sequence bioinformatics. My topics are data structures
 : **Baccalauréat**, Lycée Romain Rolland (Clamecy, France)
 
 
-2. Professional career
+**2. Professional career**
 ----------
 2021-..
 : **Chargée de recherche CNRS in BONSAI team, CRIStAL lab, Lille, France**
@@ -43,14 +43,14 @@ I am a CNRS researcher in sequence bioinformatics. My topics are data structures
 2013-2015
 : Research engineer in ERABLE team, LBBE lab, Lyon, France (supervisor: Vincent Lacroix)
 
-3. Prizes, awards, fellowships
+**3. Prizes, awards, fellowships**
 ---------------------------
 
 * 2019: Honorable mention for the Gilles Kahn prize of the Société Informatique de France for PhDs in Computer Science
 * 2020: SFBI travel grant
 * 2015: MESR PhD funding
 
-4. Teaching, training and dissemination of science
+**4. Teaching, training and dissemination of science**
 -----------------------------------------------
 
 ### Supervision
@@ -124,7 +124,7 @@ National workshop, Lille University participation: ~600 euros, GDR IM: ~800 euro
 * 2018: Volunteer at RECOMB (France)
 * 2016: Colib’read ANR workshop “Biological insights from raw high-throughput sequencing data” (France)
 
-5. Research administration and management
+**5. Research administration and management**
 ---------------------------------------
 
 ### PhD defense jurys
@@ -139,7 +139,7 @@ for RNA sequencing data analysis_ (directed by William RITCHIE & Alban MANCHERON
 * 2021-..: Sandra Romain, _Représentation, détection et quantification de variants de structure dans les pan-génomes_ (directed by Claire Lemaitre), IRISA Rennes (France)
 
 
-6. Editorial/program committees
+**6. Editorial/program committees**
 ---------------------------
 
 ### Reviewing for journals
@@ -166,7 +166,7 @@ for RNA sequencing data analysis_ (directed by William RITCHIE & Alban MANCHERON
 
 
 
-7. Research
+**7. Research**
 ---------
 
 ### Themes
@@ -290,7 +290,7 @@ P Morisse, **C Marchet**, A Limasset, T Lecroq, A Lefebvre; _Scientific reports 
 - 2015: kissDE : a replicate-wise and annotation-free R package for testing the association between differential variants and experimental conditions in high throughput sequencing data, SeqBio 2015, Orsay (France)
 - 2015: kissDE : a package to test for differences in reads counts derived from variants in RNA sequencing data, Quatriemes rencontres R 2015, Lyon (France)
 
-8. Research contracts
+**8. Research contracts**
 -----------------
 
 **As a partner**
