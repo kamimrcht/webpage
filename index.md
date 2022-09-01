@@ -4,7 +4,7 @@ I am a **research associate in [BONSAI](https://www.cristal.univ-lille.fr/bonsai
 
 _Je suis chargée de recherche au CNRS dans l'équipe [BONSAI](https://www.cristal.univ-lille.fr/bonsai/) (Lille, France). Je travaille sur des méthodes et structures de données dédiées à la bioinformatique des séquences, avec souvent des applications à l'ARN._
 
-_Intéressé.e par une formation à la bioinformatique pour les données de séquençage ? Le CNRS propose une formation à Lille (labos/entreprises) : [lien](https://cnrsformation.cnrs.fr/index.php?c=stage&stage=23283_).
+_Intéressé.e par une formation à la bioinformatique pour les données de séquençage ? Le CNRS propose une formation à Lille (labos/entreprises) : [lien](https://cnrsformation.cnrs.fr/index.php?c=stage&stage=23283_)._
 
 After an engineer degree in Bioinformatics from INSA de Lyon and a MsC in Ecology and Evolution from Université Claude Bernard Lyon 1, I worked for two years as an engineer in [ERABLE](https://team.inria.fr/erable/en/) team (LBBE, Lyon) with [Vincent Lacroix](https://lbbe.univ-lyon1.fr/-Lacroix-Vincent-.html?lang=fr). I obtained a PhD funding in [GenScale](https://team.inria.fr/genscale/) team (Rennes, France), where I was supervised by [Pierre Peterlongo](http://people.rennes.inria.fr/Pierre.Peterlongo/). I defended my PhD in 2018 and joined [BONSAI](http://www.lifl.fr/bonsai/) in the CRIStAL lab  afterwards as a postdoc. Lately I was recruited by the CNRS to work as a researcher in the same lab ([detailed cv](cv.md)).
 
