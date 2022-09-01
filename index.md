@@ -4,6 +4,8 @@ I am a **research associate in [BONSAI](https://www.cristal.univ-lille.fr/bonsai
 
 _Je suis chargée de recherche au CNRS dans l'équipe [BONSAI](https://www.cristal.univ-lille.fr/bonsai/) (Lille, France). Je travaille sur des méthodes et structures de données dédiées à la bioinformatique des séquences, avec souvent des applications à l'ARN._
 
+_Intéressé.e par une formation à la bioinformatique pour les données de séquençage ? Le CNRS propose une formation à Lille (labos/entreprises) : [lien](https://cnrsformation.cnrs.fr/index.php?c=stage&stage=23283_).
+
 After an engineer degree in Bioinformatics from INSA de Lyon and a MsC in Ecology and Evolution from Université Claude Bernard Lyon 1, I worked for two years as an engineer in [ERABLE](https://team.inria.fr/erable/en/) team (LBBE, Lyon) with [Vincent Lacroix](https://lbbe.univ-lyon1.fr/-Lacroix-Vincent-.html?lang=fr). I obtained a PhD funding in [GenScale](https://team.inria.fr/genscale/) team (Rennes, France), where I was supervised by [Pierre Peterlongo](http://people.rennes.inria.fr/Pierre.Peterlongo/). I defended my PhD in 2018 and joined [BONSAI](http://www.lifl.fr/bonsai/) in the CRIStAL lab  afterwards as a postdoc. Lately I was recruited by the CNRS to work as a researcher in the same lab ([detailed cv](cv.md)).
 
 My postdoc took part in [Transipedia ANR](https://anr.fr/Project-ANR-18-CE45-0020), with [Rayan Chikhi](http://rayan.chikhi.name/) and [Mikaël Salson](https://mikael-salson.univ-lille.fr/). Transipedia aims at being a transcriptome-encyclopedia, e.g., facilitating indexing, query and exploitation of the numerous publicly available RNA-seq data. I am mostly working on new data structures to index large collections of NGS datasets. 
@@ -11,9 +13,9 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 
 
 # News
-- I'll give an introduction talk on July 7 at JOBIM's [mini symposium on indexing sequencing data](https://jobim2022.sciencesconf.org/resource/page/id/7)
+- Meet me at the [WABI pangenomic workshop](https://algo2022.eu/wabi/)
+- I'll chair the Genome assembly & Sequence algorithms tracks with Chirag Jain in Genome Informatics 22, and present _Scalable sequence database search using Partitioned Aggregated Bloom Comb-Trees_ ([program](https://coursesandconferences.wellcomeconnectingscience.org/wp-content/uploads/2021/11/Genome-Informatics-programme-5-Aug-22.pdf))
 - New preprint [A survey of mapping algorithms in the long-reads era](https://biorxiv.org/cgi/content/short/2022.05.21.492932v1)
-- Presented @RECOMB-SEQ 2022 : [PAC](https://www.biorxiv.org/content/10.1101/2022.02.11.480089v2.abstract), a datastructure to index and query >10,000 RNA-seq datasets
 
 # Blog posts / short articles
 
@@ -26,7 +28,7 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 
 
 # Ongoing work
-- [Scalable sequence database search using Partitioned Aggregated Bloom Comb-Trees](https://www.biorxiv.org/content/10.1101/2022.02.11.480089v2.abstract), C Marchet & A Limasset
+- [A survey of mapping algorithms in the long-reads era](https://biorxiv.org/cgi/content/short/2022.05.21.492932v1)
 - [Read correction for non-uniform coverages](https://www.biorxiv.org/content/10.1101/673624v1.abstract?%3Fcollection=), C Marchet, Y Dufresne, A Limasset 
 
 # Journal Publications
