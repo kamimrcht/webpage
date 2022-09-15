@@ -13,6 +13,7 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 
 
 # News
+- The blog post now has an article follow-up, with novelties including Eulertigs: [Sneak peek at the tig sequences: useful sequences built from nucleic acid data](https://arxiv.org/abs/2209.06318)
 - Meet me at the [WABI pangenomic workshop](https://algo2022.eu/wabi/)
 - I'll chair the Genome assembly & Sequence algorithms tracks with Chirag Jain in Genome Informatics 22, and present _Scalable sequence database search using Partitioned Aggregated Bloom Comb-Trees_ ([program](https://coursesandconferences.wellcomeconnectingscience.org/wp-content/uploads/2021/11/Genome-Informatics-programme-5-Aug-22.pdf))
 - New preprint [A survey of mapping algorithms in the long-reads era](https://biorxiv.org/cgi/content/short/2022.05.21.492932v1)
