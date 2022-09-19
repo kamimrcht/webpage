@@ -97,6 +97,7 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 - 2015 kissDE : a package to test for differences in reads counts derived from variants in RNA sequencing data, Quatriemes rencontres R 2015, Lyon (France)
 
 ## Other talks
+- 2022 [A little tour of assembly methods](https://github.com/kamimrcht/webpage/blob/master/files/Cesky_Assembly_Course_2022-1.pdf) with Antoine Limasset, for Evomics school on genomics in Cesky Krumlov
 - 2021 [An introduction to data-structures for _k_-mer sets indexing](https://github.com/kamimrcht/webpage/raw/master/files/presentation_ens_marchet.pdf) for ENS Rennes students
 
 # Awards
