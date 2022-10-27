@@ -107,8 +107,7 @@ Here we will show a single scenario out of the four described in the paper. The 
 
 <img src="files/spkm_id.png" alt="drawing" width="600"/>
 
-
-The first super-_k_-mer is called “maximal”: the minimizer is exactly in the middle, leading to xxxx _k_-mers covering it. In that case, recording the position of the minimizer in each _k_-mer of the super-_k_-mer is sufficient, since we know that the first _k_-mer will have the minimizer at position xx, the second at position xx, and so on to the last at position xx.
+The first super-_k_-mer is called “maximal”: the minimizer is exactly in the middle, leading to _k-m+1_ _k_-mers covering it. In that case, recording the position of the minimizer in each _k_-mer of the super-_k_-mer is sufficient, since we know that the first _k_-mer will have the minimizer at position k-m, the second at position k-m-1, and so on to the last at position 0.
 
 In the case the super-_k_-mers are unique and maximal in the input, it is enough to compute a _k_-mer’s minimizer to uniquely identify its super-_k_-mer, and it is enough to retain the minimizer’s position in the _k_-mer to uniquely identify the _k_-mer. This property is used by LP-MPHF to cover a lot of cases, by recording a very small amount of information.
 
