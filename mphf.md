@@ -60,14 +60,14 @@ Technically, [Jellyfish](https://academic.oup.com/bioinformatics/article/27/6/76
 
 -   **use a MPHF** as the underlying function of the hash table (BBHash for BLight that was published in 2021, and the more recent PTHash for SSHash that was published in 2022)
     
--   use a **k-mer set representation** that is more efficient base-wise than representing plain k-mers (i.e. it takes less bits to encode that representation than it would take to encode each k-mer separately), and that provides a partition of the k-mers which grants interesting **locality-efficiency** (i.e., consecutive k-mers are likely to be loaded altogether in the cache, leading to faster computation)
+-   use a **k-mer set representation** that is more efficient base-wise than representing plain k-mers (i.e. it takes less bits to encode that representation than it would take to encode each k-mer separately), and that provides a partition of the _k_-mers which grants interesting **locality-efficiency** (i.e., consecutive k-mers are likely to be loaded altogether in the cache, leading to faster computation)
     
 
-The second point is particularly interesting query-wise, because queries in bioinformatics may not involve single k-mers alone, but may occur from longer sequences being split into consecutive, k-1 overlapping k-mers that are all looked-up in the table.
+The second point is particularly interesting query-wise, because queries in bioinformatics may not involve single _k_-mers alone, but may occur from longer sequences being split into consecutive, _k_-1 overlapping _k_-mers that are all looked-up in the table.
 
 ### Key set representation: _super-k-mers_
 
-I have said that k-mer hash tables use efficient k-mer representations as inner components. These representations belong to a family of objects called **spectrum preserving string sets** (first defined in [Rahman and Medvedev 2020](https://www.biorxiv.org/content/10.1101/2020.01.07.896928v2)), or **SPSS** for short. A SPSS is a set of strings longer or equal to k, that can be built over a set of k-mers, sequences or reads. This set 1-preserves all the k-mer sequences, 2-has each k-mer appearing only once. The most trivial SPSS is the k-mer set itself. 
+I have said that _k_-mer hash tables use efficient _k_-mer representations as inner components. These representations belong to a family of objects called **spectrum preserving string sets** (first defined in [Rahman and Medvedev 2020](https://www.biorxiv.org/content/10.1101/2020.01.07.896928v2)), or **SPSS** for short. A SPSS is a set of strings longer or equal to k, that can be built over a set of k-mers, sequences or reads. This set 1-preserves all the k-mer sequences, 2-has each k-mer appearing only once. The most trivial SPSS is the _k_-mer set itself. 
 
 **_Super-k-mers_** are a type of SPSS. They are used in both BLight and SSHash. They are built by compacting all consecutive k-mers of a an input sequence (read, contig, …) that contain the same **minimizer**. See for instance, using lexicographic order:
 
@@ -77,15 +77,15 @@ Being small enough, _super-k-mers_ extract “chunks” from sequences that are 
 
 _Super-k-mer_ partitioning is used in BLight, and SSHash goes further by analyzing more in depth the properties of minimizers. The paper shows that on many genomes, from a size c (typically around 20 nucleotides for large eukaryote genomes), most _super-k-mers_ are unique (i.e. the _super-k-mer_ distribution is highly skewed). In other words, **_super-k-mers_ can offer a deterministic partitioning of the k-mers under certain conditions**. It leads to optimizations by considering unique _super-k-mers_ as the general case and treating a few exceptions in an additional data-structure.
 
-Using _super-k-mers_, both methods propose a way to quickly verify if a looked-up key was present in the initial set hashed by the MPHF. Coupled with the MPHF, it yields a hash table for k-mers.
+Using _super-k-mers_, both methods propose a way to quickly verify if a looked-up key was present in the initial set hashed by the MPHF. Coupled with the MPHF, they yield a hash table for _k_-mers following this idea:
 
 <img src="files/kmer_hashtables.png" alt="drawing" width="800"/>
 
 ## What about k-mer hash… functions? LP-MPHF (2022)
 
-To date, we used general purpose MPHFs in k-mer hash functions, as presented in the previous section. In October 2022, the joint work of authors from BBHash, BLight, PTHash and SSHash led to the design of a MPHF specialized for k-mer sets, called [LP-MPHF](https://arxiv.org/pdf/2210.13097.pdf).
+To date, we used general purpose MPHFs in _k_-mer hash functions, as presented in the previous section. In October 2022, the joint work of authors from BBHash, BLight, PTHash and SSHash led to the design of a MPHF specialized for _k_-mer sets, called [LP-MPHF](https://arxiv.org/pdf/2210.13097.pdf).
 
-As we’ve seen, k-mer sets from biological sequences have special properties, namely carrying a lot of redundancy through overlapping k-mers. The method draws from this fact to propose a function whose bit/key requirements can be smaller than the lower bound of general MPHFs which work on any entry type.
+As we’ve seen, _k_-mer sets from biological sequences have special properties, namely carrying a lot of redundancy through overlapping k-mers. The method draws from this fact to propose a function whose bit/key requirements can be smaller than the lower bound of general MPHFs which work on any entry type.
 
 Mainly, it relies on concepts and methods we’ve reviewed: PTHash, _super-k-mers_ and their skewed distribution, partitioning. There are two more points to be discussed: dataset fragmentation and properties of k-mers within a _super-k-mer_.
 
