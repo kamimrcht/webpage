@@ -8,7 +8,7 @@ October 28, 2022
 
 Three days ago, a [new hashing technique](https://arxiv.org/pdf/2210.13097.pdf) joined the bioinformatics MPHF family. Since I've participated in some of the projects revolving around these techniques, a blog post was long overdue. This one is proudly powered by the mysterious energy I've been collecting from my maternity leave...
 
-Here's a summary. We'll first quickly review the concept of MPHF and hash tables. Then, there is a bit on the two first MPHFs designed in a bioinformatics context (although they are also meant for more general inputs), which leads to k-mer hash tables and _super-k-mers_. Finally, if you're interested in the latest work only, start directly in the last section.
+Here's a summary. We'll first quickly review the concept of MPHF and hash tables. Then, there is a bit on the two first MPHFs designed in a bioinformatics context (although they are also meant for more general inputs), which leads to _k_-mer hash tables and _super-k-mers_. Finally, if you're interested in the latest work only, start directly in the last section.
 
 
 ## Minimal perfect hash functions (MPHF) recap
@@ -17,15 +17,15 @@ To hash is the simple action to associate an integer (a value) to an object (a k
 
 Associating numbers to objects is an important aspect of indexing, in which a set of keys is associated with a table (usually some space allocated in memory) using the mapping returned by the hash function. General hash functions are designed to work with objects sets of arbitrary length, and do not take into consideration the initial size of the key set. Since these functions remain only pseudo-random in practice, key collisions also occur, which means that two different input keys are hashed to the same integer. Therefore, two sources of time and memory costs arise: there will exist empty slots in the allocated table due to collisions, and collisions must be dealt with, often using extra data-structures.
 
-**Minimal perfect hash functions** are meant to avoid both sources of costs. In short, they are bijective (i.e., surjective = minimal, and injective = perfect): they guarantee that the size of the values set is equal to the size of the keys set. Which means: no collisions, and no extra space needed. In bioinformatics, a typical use case is to have k-mer sets as input key sets, with additional information to be looked-up in the table, such as abundances in datasets or positions in genomes. With an axolotl having ten times more k-mers than the human (thus a 30 billion k-mers or so), we do not like extra costs. This is why minimal perfect hash functions (MPHF) come handy.
+**Minimal perfect hash functions** are meant to avoid both sources of costs. In short, they are bijective (i.e., surjective = minimal, and injective = perfect): they guarantee that the size of the values set is equal to the size of the keys set. Which means: no collisions, and no extra space needed. In bioinformatics, a typical use case is to have _k_-mer sets as input key sets, with additional information to be looked-up in the table, such as abundances in datasets or positions in genomes. With an axolotl having ten times more k-mers than the human (thus a 30 billion k-mers or so), we do not like extra costs. This is why minimal perfect hash functions (MPHF) come handy.
 
 <img src="files/rayan.png" alt="drawing" width="800"/>
 
 (*Credits for this Figure showing the MPHF scheme in comparison to others: [Rayan Chikhi](http://rayan.chikhi.name/).*)
 
-One key idea is that the **MPHF is static**, because it is especially carved for the very set of keys it has to hash. It means that it is computed for a given set of k-mer, and cannot be used for another set. It also means that if a k-mer must be added to the initial set for some reason, the function must be computed again (i.e. it is static, not dynamic).
+One key idea is that the **MPHF is static**, because it is especially carved for the very set of keys it has to hash. It means that it is computed for a given set of _k_-mer, and cannot be used for another set. It also means that if a _k_-mer must be added to the initial set for some reason, the function must be computed again (i.e. it is static, not dynamic).
 
-**A MPHF’s goal is simply to hash, not to provide a way to store information associated with keys, nor to lookup keys (and especially alien keys) in a safe way. In order to handle these operations, a hash table must be constructed using the MPHF**. The hash table will use the MPHF to hash keys, and encompass a way to remember the identity of keys that have been hashed (that we will call key set representation, or in our precise case, k-mer set representation).
+**A MPHF’s goal is simply to hash, not to provide a way to store information associated with keys, nor to lookup keys (and especially alien keys) in a safe way. In order to handle these operations, a hash table must be constructed using the MPHF**. The hash table will use the MPHF to hash keys, and encompass a way to remember the identity of keys that have been hashed (that we will call key set representation, or in our precise case, _k_-mer set representation).
 
 ## MPHFs in bioinformatics
 
