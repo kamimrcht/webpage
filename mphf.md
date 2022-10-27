@@ -84,11 +84,12 @@ The MPHF id given by the minimizer coupled with the position in the bucket of _s
 
 ## What about k-mer hash… functions? LP-MPHF (2022)
 
-To date, we used general purpose MPHFs in _k_-mer hash functions, as presented in the previous section. In October 2022, the joint work of authors from BBHash, BLight, PTHash and SSHash led to the design of a MPHF specialized for _k_-mer sets, called [LP-MPHF](https://arxiv.org/pdf/2210.13097.pdf) ([link to implementation](https://github.com/jermp/lphash)).
+To date, we used general purpose MPHFs in _k_-mer hash functions, as presented in the previous section. In October 2022, the joint work of authors from BBHash, BLight, PTHash and SSHash led to the design of a **MPHF specialized for _k_-mer sets**, called [LP-MPHF](https://arxiv.org/pdf/2210.13097.pdf) ([link to implementation](https://github.com/jermp/lphash)).
 
-As we’ve seen, _k_-mer sets from biological sequences have special properties, namely carrying a lot of redundancy through overlapping k-mers. The method draws from this fact to propose a function whose bit/key requirements can be smaller than the lower bound of general MPHFs which work on any entry type.
+"LP" stands for "locality-preserving", a property we've discussed with _super-k-mers_. As we’ve seen, _k_-mer sets from biological sequences have special properties, namely carrying a lot of redundancy through overlapping _k_-mers. The method draws from this fact to propose a function whose bit/key requirements can be smaller than the lower bound of general MPHFs which work on any entry type. But it goes further, if we consider the information we'd like to associate to _k_-mers with such a MPHF. **Consecutive _k_-mers are likely to share same features** (e.g., same abundance value in a dataset, same presence/absence patterns in a collection of genomes). By preserving the locality of these _k-mers_, **the LP-MPHF also prepares the ground for efficient compression** of associated information.
 
-Mainly, it relies on concepts and methods we’ve reviewed: PTHash, _super-k-mers_ and their skewed distribution, partitioning. There are two more points to be discussed: dataset fragmentation and properties of k-mers within a _super-k-mer_.
+
+Mainly, it relies on concepts and methods we’ve reviewed: PTHash, _super-k-mers_ and their skewed distribution, partitioning. There are two more points to be discussed: dataset fragmentation and properties of _k_-mers within a _super-k-mer_.
 
 ### General idea of the LP-MPHF
 
@@ -131,4 +132,4 @@ Here is my interpretation of one of the figures from the paper, where the number
 - Currently, PTHash is an inner component of LP-Hash. I wonder if there could be some kind of recursive use of LP-Hash.
 
 ## Acknowledgments
-My [partner in crime](https://twitter.com/BQPMalfoy) reviewed this post with an expert's eye.
+My [partner in crime](https://twitter.com/BQPMalfoy) reviewed this post with an expert's eye, as well as a second member of the LP-MPHF crew, [Giulio](https://jermp.github.io/). Thanks guys!
