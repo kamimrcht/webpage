@@ -3,7 +3,7 @@
 layout: blog
 ---
 
-# Minimal Perfect Hash Functions in the k-mer world
+# Minimal Perfect Hash Functions in the _k_-mer world
 
 October 28, 2022
 
