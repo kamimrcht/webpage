@@ -1,10 +1,17 @@
+---	
+layout: blog
+---
+
 October 27, 2022
+
+# Minimal Perfect Hash Functions in the k-mer world
+
 Two days ago, a [new hashing technique](https://arxiv.org/pdf/2210.13097.pdf) joined the bioinformatics MPHF family. Since I've participated in some of the projects revolving around these techniques, a blog post was long overdue. This one is proudly powered by the mysterious energy I've been collecting from my maternity leave...
 
 Here's a summary. We'll first quickly review the concept of MPHF and hash tables. Jump here if you want to read a bit on the two first MPHFs designed in a bioinformatics context (although they are also meant for more general inputs). Go here if you prefer a recap on k-mer hash tables and super-k-mers. Finally, if you're interested in the latest work only, start here.
 
 
-# Minimal perfect hash functions (MPHF) recap
+## Minimal perfect hash functions (MPHF) recap
 
 To hash is the simple action to associate an integer (a value) to an object (a key). There are many ways to do this, depending on the expected mapping properties between a set of objects and the chosen integer space. A hash function is a function that maps a set of objects or keys to integers. Hashing is usually defined such that the set of objects is hashed in a (or close to a) uniform, random way to the set of values, which means that hash functions are expected to “shuffle” the entry set.
 
@@ -18,9 +25,9 @@ One key idea is that the **MPHF is static**, because it is especially carved for
 
 **A MPHF’s goal is simply to hash, not to provide a way to store information associated with keys, nor to lookup keys (and especially alien keys) in a safe way. In order to handle these operations, a hash table must be constructed using the MPHF**. The hash table will use the MPHF to hash keys, and encompass a way to remember the identity of keys that have been hashed (that we will call key set representation, or in our precise case, k-mer set representation).
 
-# MPHFs in bioinformatics
+## MPHFs in bioinformatics
 
-## BBHash (2017)
+### BBHash (2017)
 
 I'm not a specialist at all in general-purpose MPHFs, and there is an extensive literature dealing with the best ways to build MPHFs. The core message is that mainly, the literature has produced MPHFs chasing the theoretical lower bound of ~1.44 bits/element. [BBHash](https://arxiv.org/abs/1702.03154)’s authors chose another tradeoff, by **paying more bits per element in order to accelerate both the construction time and the query time** of their MPHF. These two aspects were crucial in order to deal with the order of magnitudes met in bioinformatics, where a typical metagenomics experiment with short-reads can yield several billions k-mers per sample.
 
@@ -30,7 +37,7 @@ Imagine a hash table based on that MPHF. When an element (from the initial set) 
 
 The paper shows that the algorithm rapidly converges toward almost each key having a different value (which respects the expected "perfect"), with small G values. G is called the Gamma parameter in BBHash’s paper, the larger it is, the smaller the bit/key and total space of the structure will be; but the smaller it is, the least cache misses will be produced when an element is looked-up.
 
-## PTHash (2021)
+### PTHash (2021)
 
 [PTHash](https://dl.acm.org/doi/abs/10.1145/3404835.3462849?casa_token=2O7CUKGkaYwAAAAA:7si6HMx2EZMsPy7IRBNf7MRxFLieU-O9eMjPVVlmYWtALaGzuzkG5FbQKO01kF7kUMXPH0TLt4lbTg) remains in the same spirit as BBHash, in the sense that it aims at practical efficiency. In particular, it improved on BBHash’s lookup time.
 
@@ -38,9 +45,9 @@ The core idea is the following. For a set of keys of size n, associate each elem
 
 **A very strong property is that this scheme has a single memory-access per lookup.**
 
-# General purpose k-mer hash tables (BLight (2021), SSHash (2022))
+## General purpose k-mer hash tables (BLight (2021), SSHash (2022))
 
-## Main concepts
+### Main concepts
 
 I will mainly focus on [BLight](https://academic.oup.com/bioinformatics/article/37/18/2858/6209734) and [SSHash](https://www.biorxiv.org/content/10.1101/2022.01.15.476199v2.abstract) because they rely on previously presented methods, although other structures exist (and are tightly related).
 
@@ -55,7 +62,7 @@ Technically, [Jellyfish](https://academic.oup.com/bioinformatics/article/27/6/76
 
 The second point is particularly interesting query-wise, because queries in bioinformatics may not involve single k-mers alone, but may occur from longer sequences being split into consecutive, k-1 overlapping k-mers that are all looked-up in the table.
 
-## Key set representation: super-k-mers
+### Key set representation: super-k-mers
 
 I have said that k-mer hash tables use efficient k-mer representations as inner components. These representations belong to a family of objects called **spectrum preserving string sets** (first defined in [Rahman and Medvedev 2020](https://www.biorxiv.org/content/10.1101/2020.01.07.896928v2)), or **SPSS** for short. A SPSS is a set of strings longer or equal to k, that can be built over a set of k-mers, sequences or reads. This set 1-preserves all the k-mer sequences, 2-has each k-mer appearing only once. The most trivial SPSS is the k-mer set itself. 
 
@@ -71,7 +78,7 @@ Using super-k-mers, both methods propose a way to quickly verify if a looked-up 
 
 FIGURE
 
-# What about k-mer hash… functions? LP-MPHF (2022)
+## What about k-mer hash… functions? LP-MPHF (2022)
 
 To date, we used general purpose MPHFs in k-mer hash functions, as presented in the previous section. In October 2022, the joint work of authors from BBHash, BLight, PTHash and SSHash led to the design of a MPHF specialized for k-mer sets, called [LP-MPHF](https://arxiv.org/pdf/2210.13097.pdf).
 
@@ -79,7 +86,7 @@ As we’ve seen, k-mer sets from biological sequences have special properties, n
 
 Mainly, it relies on concepts and methods we’ve reviewed: PTHash, super-k-mers and their skewed distribution, partitioning. There are two more points to be discussed: dataset fragmentation and properties of k-mers within a super-k-mer.
 
-## General idea of the LP-MPHF
+### General idea of the LP-MPHF
 
 The input of the LP-MPHF is a SPSS. However, the LP-MPHF would not achieve its best performances on a plain k-mer set, because of its fragmentation (we will come back to this). Therefore, it would rather start from SPSS made of longer strings (a list of examples appears in another blog post [here](https://kamimrcht.github.io/webpage/tigs.html) and with more details in this [preprint](https://arxiv.org/abs/2209.06318).
 
@@ -91,7 +98,7 @@ FIGURE
 
 In the following, we come back to the data fragmentation which has an impact on performances, and on some properties of super-k-mers used for LP-MPHF.
 
-## How to get a unique k-mer id from its super-k-mer
+### How to get a unique k-mer id from its super-k-mer
 
 Here we will show a single scenario out of the four described in the paper. The authors show that under reasonable conditions, this scenario occurs half of the time, and is the best case scenario for the LP-MPHF. Let’s consider this sequence and its super-k-mers:
 
@@ -105,7 +112,7 @@ In the case the super-k-mers are unique and maximal in the input, it is enough t
 
 There are other cases, where the super-k-mer is not said “maximal” (the minimizer occurs at other positions than in the middle). The paper gives details on how to transpose the above strategy, which requires a bit more information to be recorded in order to uniquely identify the k-mers. There are also cases where the super-k-mer is repeated in the input SPSS, which are dealt in a non-optimal way at the moment. The authors highlight it as a future work.
 
-## Dataset fragmentation
+### Dataset fragmentation
 
 We said the LP-MPHF tries to work on the k-mer redundancy of a given sequence set. However, if the function’s input is a k-mer set itself, it will not be able to build super-k-mers longer than k-mers, hence losing the possible k-1 overlaps. Using SPSS with longer strings, such as unitigs or simplitigs, one allows super-k-mers to be more likely optimal for the LP-MPHF.
 
@@ -113,10 +120,10 @@ Here is my interpretation of one of the figures from the paper:
 
 FIGURE
 
-## Open questions
+### Open questions
 
 - Is there a better SPSS than super-k-mers to represent the set of keys in this application case? Possibly, one of the figure in the paper shows that LP-MPHF do not reach yet the new theoretical lower bound. A related question is how to deal efficiently with non-unique super-k-mers.
 - Can we think of solutions for fragmented input sets? The fragmentation is tightly linked to the representation of a k-mer set using a de Bruijn graphs, with k-1 overlaps between k-mers. Current SPSS focus on k-1 overlaps to link k-mers, but there must be possible generalizations.
 
-# Acknowledgments
+## Acknowledgments
 My [partner in crime](https://twitter.com/BQPMalfoy) reviewed this post with an expert's eye.
