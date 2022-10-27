@@ -1,3 +1,5 @@
+
+
 ---	
 layout: blog
 ---
@@ -96,25 +98,25 @@ The LP-MPHF uses super-k-mers as an inner component, for their properties mentio
 
 FIGURE
 
-In the following, we come back to the data fragmentation which has an impact on performances, and on some properties of super-k-mers used for LP-MPHF.
+In the following, we come back to the data fragmentation which has an impact on performances, and on some properties of super-_k_-mers used for LP-MPHF.
 
-### How to get a unique k-mer id from its super-k-mer
+### How to get a unique _k_-mer id from its super-_k_-mer
 
-Here we will show a single scenario out of the four described in the paper. The authors show that under reasonable conditions, this scenario occurs half of the time, and is the best case scenario for the LP-MPHF. Let’s consider this sequence and its super-k-mers:
+Here we will show a single scenario out of the four described in the paper. The authors show that under reasonable conditions, this scenario occurs half of the time, and is the best case scenario for the LP-MPHF. Let’s consider this sequence and its super-_k_-mers:
 
 FIGURE
 
   
 
-The first super-k-mer is called “maximal”: the minimizer is exactly in the middle, leading to xxxx k-mers covering it. In that case, recording the position of the minimizer in each k-mer of the super-k-mer is sufficient, since we know that the first k-mer will have the minimizer at position xx, the second at position xx, and so on to the last at position xx.
+The first super-_k_-mer is called “maximal”: the minimizer is exactly in the middle, leading to xxxx _k_-mers covering it. In that case, recording the position of the minimizer in each _k_-mer of the super-_k_-mer is sufficient, since we know that the first _k_-mer will have the minimizer at position xx, the second at position xx, and so on to the last at position xx.
 
-In the case the super-k-mers are unique and maximal in the input, it is enough to compute a k-mer’s minimizer to uniquely identify its super-k-mer, and it is enough to retain the minimizer’s position in the k-mer to uniquely identify the k-mer. This property is used by LP-MPHF to cover a lot of cases, by recording a very small amount of information.
+In the case the super-_k_-mers are unique and maximal in the input, it is enough to compute a _k_-mer’s minimizer to uniquely identify its super-_k_-mer, and it is enough to retain the minimizer’s position in the _k_-mer to uniquely identify the _k_-mer. This property is used by LP-MPHF to cover a lot of cases, by recording a very small amount of information.
 
-There are other cases, where the super-k-mer is not said “maximal” (the minimizer occurs at other positions than in the middle). The paper gives details on how to transpose the above strategy, which requires a bit more information to be recorded in order to uniquely identify the k-mers. There are also cases where the super-k-mer is repeated in the input SPSS, which are dealt in a non-optimal way at the moment. The authors highlight it as a future work.
+There are other cases, where the super-_k_-mer is not said “maximal” (the minimizer occurs at other positions than in the middle). The paper gives details on how to transpose the above strategy, which requires a bit more information to be recorded in order to uniquely identify the _k_-mers. There are also cases where the super-_k_-mer is repeated in the input SPSS, which are dealt in a non-optimal way at the moment. The authors highlight it as a future work.
 
 ### Dataset fragmentation
 
-We said the LP-MPHF tries to work on the k-mer redundancy of a given sequence set. However, if the function’s input is a k-mer set itself, it will not be able to build super-k-mers longer than k-mers, hence losing the possible k-1 overlaps. Using SPSS with longer strings, such as unitigs or simplitigs, one allows super-k-mers to be more likely optimal for the LP-MPHF.
+We said the LP-MPHF tries to work on the _k_-mer redundancy of a given sequence set. However, if the function’s input is a _k_-mer set itself, it will not be able to build super-_k_-mers longer than _k_-mers, hence losing the possible _k_-1 overlaps. Using SPSS with longer strings, such as unitigs or simplitigs, one allows super-_k_-mers to be more likely optimal for the LP-MPHF.
 
 Here is my interpretation of one of the figures from the paper:
 
@@ -122,8 +124,8 @@ FIGURE
 
 ### Open questions
 
-- Is there a better SPSS than super-k-mers to represent the set of keys in this application case? Possibly, one of the figure in the paper shows that LP-MPHF do not reach yet the new theoretical lower bound. A related question is how to deal efficiently with non-unique super-k-mers.
-- Can we think of solutions for fragmented input sets? The fragmentation is tightly linked to the representation of a k-mer set using a de Bruijn graphs, with k-1 overlaps between k-mers. Current SPSS focus on k-1 overlaps to link k-mers, but there must be possible generalizations.
+- Is there a better SPSS than super-_k_-mers to represent the set of keys in this application case? Possibly, one of the figure in the paper shows that LP-MPHF do not reach yet the new theoretical lower bound. A related question is how to deal efficiently with non-unique super-_k_-mers.
+- Can we think of solutions for fragmented input sets? The fragmentation is tightly linked to the representation of a _k_-mer set using a de Bruijn graphs, with _k_-1 overlaps between _k_-mers. Current SPSS focus on _k_-1 overlaps to link k-mers, but there must be possible generalizations.
 
 ## Acknowledgments
 My [partner in crime](https://twitter.com/BQPMalfoy) reviewed this post with an expert's eye.
