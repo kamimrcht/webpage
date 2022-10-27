@@ -80,6 +80,8 @@ Using _super-k-mers_, both methods propose a way to quickly verify if a looked-u
 
 <img src="files/kmer_hashtables.png" alt="drawing" width="800"/>
 
+The MPHF id given by the minimizer coupled with the position in the bucket of _super-k-mers_ is sufficient to provide a unique identifier for _k_-mers and to look them up. An alien _k_-mer could still share an existing minimizer, obtain a value by the MPHF, but would not correspond to the _k_-mer stored at the given position. It would be detected as an alien key.
+
 ## What about k-mer hash… functions? LP-MPHF (2022)
 
 To date, we used general purpose MPHFs in _k_-mer hash functions, as presented in the previous section. In October 2022, the joint work of authors from BBHash, BLight, PTHash and SSHash led to the design of a MPHF specialized for _k_-mer sets, called [LP-MPHF](https://arxiv.org/pdf/2210.13097.pdf).
@@ -98,6 +100,8 @@ The LP-MPHF uses _super-k-mers_ as an inner component, for their properties ment
 
 <img src="files/lphash.png" alt="drawing" width="800"/>
 
+In short, in the scenario where a minimizer exists in a single _super-k-mer_, there is a 1:1 relationship between the two that is easy to compute. Then, using a MPHF scheme (such as PTHash) super-k-mers can be associated to their statuses (we detail one status afterwards), and these statuses determine (with some extra information) a unique identifier for the _k_-mer using the minimizer.
+
 In the following, we come back to the data fragmentation which has an impact on performances, and on some properties of _super-k-mers_ used for LP-MPHF.
 
 ### How to get a unique _k_-mer id from its _super-k-mer_
@@ -106,7 +110,7 @@ Here we will show a single scenario out of the four described in the paper. The 
 
 <img src="files/spkm_id.png" alt="drawing" width="600"/>
 
-The first _super-k-mer_ is called “maximal”: the minimizer is exactly in the middle, leading to _k-m+1_ _k_-mers covering it. In that case, recording the position of the minimizer in each _k_-mer of the _super-k-mer_ is sufficient, since we know that the first _k_-mer will have the minimizer at position k-m, the second at position k-m-1, and so on to the last at position 0.
+The first _super-k-mer_ is called “maximal”: the minimizer is exactly in the middle, leading to _k-m+1_ _k_-mers covering it. In that case, recording the position of the minimizer in each _k_-mer of the _super-k-mer_ is sufficient, since we know that the first _k_-mer will have the minimizer at position _k-m_, the second at position _k-m-1_, and so on to the last at position 0.
 
 In the case the _super-k-mers_ are unique and maximal in the input, it is enough to compute a _k_-mer’s minimizer to uniquely identify its _super-k-mer_, and it is enough to retain the minimizer’s position in the _k_-mer to uniquely identify the _k_-mer. This property is used by LP-MPHF to cover a lot of cases, by recording a very small amount of information.
 
