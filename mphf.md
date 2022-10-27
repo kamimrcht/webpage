@@ -41,7 +41,7 @@ The paper shows that the algorithm rapidly converges toward almost each key havi
 
 ### PTHash (2021)
 
-[PTHash](https://dl.acm.org/doi/abs/10.1145/3404835.3462849?casa_token=2O7CUKGkaYwAAAAA:7si6HMx2EZMsPy7IRBNf7MRxFLieU-O9eMjPVVlmYWtALaGzuzkG5FbQKO01kF7kUMXPH0TLt4lbTg) remains in the same spirit as BBHash, in the sense that it aims at practical efficiency. In particular, it improved on BBHash’s lookup time.
+[PTHash](https://dl.acm.org/doi/abs/10.1145/3404835.3462849?casa_token=2O7CUKGkaYwAAAAA:7si6HMx2EZMsPy7IRBNf7MRxFLieU-O9eMjPVVlmYWtALaGzuzkG5FbQKO01kF7kUMXPH0TLt4lbTg) remains in the same spirit as BBHash, in the sense that it aims at practical efficiency. In particular, it improved on BBHash’s lookup time ([link to implementation](https://github.com/jermp/pthash)).
 
 The core idea is the following. For a set of keys of size n, associate each element to b<n buckets. Because of the properties we revised earlier, some buckets will contain more than one key, others will be empty, but globally each will be an order of magnitude smaller than the initial set. A final image vector is allocated, which has the same cardinality as the set of keys. Using that divide-and-conquer approach, for each bucket one can try different hash functions until all elements of the bucket are in the vector without collision. The cost of finding a function that fits is crucial and grows exponentially with the size of buckets, hence the need for small buckets.
 
@@ -51,7 +51,7 @@ The core idea is the following. For a set of keys of size n, associate each elem
 
 ### Main concepts
 
-I will mainly focus on [BLight](https://academic.oup.com/bioinformatics/article/37/18/2858/6209734) and [SSHash](https://www.biorxiv.org/content/10.1101/2022.01.15.476199v2.abstract) because they rely on previously presented methods, although other structures exist (and are tightly related).
+I will mainly focus on [BLight](https://academic.oup.com/bioinformatics/article/37/18/2858/6209734) and [SSHash](https://www.biorxiv.org/content/10.1101/2022.01.15.476199v2.abstract)([link to implementation](https://github.com/jermp/sshash)) because they rely on previously presented methods, although other structures exist (and are tightly related).
 
 Technically, [Jellyfish](https://academic.oup.com/bioinformatics/article/27/6/764/234905), the k-mer counting tool, could provide a k-mer hash table as well, but it was not designed for efficiency. These tables have been used for various purposes, one of the big highlights I have in mind is [Cortex (2013)](https://academic.oup.com/bioinformatics/article/29/2/275/203471), an early colored de Bruijn graph technique. Today such structures appear in genome indexes (e.g. [Pufferfish](https://academic.oup.com/bioinformatics/article/34/13/i169/5045749)), mappers (e.g. [Puffaligner](https://academic.oup.com/bioinformatics/article/37/22/4048/6297388)), recent types of colored de Bruijn graphs (e.g. [Reindeer](https://academic.oup.com/bioinformatics/article/36/Supplement_1/i177/5870500))...
 
@@ -84,7 +84,7 @@ The MPHF id given by the minimizer coupled with the position in the bucket of _s
 
 ## What about k-mer hash… functions? LP-MPHF (2022)
 
-To date, we used general purpose MPHFs in _k_-mer hash functions, as presented in the previous section. In October 2022, the joint work of authors from BBHash, BLight, PTHash and SSHash led to the design of a MPHF specialized for _k_-mer sets, called [LP-MPHF](https://arxiv.org/pdf/2210.13097.pdf).
+To date, we used general purpose MPHFs in _k_-mer hash functions, as presented in the previous section. In October 2022, the joint work of authors from BBHash, BLight, PTHash and SSHash led to the design of a MPHF specialized for _k_-mer sets, called [LP-MPHF](https://arxiv.org/pdf/2210.13097.pdf) ([link to implementation](https://github.com/jermp/lphash)).
 
 As we’ve seen, _k_-mer sets from biological sequences have special properties, namely carrying a lot of redundancy through overlapping k-mers. The method draws from this fact to propose a function whose bit/key requirements can be smaller than the lower bound of general MPHFs which work on any entry type.
 
