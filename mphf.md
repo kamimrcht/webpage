@@ -119,7 +119,7 @@ We said the LP-MPHF tries to work on the _k_-mer redundancy of a given sequence 
 
 Here is my interpretation of one of the figures from the paper:
 
-<img src="files/range_lphash.png" alt="drawing" width="400"/>
+<img src="files/range_lphash.png" alt="drawing" width="700"/>
 
 ### Open questions
 
