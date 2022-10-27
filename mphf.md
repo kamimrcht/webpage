@@ -21,7 +21,8 @@ Associating numbers to objects is an important aspect of indexing, in which a se
 
 **Minimal perfect hash functions** are meant to avoid both sources of costs. In short, they are bijective (i.e., surjective = minimal, and injective = perfect): they guarantee that the size of the values set is equal to the size of the keys set. Which means: no collisions, and no extra space needed. In bioinformatics, a typical use case is to have k-mer sets as input key sets, with additional information to be looked-up in the table, such as abundances in datasets or positions in genomes. With an axolotl having ten times more k-mers than the human (thus a 30 billion k-mers or so), we do not like extra costs. This is why minimal perfect hash functions (MPHF) come handy.
 
-FIGURE RAYAN
+<img src="files/rayan.png" alt="drawing" width="600"/>
+Credits for this Figure showing the MPHF scheme in comparison to others: [Rayan Chikhi](http://rayan.chikhi.name/).
 
 One key idea is that the **MPHF is static**, because it is especially carved for the very set of keys it has to hash. It means that it is computed for a given set of k-mer, and cannot be used for another set. It also means that if a k-mer must be added to the initial set for some reason, the function must be computed again (i.e. it is static, not dynamic).
 
@@ -70,7 +71,7 @@ I have said that k-mer hash tables use efficient k-mer representations as inner 
 
 **Super-k-mers** are a type of SPSS. They are used in both BLight and SSHash. They are built by compacting all consecutive k-mers of a an input sequence (read, contig, …) that contain the same **minimizer**. See for instance, using lexicographic order:
 
-FIGURE
+<img src="files/spkm.png" alt="drawing" width="600"/>
 
 Being small enough, super-k-mers extract “chunks” from sequences that are likely to be handled altogether by the computer.
 
@@ -78,7 +79,7 @@ Super-k-mer partitioning is used in BLight, and SSHash goes further by analyzing
 
 Using super-k-mers, both methods propose a way to quickly verify if a looked-up key was present in the initial set hashed by the MPHF. Coupled with the MPHF, it yields a hash table for k-mers.
 
-FIGURE
+<img src="files/kmer_hashtables.png" alt="drawing" width="600"/>
 
 ## What about k-mer hash… functions? LP-MPHF (2022)
 
@@ -96,7 +97,7 @@ Here we must note that the LP-MPHF works on a formatted input: in order to build
 
 The LP-MPHF uses super-k-mers as an inner component, for their properties mentioned in the hash tables section. At a glance, they work this way:
 
-FIGURE
+<img src="files/lphash.png" alt="drawing" width="600"/>
 
 In the following, we come back to the data fragmentation which has an impact on performances, and on some properties of super-_k_-mers used for LP-MPHF.
 
@@ -104,9 +105,8 @@ In the following, we come back to the data fragmentation which has an impact on 
 
 Here we will show a single scenario out of the four described in the paper. The authors show that under reasonable conditions, this scenario occurs half of the time, and is the best case scenario for the LP-MPHF. Let’s consider this sequence and its super-_k_-mers:
 
-FIGURE
+<img src="files/spkm_id.png" alt="drawing" width="600"/>
 
-  
 
 The first super-_k_-mer is called “maximal”: the minimizer is exactly in the middle, leading to xxxx _k_-mers covering it. In that case, recording the position of the minimizer in each _k_-mer of the super-_k_-mer is sufficient, since we know that the first _k_-mer will have the minimizer at position xx, the second at position xx, and so on to the last at position xx.
 
