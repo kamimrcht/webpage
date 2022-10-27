@@ -128,6 +128,7 @@ Here is my interpretation of one of the figures from the paper:
 
 - Is there a better SPSS than _super-k-mers_ to represent the set of keys in this application case? Possibly, one of the figure in the paper shows that LP-MPHF do not reach yet the new theoretical lower bound. A related question is how to deal efficiently with non-unique _super-k-mers_.
 - Can we think of solutions for fragmented input sets? The fragmentation is tightly linked to the representation of a _k_-mer set using a de Bruijn graphs, with _k_-1 overlaps between _k_-mers. Current SPSS focus on _k_-1 overlaps to link k-mers, but there must be possible generalizations.
+- Currently, PTHash is an inner component of LP-Hash. I wonder if there could be some kind of recursive use of LP-Hash.
 
 ## Acknowledgments
 My [partner in crime](https://twitter.com/BQPMalfoy) reviewed this post with an expert's eye.
