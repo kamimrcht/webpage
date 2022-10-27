@@ -8,7 +8,7 @@ October 27, 2022
 
 Two days ago, a [new hashing technique](https://arxiv.org/pdf/2210.13097.pdf) joined the bioinformatics MPHF family. Since I've participated in some of the projects revolving around these techniques, a blog post was long overdue. This one is proudly powered by the mysterious energy I've been collecting from my maternity leave...
 
-Here's a summary. We'll first quickly review the concept of MPHF and hash tables. Jump here if you want to read a bit on the two first MPHFs designed in a bioinformatics context (although they are also meant for more general inputs). Go here if you prefer a recap on k-mer hash tables and super-k-mers. Finally, if you're interested in the latest work only, start here.
+Here's a summary. We'll first quickly review the concept of MPHF and hash tables. Jump [here](#MPHFs-in-bioinformatics) if you want to read a bit on the two first MPHFs designed in a bioinformatics context (although they are also meant for more general inputs). Go [here](#General-purpose-k-mer-hash-tables (BLight-(2021),-SSHash -(2022))) if you prefer a recap on k-mer hash tables and super-k-mers. Finally, if you're interested in the latest work only, start [here](#What-about-k-mer-hash…-functions?-LP-MPHF-(2022)).
 
 
 ## Minimal perfect hash functions (MPHF) recap
