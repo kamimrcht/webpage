@@ -120,7 +120,7 @@ There are other cases, where the _super-k-mer_ is not said “maximal” (the mi
 
 We said the LP-MPHF tries to work on the _k_-mer redundancy of a given sequence set. However, if the function’s input is a _k_-mer set itself, it will not be able to build _super-k-mers_ longer than _k_-mers, hence losing the possible _k_-1 overlaps. Using SPSS with longer strings, such as unitigs or simplitigs, one allows _super-k-mers_ to be more likely optimal for the LP-MPHF.
 
-Here is my interpretation of one of the figures from the paper:
+Here is my interpretation of one of the figures from the paper, where the number of bits/key of LP-Hash is plotted as a function:
 
 <img src="files/range_lphash.png" alt="drawing" width="700"/>
 
