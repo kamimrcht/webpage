@@ -9,7 +9,7 @@ October 28, 2022
 
 Three days ago, a [new hashing technique](https://arxiv.org/pdf/2210.13097.pdf) joined the bioinformatics MPHF family. Since I've participated in some of the projects revolving around these techniques, a blog post was long overdue. This one is proudly powered by the mysterious energy I've been collecting from my maternity leave...
 
-Here's a summary. We'll first quickly review the concept of MPHF and hash tables. Then, there is a bit on the two first MPHFs designed in a bioinformatics context (although they are also meant for more general inputs), which leads to k-mer hash tables and super-k-mers. Finally, if you're interested in the latest work only, start directly in the last section.
+Here's a summary. We'll first quickly review the concept of MPHF and hash tables. Then, there is a bit on the two first MPHFs designed in a bioinformatics context (although they are also meant for more general inputs), which leads to k-mer hash tables and _super-k-mers_. Finally, if you're interested in the latest work only, start directly in the last section.
 
 
 ## Minimal perfect hash functions (MPHF) recap
@@ -65,19 +65,19 @@ Technically, [Jellyfish](https://academic.oup.com/bioinformatics/article/27/6/76
 
 The second point is particularly interesting query-wise, because queries in bioinformatics may not involve single k-mers alone, but may occur from longer sequences being split into consecutive, k-1 overlapping k-mers that are all looked-up in the table.
 
-### Key set representation: super-k-mers
+### Key set representation: _super-k-mers_
 
 I have said that k-mer hash tables use efficient k-mer representations as inner components. These representations belong to a family of objects called **spectrum preserving string sets** (first defined in [Rahman and Medvedev 2020](https://www.biorxiv.org/content/10.1101/2020.01.07.896928v2)), or **SPSS** for short. A SPSS is a set of strings longer or equal to k, that can be built over a set of k-mers, sequences or reads. This set 1-preserves all the k-mer sequences, 2-has each k-mer appearing only once. The most trivial SPSS is the k-mer set itself. 
 
-**Super-k-mers** are a type of SPSS. They are used in both BLight and SSHash. They are built by compacting all consecutive k-mers of a an input sequence (read, contig, …) that contain the same **minimizer**. See for instance, using lexicographic order:
+**_Super-k-mers_** are a type of SPSS. They are used in both BLight and SSHash. They are built by compacting all consecutive k-mers of a an input sequence (read, contig, …) that contain the same **minimizer**. See for instance, using lexicographic order:
 
 <img src="files/spkm.png" alt="drawing" width="400"/>
 
-Being small enough, super-k-mers extract “chunks” from sequences that are likely to be handled altogether by the computer.
+Being small enough, _super-k-mers_ extract “chunks” from sequences that are likely to be handled altogether by the computer.
 
-Super-k-mer partitioning is used in BLight, and SSHash goes further by analyzing more in depth the properties of minimizers. The paper shows that on many genomes, from a size c (typically around 20 nucleotides for large eukaryote genomes), most super-k-mers are unique (i.e. the super-k-mer distribution is highly skewed). In other words, **super-k-mers can offer a deterministic partitioning of the k-mers under certain conditions**. It leads to optimizations by considering unique super-k-mers as the general case and treating a few exceptions in an additional data-structure.
+_Super-k-mer_ partitioning is used in BLight, and SSHash goes further by analyzing more in depth the properties of minimizers. The paper shows that on many genomes, from a size c (typically around 20 nucleotides for large eukaryote genomes), most _super-k-mers_ are unique (i.e. the _super-k-mer_ distribution is highly skewed). In other words, **_super-k-mers_ can offer a deterministic partitioning of the k-mers under certain conditions**. It leads to optimizations by considering unique _super-k-mers_ as the general case and treating a few exceptions in an additional data-structure.
 
-Using super-k-mers, both methods propose a way to quickly verify if a looked-up key was present in the initial set hashed by the MPHF. Coupled with the MPHF, it yields a hash table for k-mers.
+Using _super-k-mers_, both methods propose a way to quickly verify if a looked-up key was present in the initial set hashed by the MPHF. Coupled with the MPHF, it yields a hash table for k-mers.
 
 <img src="files/kmer_hashtables.png" alt="drawing" width="800"/>
 
@@ -87,29 +87,29 @@ To date, we used general purpose MPHFs in k-mer hash functions, as presented in 
 
 As we’ve seen, k-mer sets from biological sequences have special properties, namely carrying a lot of redundancy through overlapping k-mers. The method draws from this fact to propose a function whose bit/key requirements can be smaller than the lower bound of general MPHFs which work on any entry type.
 
-Mainly, it relies on concepts and methods we’ve reviewed: PTHash, super-k-mers and their skewed distribution, partitioning. There are two more points to be discussed: dataset fragmentation and properties of k-mers within a super-k-mer.
+Mainly, it relies on concepts and methods we’ve reviewed: PTHash, _super-k-mers_ and their skewed distribution, partitioning. There are two more points to be discussed: dataset fragmentation and properties of k-mers within a _super-k-mer_.
 
 ### General idea of the LP-MPHF
 
-The input of the LP-MPHF is a SPSS. However, the LP-MPHF would not achieve its best performances on a plain k-mer set, because of its fragmentation (we will come back to this). Therefore, it would rather start from SPSS made of longer strings (a list of examples appears in another blog post [here](https://kamimrcht.github.io/webpage/tigs.html) and with more details in this [preprint](https://arxiv.org/abs/2209.06318).
+The input of the LP-MPHF is a SPSS. However, the LP-MPHF would not achieve its best performances on a plain _k_-mer set, because of its fragmentation (we will come back to this). Therefore, it would rather start from SPSS made of longer strings (a list of examples appears in another blog post [here](https://kamimrcht.github.io/webpage/tigs.html) and with more details in this [preprint](https://arxiv.org/abs/2209.06318).
 
-Here we must note that the LP-MPHF works on a formatted input: in order to build a non-trivial SPSS, k-mers must be counted and some operations are necessary to build the strings. In the case of general purpose MPHFs used for k-mer sets, the user also had to make sure that every k-mer in the input appeared only once.
+Here we must note that the LP-MPHF works on a formatted input: in order to build a non-trivial SPSS, _k_-mers must be counted and some operations are necessary to build the strings. In the case of general purpose MPHFs used for k-mer sets, the user also had to make sure that every _k_-mer in the input appeared only once.
 
-The LP-MPHF uses super-k-mers as an inner component, for their properties mentioned in the hash tables section. At a glance, they work this way:
+The LP-MPHF uses _super-k-mers_ as an inner component, for their properties mentioned in the hash tables section. At a glance, they work this way:
 
 <img src="files/lphash.png" alt="drawing" width="800"/>
 
-In the following, we come back to the data fragmentation which has an impact on performances, and on some properties of super-_k_-mers used for LP-MPHF.
+In the following, we come back to the data fragmentation which has an impact on performances, and on some properties of _super-k-mers_ used for LP-MPHF.
 
-### How to get a unique _k_-mer id from its super-_k_-mer
+### How to get a unique _k_-mer id from its _super-k-mer_
 
-Here we will show a single scenario out of the four described in the paper. The authors show that under reasonable conditions, this scenario occurs half of the time, and is the best case scenario for the LP-MPHF. Let’s consider this sequence and its super-_k_-mers:
+Here we will show a single scenario out of the four described in the paper. The authors show that under reasonable conditions, this scenario occurs half of the time, and is the best case scenario for the LP-MPHF. Let’s consider this sequence and its _super-k-mers_:
 
 <img src="files/spkm_id.png" alt="drawing" width="600"/>
 
 The first _super-k-mer_ is called “maximal”: the minimizer is exactly in the middle, leading to _k-m+1_ _k_-mers covering it. In that case, recording the position of the minimizer in each _k_-mer of the _super-k-mer_ is sufficient, since we know that the first _k_-mer will have the minimizer at position k-m, the second at position k-m-1, and so on to the last at position 0.
 
-In the case the _super-k-mers are unique and maximal in the input, it is enough to compute a _k_-mer’s minimizer to uniquely identify its _super-k-mer_, and it is enough to retain the minimizer’s position in the _k_-mer to uniquely identify the _k_-mer. This property is used by LP-MPHF to cover a lot of cases, by recording a very small amount of information.
+In the case the _super-k-mers_ are unique and maximal in the input, it is enough to compute a _k_-mer’s minimizer to uniquely identify its _super-k-mer_, and it is enough to retain the minimizer’s position in the _k_-mer to uniquely identify the _k_-mer. This property is used by LP-MPHF to cover a lot of cases, by recording a very small amount of information.
 
 There are other cases, where the _super-k-mer_ is not said “maximal” (the minimizer occurs at other positions than in the middle). The paper gives details on how to transpose the above strategy, which requires a bit more information to be recorded in order to uniquely identify the _k_-mers. There are also cases where the _super-k-mer_ is repeated in the input SPSS, which are dealt in a non-optimal way at the moment. The authors highlight it as a future work.
 
