@@ -13,6 +13,7 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 
 
 # News
+- **10/28/2022 New blog post:** [Minimal Perfect Hash Functions in the k-mer world](mphf.md)
 - The blog post now has an article follow-up, with novelties including Eulertigs: [Sneak peek at the tig sequences: useful sequences built from nucleic acid data](https://arxiv.org/abs/2209.06318)
 - Meet me at the [WABI pangenomic workshop](https://algo2022.eu/wabi/)
 - I'll chair the Genome assembly & Sequence algorithms tracks with Chirag Jain in Genome Informatics 22, and present _Scalable sequence database search using Partitioned Aggregated Bloom Comb-Trees_ ([program](https://coursesandconferences.wellcomeconnectingscience.org/wp-content/uploads/2021/11/Genome-Informatics-programme-5-Aug-22.pdf))
@@ -20,6 +21,7 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 
 # Blog posts / short articles
 
+* [Minimal Perfect Hash Functions in the k-mer world](mphf.md)
 * [Sketching for bioinformatics](sketch.md): featuring Niqki (Clément Agret et al.'s [recent preprint](https://www.biorxiv.org/content/10.1101/2021.11.04.467355v1))
 * [Strobemers](strobemers.md), a new kind of spaced seeds from [K Sahlin's preprint](https://www.biorxiv.org/content/10.1101/2021.01.28.428549v1)
 * [Othello hashing in bioinformatics](othello.md)
