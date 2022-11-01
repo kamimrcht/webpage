@@ -20,7 +20,7 @@ The paper was also organized around a dichotomy between two types of structures.
 
 Today, I would rather present the methods in a 2 dimensional fashion:
 
-<img src="files/2d_sota.png" alt="drawing" width="800"/>
+<img src="files/2d_sota.png" alt="drawing" width="600"/>
 
 There are more exact methods than inexact ones. SeqOthello remains an alien (the single red point in its category).
 
