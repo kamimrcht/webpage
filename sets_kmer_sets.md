@@ -14,7 +14,7 @@ These structures store collections of datasets (often samples, can also be sets 
 ## The landscape of sets of _k_-mer sets
 In the first figure of the survey, we had chosen to present the different implemented methods in a timeline. I've been trying to keep it updated. At the time, we narrowed the paper to a defined set of tools, although it is clear that frontiers are blurred between some data-structures. Here I try to present a larger view. Despite trying my best, these things are never exhaustive, it is possible that I've forgot to mention tools. 
 
-<img src="files/genealogy2022.png" alt="drawing" width="1000"/>
+<img src="files/genealogy_2022.png" alt="drawing" width="1000"/>
 
 The paper was also organized around a dichotomy between two types of structures. First, color-aggregative methods, that index the union set of all distinct _k_-mers of the collection, before associating colors with these _k_-mers (colored de Bruijn graphs usually fall in this category). Second,  _k_-mer aggregative methods index each data-set separately, then build another data-structure on top to distribute queries. 
 
