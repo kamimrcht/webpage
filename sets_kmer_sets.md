@@ -9,10 +9,13 @@ November 2, 2022
 Our paper [Data structures based on k-mers for querying large collections of sequencing data sets](https://genome.cshlp.org/content/31/1/1.short) is two years old, and although the core concepts we described are still relevant, new ideas and methods have emerged or strengthened since. Thus I wanted to keep you up with the literature in a short post.
 
 These structures store collections of datasets (often samples, can also be sets of contigs or genomes) using their _k_-mers. They are used to perform _k_-mer queries in all samples at once, thus provide an interesting pre-filter for large collections before more costly methods such as mapping are applied. 
+The presented methods are designed for short read samples or relatively small/medium _k_-mer sizes.
 
 
 ## The landscape of sets of _k_-mer sets
 In the first figure of the survey, we had chosen to present the different implemented methods in a timeline. I've been trying to keep it updated. At the time, we narrowed the paper to a defined set of tools, although it is clear that frontiers are blurred between some data-structures. Here I try to present a larger view. Despite trying my best, these things are never exhaustive, it is possible that I've forgot to mention tools. 
+
+Please note that tools for pangenomics graphs such as VG, minigraph and others do not appear here. They differ mainly because here the expected input can be unordered, while pangenomic representations include coordinates.
 
 <img src="files/genealogy_2022.png" alt="drawing" width="1000"/>
 
