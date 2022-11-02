@@ -13,6 +13,7 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 
 
 # News
+- 11/02/2022 New blog post:** [Data-structures for sets of _k_-mer sets: what’s new since 2020](sets_kmer_sets.html)
 - **10/28/2022 New blog post:** [Minimal Perfect Hash Functions in the k-mer world](mphf.md)
 - The blog post now has an article follow-up, with novelties including Eulertigs: [Sneak peek at the tig sequences: useful sequences built from nucleic acid data](https://arxiv.org/abs/2209.06318)
 - Meet me at the [WABI pangenomic workshop](https://algo2022.eu/wabi/)
