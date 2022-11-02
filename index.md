@@ -13,7 +13,7 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 
 
 # News
-- 11/02/2022 New blog post:** [Data-structures for sets of _k_-mer sets: what’s new since 2020](sets_kmer_sets.html)
+- **11/02/2022 New blog post:** [Data-structures for sets of _k_-mer sets: what’s new since 2020](sets_kmer_sets.html)
 - **10/28/2022 New blog post:** [Minimal Perfect Hash Functions in the k-mer world](mphf.md)
 - The blog post now has an article follow-up, with novelties including Eulertigs: [Sneak peek at the tig sequences: useful sequences built from nucleic acid data](https://arxiv.org/abs/2209.06318)
 - Meet me at the [WABI pangenomic workshop](https://algo2022.eu/wabi/)
@@ -21,7 +21,7 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 - New preprint [A survey of mapping algorithms in the long-reads era](https://biorxiv.org/cgi/content/short/2022.05.21.492932v1)
 
 # Blog posts / short articles
-
+* [Data-structures for sets of _k_-mer sets: what’s new since 2020](sets_kmer_sets.html)
 * [Minimal Perfect Hash Functions in the k-mer world](mphf.md)
 * [Sketching for bioinformatics](sketch.md): featuring Niqki (Clément Agret et al.'s [recent preprint](https://www.biorxiv.org/content/10.1101/2021.11.04.467355v1))
 * [Strobemers](strobemers.md), a new kind of spaced seeds from [K Sahlin's preprint](https://www.biorxiv.org/content/10.1101/2021.01.28.428549v1)
