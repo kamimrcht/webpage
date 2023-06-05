@@ -13,6 +13,7 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 
 
 # News
+- **Our suvery on long read mapping was published in Genome Biology:** [A survey of mapping algorithms in the long-reads era](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-02972-3)
 - **Accepted to ISMB 2023:** [Scalable sequence database search using Partitioned Aggregated Bloom Comb-Trees](https://www.biorxiv.org/content/10.1101/2022.02.11.480089v2)
 - New blog post: [Data-structures for sets of _k_-mer sets: what’s new since 2020](sets_kmer_sets.html)
 - Blog post: [Minimal Perfect Hash Functions in the k-mer world](mphf.md)
@@ -31,7 +32,6 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 
 
 # Ongoing work
-- [A survey of mapping algorithms in the long-reads era](https://biorxiv.org/cgi/content/short/2022.05.21.492932v1)
 - [Read correction for non-uniform coverages](https://www.biorxiv.org/content/10.1101/673624v1.abstract?%3Fcollection=), C Marchet, Y Dufresne, A Limasset 
 
 # Journal Publications
