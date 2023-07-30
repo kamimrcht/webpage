@@ -13,7 +13,7 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 
 
 # News
-- **Accepted to WABI 2023:**[Fractional Hitting Sets for Efficient and Lightweight Genomic Data Sketching](https://www.biorxiv.org/content/10.1101/2023.06.21.545875v1)
+- **Accepted to WABI 2023:** [Fractional Hitting Sets for Efficient and Lightweight Genomic Data Sketching](https://www.biorxiv.org/content/10.1101/2023.06.21.545875v1)
 - [Hashing-based data-structures for querying large k-mer (collections of) sets](https://www.viam.science.tsu.ge/cie2023/) at CiE 2023
 - **Our suvery on long read mapping was published in Genome Biology:** [A survey of mapping algorithms in the long-reads era](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-02972-3)
 - **Accepted to ISMB 2023:** [Scalable sequence database search using Partitioned Aggregated Bloom Comb-Trees](https://www.biorxiv.org/content/10.1101/2022.02.11.480089v2)
@@ -68,6 +68,7 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 # Communications
 
 ## Invited talks
+- 2023: Hashing-based data-structures for querying large k-mer (collections of) sets, [CiE](https://www.viam.science.tsu.ge/cie2023/), Batumi (Georgia)
 - 2023 Hashing-based data-structures for querying large k-mer (collections of) sets, [Sequences in London](https://sites.google.com/view/sequencesworkshop/home), UK
 - 2022 [_Scalable sequence database search using Partitioned Aggregated Bloom Comb-Trees_](https://coursesandconferences.wellcomeconnectingscience.org/wp-content/uploads/2021/11/Genome-Informatics-programme-5-Aug-22.pdf), Genome Informatics, Cambridge (UK)
 - 2022 [How to improve student/advisor relationships](https://algo2022.eu/wabi/), WABI, ALPACA 2nd Annual Workshop, Potsdam (Germany)
