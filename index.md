@@ -13,7 +13,8 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 
 
 # News
-- incoming [Hashing-based data-structures for querying large k-mer (collections of) sets](https://www.viam.science.tsu.ge/cie2023/) at CiE 2023
+- **Accepted to WABI 2023:**[Fractional Hitting Sets for Efficient and Lightweight Genomic Data Sketching](https://www.biorxiv.org/content/10.1101/2023.06.21.545875v1)
+- [Hashing-based data-structures for querying large k-mer (collections of) sets](https://www.viam.science.tsu.ge/cie2023/) at CiE 2023
 - **Our suvery on long read mapping was published in Genome Biology:** [A survey of mapping algorithms in the long-reads era](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-02972-3)
 - **Accepted to ISMB 2023:** [Scalable sequence database search using Partitioned Aggregated Bloom Comb-Trees](https://www.biorxiv.org/content/10.1101/2022.02.11.480089v2)
 - New blog post: [Data-structures for sets of _k_-mer sets: what’s new since 2020](sets_kmer_sets.html)
@@ -37,6 +38,7 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 
 # Journal Publications
 - [A survey of mapping algorithms in the long-reads era](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-02972-3), K Sahlin, T Baudeau, B Cazaux, C Marchet; _Genome Biology_, 2023
+- [Scalable sequence database search using Partitioned Aggregated Bloom Comb-Trees](https://academic.oup.com/bioinformatics/article/39/Supplement_1/i252/7210475), C Marchet & A Limasset; _Bioinformatics_ 2023
 - [BLight: Efficient exact associative structure for k-mers](https://academic.oup.com/bioinformatics/advance-article-abstract/doi/10.1093/bioinformatics/btab217/6209734), C Marchet, M Kerbiriou, A Limasset; _Bioinformatics_, 2021
 - [Scalable long read self-correction and assembly polishing with multiple sequence alignment](https://www.nature.com/articles/s41598-020-80757-5), P Morisse, C Marchet, A Limasset, T Lecroq, A Lefebvre; _Scientific Reports_, 2021
 - [Data structures based on k-mers for querying large collections of sequencing data sets](https://genome.cshlp.org/content/early/2020/12/16/gr.260604.119.abstract), C Marchet, C Boucher, S. J. Puglisi, P Medvedev, M Salson, R Chikhi; _Genome Research_ 2020
@@ -52,6 +54,7 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 - [Colibread on galaxy: a tools suite dedicated to biological information extraction from raw NGS reads](https://gigascience.biomedcentral.com/articles/10.1186/s13742-015-0105-2) E Rivals, A Andrieux, A Z El Aabidine, B Cazaux, C Marchet, C Lemaitre, C Monjeaud, G Sacomoto, L Salmela, O Collin, P Peterlongo, R Uricaru, S Alves-Carvalho, V Lacroix, V Miele, Y LeBras; _GigaScience_, 2016
 
 # Research papers accepted to peer-reviewed conferences
+- [Fractional Hitting Sets for Efficient and Lightweight Genomic Data Sketching](https://www.biorxiv.org/content/10.1101/2023.06.21.545875v1), T Rouzé, I Martayan, C Marchet & A Limasset, _WABI_ 2023
 - [Scalable sequence database search using Partitioned Aggregated Bloom Comb-Trees](https://www.biorxiv.org/content/10.1101/2022.02.11.480089v2), C Marchet & A Limasset; _ISMB_ 2023
 - [REINDEER: efficient indexing of k-mer presence and abundance in sequencing datasets](https://www.biorxiv.org/content/10.1101/2020.03.29.014159v1), C Marchet, Z Iqbal, D Gautheret, M Salson, R Chikhi; _ISMB_ 2020
 - [Indexing De Bruijn graphs with minimizers](https://www.biorxiv.org/content/10.1101/546309v2), C Marchet, A Kerbiriou, A Limasset; _RECOMB-SEQ_ 2019
@@ -110,6 +113,7 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 # Involvement in scientific events
 
 **Program committee and venue organization**
+- 2023 PC, OC @SeqBIM (France)
 - 2021 OC @SPIRE (virtual)
 - 2020 PC @SPIRE (virtual)
 - 2020 PC @RECOMB-Seq (virtual)
@@ -119,7 +123,7 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 
 **Tutoring for scientists**
 - 2020,2022,2023 [Evomics, workshop on Genomics](http://evomics.org/2020-workshop-on-genomics-cesky-krumlov-czech-republic/), Cesky Krumlov, Czech Republic
-- 2019,2022 Tutor at [Bilille training courses](https://wikis.univ-lille.fr/bilille/formation) (RNA-seq analysis), Lille.
+- 2019,2022,2023 Tutor at [Bilille training courses](https://wikis.univ-lille.fr/bilille/formation) (RNA-seq analysis), Lille.
 - 2015 Tutor at CNRS course: "Bioinformatique pour les NGS", Montpellier
 - 2014 Tutor at BGE & EMBnet tutorials: "RNA-seq analysis", Lyon
 - 2014 Tutor at PRABI training courses, "Analyse de données RNA-seq sous l'environnement Galaxy", Lyon
