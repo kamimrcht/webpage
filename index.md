@@ -32,9 +32,18 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 * [A short popularization article about coronavirus assembly](https://www.lemonde.fr/blog/binaire/2020/05/06/sars-cov-2-et-covid-19-on-va-jouer-sur-les-mots/) with long reads (in French)
 * [A short popularization article about my PhD work](https://www.lemonde.fr/blog/binaire/2020/02/07/rencontre-a-la-frontiere-entre-linformatique-et-la-biologie/) (in French)
 
+# Research projects
 
-# Ongoing work
-- [Read correction for non-uniform coverages](https://www.biorxiv.org/content/10.1101/673624v1.abstract?%3Fcollection=), C Marchet, Y Dufresne, A Limasset 
+## Present
+- **Find-RNA** ANR JCJC project, _Data-structures for collections of sets of (meta-)transcriptomics data_(coordinator)
+- **INSSANE** ANR project, _Novel methods for studying RNA structures_(partner)
+- **Full RNA** ANR project,_Indexing large scale 2nd and 3rd generation RNA datasets_(member)
+- **ALPACA** ITN, _Methods for pangenomics_(informal member)
+
+## Past
+- 2018-22 **Transipédia** ANR project, _Indexing large scale RNA-seq datasets__(member)
+- 2017 CNRS MASTODONS project, _Correction of 3rd generation sequencing data_(member)
+- 2013-16 **Colib’read** ANR project, _De novo_ methods for the variant calling in short read sequencing (member)
 
 # Journal Publications
 - [A survey of mapping algorithms in the long-reads era](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-02972-3), K Sahlin, T Baudeau, B Cazaux, C Marchet; _Genome Biology_, 2023
@@ -64,6 +73,8 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 - [Navigating in a Sea of Repeats in RNA-seq without Drowning](https://link.springer.com/chapter/10.1007/978-3-662-44753-6_7), G Sacomoto, B Sinaimeri, C Marchet, V Miele, MF Sagot, V Lacroix; _WABI_ 2014
 
 
+# Preprints
+- [Read correction for non-uniform coverages](https://www.biorxiv.org/content/10.1101/673624v1.abstract?%3Fcollection=), C Marchet, Y Dufresne, A Limasset 
 
 # Communications
 
