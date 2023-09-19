@@ -27,9 +27,15 @@ Applicants ideally have a background in either programming/computer science/bioi
 **References**
 
 [[1]](https://academic.oup.com/bioinformatics/article/32/12/i201/2289008) Chikhi, R., Limasset, A., & Medvedev, P. (2016). Compacting de Bruijn graphs from sequencing data quickly and in low memory. Bioinformatics, 32(12), i201-i208.
+
 [[2]](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-020-02135-8) Holley, G., & Melsted, P. (2020). Bifrost: highly parallel construction and indexing of colored and compacted de Bruijn graphs. Genome biology, 21(1), 1-20.
+
 [[3]](https://genome.cshlp.org/content/early/2023/05/30/gr.277615.122.abstract) Cracco, A., & Tomescu, A. I. (2023). Extremely fast construction and querying of compacted and colored de Bruijn graphs with GGCAT. Genome Research, gr-277615.
+
 [[4]](https://academic.oup.com/bioinformatics/article/31/20/3350/196114) Wick, R. R., Schultz, M. B., Zobel, J., & Holt, K. E. (2015). Bandage: interactive visualization of de novo genome assemblies. Bioinformatics, 31(20), 3350-3352.
+
 [[5]](https://gitlab.inria.fr/pydisk/examples/vizitig) Jaillard, M., Lima, L., Tournoud, M., Mahé, P., Van Belkum, A., Lacroix, V., & Jacob, L. (2018). A fast and agnostic method for bacterial genome-wide association studies: Bridging the gap between k-mers and genetic events. PLoS genetics, 14(11), e1007758.
+
 [[6]](https://link.springer.com/article/10.1186/s13059-020-02157-2) Rautiainen, M., & Marschall, T. (2020). GraphAligner: rapid and versatile sequence-to-graph alignment. Genome biology, 21(1), 253.
+
 [[7]](https://dl.acm.org/doi/abs/10.1145/2939672.2939754) Grover, A., & Leskovec, J. (2016, August). node2vec: Scalable feature learning for networks. In Proceedings of the 22nd ACM SIGKDD international conference on Knowledge discovery and data mining (pp. 855-864).
