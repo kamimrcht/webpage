@@ -6,7 +6,7 @@ _Je suis chargée de recherche au CNRS dans l'équipe [BONSAI](https://www.crist
 
 _Intéressé.e par une formation à la bioinformatique pour les données de séquençage ? Le CNRS propose une formation à Lille (labos/entreprises) : [lien](https://cnrsformation.cnrs.fr/index.php?c=stage&stage=23283_)._
 
-After an engineer degree in Bioinformatics from INSA de Lyon and a MsC in Ecology and Evolution from Université Claude Bernard Lyon 1, I worked for two years as an engineer in [ERABLE](https://team.inria.fr/erable/en/) team (LBBE, Lyon) with [Vincent Lacroix](https://lbbe.univ-lyon1.fr/-Lacroix-Vincent-.html?lang=fr). I obtained a PhD funding in [GenScale](https://team.inria.fr/genscale/) team (Rennes, France), where I was supervised by [Pierre Peterlongo](http://people.rennes.inria.fr/Pierre.Peterlongo/). I defended my PhD in 2018 and joined [BONSAI](http://www.lifl.fr/bonsai/) in the CRIStAL lab  afterwards as a postdoc. Lately I was recruited by the CNRS to work as a researcher in the same lab ([detailed cv](cv.md)).
+After an engineer degree in Bioinformatics from INSA de Lyon and a MsC in Ecology and Evolution from Université Claude Bernard Lyon 1, I worked for two years as an engineer in [ERABLE](https://team.inria.fr/erable/en/) team (LBBE, Lyon) with [Vincent Lacroix](https://lbbe.univ-lyon1.fr/-Lacroix-Vincent-.html?lang=fr). I obtained a PhD funding in [GenScale](https://team.inria.fr/genscale/) team (Rennes, France), where I was supervised by [Pierre Peterlongo](http://people.rennes.inria.fr/Pierre.Peterlongo/). I defended my PhD in 2018 and joined [BONSAI](http://www.lifl.fr/bonsai/) in the CRIStAL lab  afterwards as a postdoc. Lately I was recruited by the CNRS to work as a researcher in the same lab ([detailed cv](cv.md)). My research is currently supported by the ANR through PRC and JCJC projects.
 
 My postdoc took part in [Transipedia ANR](https://anr.fr/Project-ANR-18-CE45-0020), with [Rayan Chikhi](http://rayan.chikhi.name/) and [Mikaël Salson](https://mikael-salson.univ-lille.fr/). Transipedia aims at being a transcriptome-encyclopedia, e.g., facilitating indexing, query and exploitation of the numerous publicly available RNA-seq data. I am mostly working on new data structures to index large collections of NGS datasets. 
 Before and during my PhD I worked on methods for transcriptomics, in particular for _de novo_ variants discovery and RNA long read analysis.
@@ -19,10 +19,7 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 - [Hashing-based data-structures for querying large k-mer (collections of) sets](https://www.viam.science.tsu.ge/cie2023/) at CiE 2023
 - **Our suvery on long read mapping was published in Genome Biology:** [A survey of mapping algorithms in the long-reads era](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-02972-3)
 - **Accepted to ISMB 2023:** [Scalable sequence database search using Partitioned Aggregated Bloom Comb-Trees](https://www.biorxiv.org/content/10.1101/2022.02.11.480089v2)
-- New blog post: [Data-structures for sets of _k_-mer sets: what’s new since 2020](sets_kmer_sets.html)
-- Blog post: [Minimal Perfect Hash Functions in the k-mer world](mphf.md)
-- The blog post now has an manuscript follow-up, with novelties including Eulertigs: [Sneak peek at the tig sequences: useful sequences built from nucleic acid data](https://arxiv.org/abs/2209.06318)
-- New preprint [A survey of mapping algorithms in the long-reads era](https://biorxiv.org/cgi/content/short/2022.05.21.492932v1)
+
 
 # Blog posts / short articles
 * [Data-structures for sets of _k_-mer sets: what’s new since 2020](sets_kmer_sets.html)
