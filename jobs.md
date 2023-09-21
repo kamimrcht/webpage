@@ -18,6 +18,8 @@ We would like to compare, both theoretically and in practice, different approach
 Different solutions include sequence alignment on graphs, for which heuristics and optimal algorithms exists[[6]](https://link.springer.com/article/10.1186/s13059-020-02157-2), and novel methods developed by the collaboration in Lille, based on graph embedding, a machine learning approaching to graph mining[[7]](https://dl.acm.org/doi/abs/10.1145/2939672.2939754). 
 The intern would have opportunities to contribute to Vizitig's development, as well as its benchmarking while integrating query solutions.
 
+<img src="files/vizitig_illu.png" alt="drawing" width="600"/>
+
 **Profile**
 
 Applicants ideally have a background in either programming/computer science/bioinformatics.
