@@ -4,10 +4,13 @@
 
 This internship takes place in Lille University (campus cité Scientifique, Villeneuve d'Ascq), and will be co supervised by members of team [BONSAI](https://www.cristal.univ-lille.fr/bonsai/) (sequence bioinformatics, CRIStAL laboratory) and team [LINKS](https://team.inria.fr/links/fr/) (databases, logical queries, CRIStAL & Inria). 
 It is funded by [ANR Full-RNA](https://anr.fr/Projet-ANR-22-CE45-0007) (ANR-22-CE45-0007).
+
 The de Bruijn graph is a fundamental data structure in computational biology, widely used for tasks such as genome assembly, variant calling, and *k*-mer set representation. 
 Several fast construction methods for de Bruijn graphs (such as BCALM2[[1]](https://academic.oup.com/bioinformatics/article/32/12/i201/2289008), Bifrost[[2]](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-020-02135-8) and recent GGCAT[[3]](https://genome.cshlp.org/content/early/2023/05/30/gr.277615.122.abstract)) have popularized their usage in recent years. 
 Bandage[[4]](https://academic.oup.com/bioinformatics/article/31/20/3350/196114) is the reference software for visualizing de Bruijn graphs in bioinformatics using a graphical user interface (GUI), but is primarly designed to explore genome assemblies. 
+
 Prior to Bandage, other works relied on tools like Cytoscape or ad-hoc solutions[[5]](https://gitlab.inria.fr/pydisk/examples/vizitig), but none integrated specificities of de Bruijn graphs, such as the possibility to compact the graph into a unitig graph for a more compact representation, or to have a semantic on the nodes' colors (in so-called colored de Bruijn graphs).
+
 Teams BONSAI and LINKS introduced [Vizitig](https://gitlab.inria.fr/pydisk/examples/vizitig), a tool for visualizing and manipulating de Bruijn graphs. Vizitig is implemented using NetworkX, making it compatible with Python ecosystems. 
 Users can explore the graph, search for sequences, and extract relevant information. In particular, colored de Bruijn graphs are currently used as indexes of collections of sequences, to be queried with *k*-mers of interest. 
 In many applications, these queries are not exactly identical to the graph's sequences (e.g. they include mutations) and ask for a relaxed matching.
