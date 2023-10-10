@@ -12,7 +12,8 @@ My postdoc took part in [Transipedia ANR](https://anr.fr/Project-ANR-18-CE45-002
 Before and during my PhD I worked on methods for transcriptomics, in particular for _de novo_ variants discovery and RNA long read analysis.
 
 # Job offers
-- Internship: [Visualization and queries for biology in de Bruijn graphs](jobs.md)
+- Internship: [Visualization and queries for biology in de Bruijn graphs](jobs.md#master-internship-visualization-and-queries-for-biology-in-de-bruijn-graphs)
+- Internship:[Methods for quantifying gene expression with long reads](jobs.md#master-internship-methods-for-quantifying-gene-expression-with-long-reads)
 
 # News
 - **Accepted to WABI 2023:** [Fractional Hitting Sets for Efficient and Lightweight Genomic Data Sketching](https://www.biorxiv.org/content/10.1101/2023.06.21.545875v1)
