@@ -1,4 +1,34 @@
-**Master Internship: Visualization and queries for biology in de Bruijn graphs**
+## Master Internship: Methods for quantifying gene expression with long reads
+
+**Context**
+
+Genes produce RNA in varying amounts at a given time, in a given individual, under given conditions (we refer to this as gene expression). In eukaryotes, genes can also produce more than one form of RNA (isoforms), which do not necessarily have the same expression levels. Differences in these expression levels, when compared between conditions, can generate biological hypotheses. For example, a gene that is almost dormant under certain conditions but highly expressed under another may be of interest. These form the basis for expression studies involving different biological conditions and replicates.
+
+With Illumina's short reads, the state of the art is very well established. This involves querying the k-mers of the reads in RNA reference sequence databases, identifying the isoforms where the k-mers are found, and then using strategies to assign the k-mers when there are multiple assignments. Final counts can be listed at the isoform or gene level. This rapid strategy is called pseudo-alignment.
+
+Long read sequencing (PacBio, Nanopore) also concerns RNAs, with an increasing number of methods for quantifying expression based on long reads. One advantage is that the length of the reads allows for less ambiguity when identifying corresponding isoforms. However, these reads are more error-prone than Illumina sequences, leading to the development of dedicated methods. Unlike short reads, long reads are aligned to a reference genome to quantify, an operation that is more costly than pseudo-counting, especially if repeated for multiple samples.
+
+**Internship Objective**
+
+We propose to test the opposite strategy, where sample reads are indexed in a structure developed in the laboratory, which will compress to reduce redundancy. The sequences of a reference transcriptome can then be queried to the index in a pseudo-mapping strategy to assign reads to isoforms. We can explore assignment strategies that achieve a time-memory trade-off, like chaining instead of "simple" pseudo-mapping. Finally, we'll add an expectation maximization algorithm, which already has known implementations for this issue, to distribute assigned reads.
+The internship will thus be divided into a time for literature review, a period for development, and a benchmarking phase to validate the various solutions implemented.
+
+**Internship Terms**
+
+The internship is paid for a duration of 6 months, starting at the beginning of 2024. It is funded by the ANR JCJC Find-RNA, and may lead to a PhD in the fall of 2024. It will take place on the Cité Scientifique campus in Lille, in the CRIStAL laboratory. It is supervised by Camille Marchet (contact: replace "univ-lille.fr @ camille.marchet" with an obvious permutation), researcher in the BONSAI bioinformatics team.
+
+**Candidate Profile**
+
+While keeping an open mind to unusual applications, the typical profile remains that of a bioinformatician with a taste for methodological development and programming. Curious computer scientists and biologists are also welcome.
+
+**References**
+[short reads quantification with Salmon](https://www.nature.com/articles/nmeth.4197)
+[short reads quantification with Kallisto]([https://www.nature.com/articles/nmeth.4197](https://www.nature.com/articles/nbt.3519)
+[long reads quantification with FLAIR](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7080807/)
+[long reads quantification with Bambu]([https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7080807/](https://www.nature.com/articles/s41592-023-01908-w))
+
+
+## Master Internship: Visualization and queries for biology in de Bruijn graphs
 
 **Context**
 
