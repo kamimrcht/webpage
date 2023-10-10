@@ -22,10 +22,14 @@ The internship is paid for a duration of 6 months, starting at the beginning of 
 While keeping an open mind to unusual applications, the typical profile remains that of a bioinformatician with a taste for methodological development and programming. Curious computer scientists and biologists are also welcome.
 
 **References**
+
 [short reads quantification with Salmon](https://www.nature.com/articles/nmeth.4197)
-[short reads quantification with Kallisto]([https://www.nature.com/articles/nmeth.4197](https://www.nature.com/articles/nbt.3519)
+
+[short reads quantification with Kallisto](https://www.nature.com/articles/nbt.3519)
+
 [long reads quantification with FLAIR](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7080807/)
-[long reads quantification with Bambu]([https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7080807/](https://www.nature.com/articles/s41592-023-01908-w))
+
+[long reads quantification with Bambu](https://www.nature.com/articles/s41592-023-01908-w)
 
 
 ## Master Internship: Visualization and queries for biology in de Bruijn graphs
