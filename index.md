@@ -15,7 +15,7 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 - Internship: [Methods for quantifying gene expression with long reads](jobs.md#master-internship-methods-for-quantifying-gene-expression-with-long-reads)
 
 # News
-- Keynote at [Journée thématique du RT MIA "Réduction de dimension pour l'apprentissage et la visualisation"](https://gdr-mia.math.cnrs.fr/events/dimreduc/) (Lyon, Nov 10): slides of my talk [Sketching in sequence bioinformatics: methods and application]()
+- Keynote at [Journée thématique du RT MIA "Réduction de dimension pour l'apprentissage et la visualisation"](https://gdr-mia.math.cnrs.fr/events/dimreduc/) (Lyon, Nov 10): slides of my talk [Sketching in sequence bioinformatics: methods and application](https://github.com/kamimrcht/webpage/blob/master/slides/journ%C3%A9e_r%C3%A9duction_dimension_ENS_Lyon.pdf)
 - **Accepted to WABI 2023:** [Fractional Hitting Sets for Efficient and Lightweight Genomic Data Sketching](https://www.biorxiv.org/content/10.1101/2023.06.21.545875v1)
 - [Hashing-based data-structures for querying large k-mer (collections of) sets](https://www.viam.science.tsu.ge/cie2023/) at CiE 2023
 - **Our suvery on long read mapping was published in Genome Biology:** [A survey of mapping algorithms in the long-reads era](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-02972-3)
