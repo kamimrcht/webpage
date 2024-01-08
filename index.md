@@ -16,7 +16,7 @@ No job offer at the moment.
 
 # News
 - TBA: talk at [SMPGD](https://www.smpgd.fr/) (Paris, Feb 1st 2024)
-- TBA: talk at [EAGS](https://eags2024.sciencesconf.org/)(Toulouse, Feb 14-16 2024) 
+- TBA: talk at [EAGS](https://eags2024.sciencesconf.org/) (Toulouse, Feb 14-16 2024) 
 
 
 # Blog posts / short articles
