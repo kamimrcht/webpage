@@ -138,13 +138,15 @@ No job offer at the moment.
 - 2014 Tutor at PRABI training courses, "Analyse de données RNA-seq sous l'environnement Galaxy", Lyon
 
 # Supervision
-- 2022 Louis-Maël Gueguen (M2 internship, with Laurent Jacob), subject: GWAS for metagenomics
-- 2022 Thomas Baudeau (M2 internship), subject: Mapping of structural long reads
+PhD students
+
+- 2023-.. Igor Martayan (with Jean Stéphane Varré), subject
+- 2022-.. Thomas Baudeau (PhD student, with Mikaël Salson), subject: Mapping of structural long reads
 - 2021-.. Khodor Hannoush (PhD student, with Pierre Peterlongo), subject: Dynamic pangenome graphs
-- 2020 Agathénaïs Adiguna (L3 internship, with Rayan Chikhi), subject: Data-structures for large scale RNA queries
-- 2018 Benjamin Churcheward (M2 internship, with Pierre Peterlongo), subject: Isoform prediction using long reads sequencing
-- 2017 Lolita Lecompte (M2 internship, with Pierre Peterlongo), subject: Conception and evaluation of a pipeline for de novo study of long reads in transcriptomics
-- 2014 Camille Sessegolo (L3 internship, with Vincent Lacroix), subject: Improvements in the kissplice2refgenome software
+
+Interns from past years
+
+Thomas Baudeau, Louis-Maël Gueguen, Agathénaïs Adiguna, Benjamin Churcheward, Lolita Lecompte, Camille Sessegolo
 
 # Teaching
 
