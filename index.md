@@ -6,20 +6,17 @@ _Je suis chargée de recherche au CNRS dans l'équipe [BONSAI](https://www.crist
 
 _Intéressé.e par une formation à la bioinformatique pour les données de séquençage ? Le CNRS propose une formation à Lille (labos/entreprises) : [lien](https://cnrsformation.cnrs.fr/index.php?c=stage&stage=23283_)._
 
-After an engineer degree in Bioinformatics from INSA de Lyon and a MsC in Ecology and Evolution from Université Claude Bernard Lyon 1, I worked for two years as an engineer in [ERABLE](https://team.inria.fr/erable/en/) team (LBBE, Lyon) with [Vincent Lacroix](https://lbbe.univ-lyon1.fr/-Lacroix-Vincent-.html?lang=fr). I obtained a PhD funding in [GenScale](https://team.inria.fr/genscale/) team (Rennes, France), where I was supervised by [Pierre Peterlongo](http://people.rennes.inria.fr/Pierre.Peterlongo/). I defended my PhD in 2018 and joined [BONSAI](http://www.lifl.fr/bonsai/) in the CRIStAL lab  afterwards as a postdoc. Lately I was recruited by the CNRS to work as a researcher in the same lab ([detailed cv](cv.md)). 
+After an engineer degree in Bioinformatics from INSA de Lyon and a MsC in Ecology and Evolution from Université Claude Bernard Lyon 1, I worked for two years as an engineer in [ERABLE](https://team.inria.fr/erable/en/) team (LBBE, Lyon) with [Vincent Lacroix](https://lbbe.univ-lyon1.fr/-Lacroix-Vincent-.html?lang=fr). I obtained a PhD funding in [GenScale](https://team.inria.fr/genscale/) team (Rennes, France), where I was supervised by [Pierre Peterlongo](http://people.rennes.inria.fr/Pierre.Peterlongo/). I defended my PhD in 2018 and joined [BONSAI](http://www.lifl.fr/bonsai/) in the CRIStAL lab  afterwards as a postdoc. Lately I was recruited by the CNRS to work as a researcher in the same lab ([short cv](cv.md)). 
 
 My postdoc took part in [Transipedia ANR](https://anr.fr/Project-ANR-18-CE45-0020), with [Rayan Chikhi](http://rayan.chikhi.name/) and [Mikaël Salson](https://mikael-salson.univ-lille.fr/). Transipedia aims at being a transcriptome-encyclopedia, e.g., facilitating indexing, query and exploitation of the numerous publicly available RNA-seq data. I am mostly working on new data structures to index large collections of NGS datasets. 
 Before and during my PhD I worked on methods for transcriptomics, in particular for _de novo_ variants discovery and RNA long read analysis.
 
 # Job offers
-- Internship: [Methods for quantifying gene expression with long reads](jobs.md#master-internship-methods-for-quantifying-gene-expression-with-long-reads)
+No job offer at the moment.
 
 # News
-- Keynote at [Journée thématique du RT MIA "Réduction de dimension pour l'apprentissage et la visualisation"](https://gdr-mia.math.cnrs.fr/events/dimreduc/) (Lyon, Nov 10): slides of my talk [Sketching in sequence bioinformatics: methods and application](https://github.com/kamimrcht/webpage/blob/master/slides/journ%C3%A9e_r%C3%A9duction_dimension_ENS_Lyon.pdf)
-- **Accepted to WABI 2023:** [Fractional Hitting Sets for Efficient and Lightweight Genomic Data Sketching](https://www.biorxiv.org/content/10.1101/2023.06.21.545875v1)
-- [Hashing-based data-structures for querying large k-mer (collections of) sets](https://www.viam.science.tsu.ge/cie2023/) at CiE 2023
-- **Our suvery on long read mapping was published in Genome Biology:** [A survey of mapping algorithms in the long-reads era](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-02972-3)
-- **Accepted to ISMB 2023:** [Scalable sequence database search using Partitioned Aggregated Bloom Comb-Trees](https://www.biorxiv.org/content/10.1101/2022.02.11.480089v2)
+- TBA: talk at [SMPGD](https://www.smpgd.fr/) (Paris, Feb 1st 2024)
+- TBA: talk at [EAGS](https://eags2024.sciencesconf.org/)(Toulouse, Feb 14-16 2024) 
 
 
 # Blog posts / short articles
