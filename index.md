@@ -156,6 +156,9 @@ Thomas Baudeau, Louis-Maël Gueguen, Agathénaïs Adiguna, Benjamin Churcheward,
   <tr>
     <th>Year</th><th>Level</th><th>Topic</th>
   </tr>
+     <tr>
+    <td>2023/2024</td><td>M1 bioinformatique Université de Lille</td><td> responsable de l'UE structures de données</td>
+  </tr>
    <tr>
     <td>2021/2022</td><td>M1 bioinformatique Université de Lille</td><td> responsable de l'UE structures de données</td>
   </tr>
