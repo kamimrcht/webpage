@@ -15,10 +15,10 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 No job offer at the moment.
 
 # News
+- Talk at [EAGS](https://eags2024.sciencesconf.org/): Reference-free pangenomics and other large scale indexes (Toulouse, Feb 14-16 2024) 
 - Preprint by Igor Martayan, Bastien Cazaux, Antoine Limasset and myself: [Conway-Bromage-Lyndon (CBL): an exact, dynamic representation of k-mer sets](https://www.biorxiv.org/content/10.1101/2024.01.29.577700v1.abstract). It describes a dynamic k-mer set equipped with set operations and its implementation.
 - Preprint by Haoliang Xue and collaborators: [KaMRaT: a C++ toolkit for k-mer count matrix dimension reduction](https://www.biorxiv.org/content/10.1101/2024.01.15.575511v1.abstract). Kamrat is a toolkit for processing large k-mer count tables extracted from high throughput sequencing data.
 - talk at [SMPGD](https://www.smpgd.fr/) (Paris, Feb 1st 2024)
-- TBA: talk at [EAGS](https://eags2024.sciencesconf.org/) (Toulouse, Feb 14-16 2024) 
 
 
 # Blog posts / short articles
