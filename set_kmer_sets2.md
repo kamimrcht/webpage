@@ -4,6 +4,10 @@ layout: blog
 
 March 27, 2024
 
+
+
+<a href="https://zenodo.org/doi/10.5281/zenodo.10883840"><img src="https://zenodo.org/badge/169741704.svg" alt="DOI"></a>
+
 # Data-structures for sets of sequences: a third update
 
 This post starts with the exploration initiated in an [earlier paper](https://genome.cshlp.org/content/31/1/1.short), and [blog post](https://kamimrcht.github.io/webpage/sets_kmer_sets.html), and today I'll present the fresh contributions of 2023-2024. 
