@@ -6,7 +6,7 @@ March 27, 2024
 
 # Data-structures for sets of sequences: a third update
 
-This post starts with the exploration initiated in an [earlier paper](https://genome.cshlp.org/content/31/1/1.short), and (blog post)[REF], and today I'll present the fresh contributions of 2023-2024. 
+This post starts with the exploration initiated in an [earlier paper](https://genome.cshlp.org/content/31/1/1.short), and [blog post](https://kamimrcht.github.io/webpage/sets_kmer_sets.html), and today I'll present the fresh contributions of 2023-2024. 
 Inspired by a moment of reflection shared on [by Lior Pachter about his blog](https://x.com/lpachter/status/1760170432030994530?s=20), I've decided to incorporate DOIs in my posts so they can be cited.
 
 For those diving into this post, a prerequisite is the understanding of sequence bioinformatics concepts, such as the BWT, minimizers,  de Bruijn graphs (you can start with the previous citations).
@@ -40,7 +40,7 @@ Detailing the left disc:
 * Squeakr and the more recent [BQF](https://www.biorxiv.org/content/10.1101/2024.02.15.580441v1) are designed for k-mer abundance association (also called Counting Quotient filters). They can be exact, but perform in their optimal setting if some count overestimation can be allowed. BQF lowers this false positive rate for a similar space requirement.
 * [LP-hash]((https://academic.oup.com/bioinformatics/article/39/Supplement_1/i534/7210438)) introduces a cache- and memory-efficient hashing approach for k-mers, pertaining to the minimal perfect hashing (MPHF) family. It is not yet used in a k-mer index.
 * Two recent contributions, [CBL](https://www.biorxiv.org/content/10.1101/2024.01.29.577700v2.abstract) and [FMSI](https://www.biorxiv.org/content/10.1101/2024.03.06.583483v1.full)  allow set operations such as intersection, union and differences on k-mer sets, these features were strikingly missing in the previous structures.
-* People with FOMO will look everywhere about cdgbTricks and Brisk, these are wips that I expect to come out in 2024.
+* People with FOMO will look everywhere about cdgbTricks and Brisk, these are works in progress that I expect to come out in 2024.
 
 On the right disc:
 
@@ -51,8 +51,14 @@ On the right disc:
 
 Global notes:
 
-* Colored k-mer sets are recently used for pangenome annotation [here](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10620059/) and [here](http://m.genome.cshlp.org/content/early/2023/08/24/gr.277733.123) and for metagenomic profiling with [KMCP](https://academic.oup.com/bioinformatics/article/39/1/btac845/6965021). Will 2024 be the year of applications of these methods? Metagraph's team was a pioneer at releasing online large scale indexes to explore collections of datasets, but in 2024 we've seen at least 3 new manuscripts. ORA ([manuscript](https://www.nature.com/articles/s43588-024-00596-6)/[website](https://ocean-read-atlas.mio.osupytheas.fr/)) allows to navigate the sequencing of plankton) all over the globe, along with biotic and abiotic factors. AllTheBacteria ([manuscript](https://www.biorxiv.org/content/10.1101/2024.03.08.584059v1.full)) provides a huge collection of queriable assembled bacterial genomes (almost 2 million!). The Transipedia index ([manuscript]([REF](https://www.biorxiv.org/content/10.1101/2024.02.27.581927v1.abstract))/[website](https://transipedia.org/)) shows how a large scale k-mer RNA-seq cancer database allows to spot cancer biomarkers.
+* Colored k-mer sets are recently used for pangenome annotation [here](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10620059/) and [here](http://m.genome.cshlp.org/content/early/2023/08/24/gr.277733.123) and for metagenomic profiling with [KMCP](https://academic.oup.com/bioinformatics/article/39/1/btac845/6965021). Will 2024 be the year of applications of these methods? Metagraph's team was a pioneer at releasing online large scale indexes to explore collections of datasets, but in 2024 we've seen at least 3 new manuscripts. ORA ([manuscript](https://www.nature.com/articles/s43588-024-00596-6)/[website](https://ocean-read-atlas.mio.osupytheas.fr/)) allows to navigate the sequencing of plankton) all over the globe, along with biotic and abiotic factors. AllTheBacteria ([manuscript](https://www.biorxiv.org/content/10.1101/2024.03.08.584059v1.full)) provides a huge collection of queriable assembled bacterial genomes (almost 2 million!). The Transipedia index ([manuscript](https://www.biorxiv.org/content/10.1101/2024.02.27.581927v1.abstract)/[website](https://transipedia.org/)) https://kamimrcht.github.io/webpage/tigs.htmlshows how a large scale k-mer RNA-seq cancer database allows to spot cancer biomarkers.
 
+* 3 of the 2023-2024 mentioned structures were developed in Rust, the majority of the rest in C++, some with projects of reimplementations in Rust.
+
+* Metadata inclusion and compression in the graphs remains an understudied topic, but with notable efforts [here](https://www.biorxiv.org/content/10.1101/2023.05.12.540616v3) and [here](https://www.biorxiv.org/content/10.1101/2023.07.21.550101v2). For sequence compression, outside of the BWT approaches, the compacted representations of k-mers sets through strings leveraging k-mer overlaps (spectral preserving string sets [SPSS](https://kamimrcht.github.io/webpage/tigs.html)) have a [unifiying paper](https://www.biorxiv.org/content/10.1101/2023.02.01.526717v1.full), and [phylogenetic compression](https://www.biorxiv.org/content/10.1101/2023.04.15.536996v2) allowed to compress the 2 million assemblies in AllTheBacteria.
+
+* I think we will witness more and more convergence between structures described here and variation graphs. I also wish there were more connections done between the BWT paradigm and the hashing paradigm.
+  
 * If we restrict to data structures manuscripts only (and put aside applications), how many distinct female authors can we account for in the literature cited in the figure? Let's name them. Fatemeh Almodaresi, Amatur Rahman, Mitra Darvish, Svenja Mehringer, Léa Vandamme, Olga Kalinina, Annie Chateau, Christina Boucher and myself. There is also a small amount of groups represented in my review, most being in Europe or North America. Some authors from these hubs come from lower income countries such as Bangladesh or Brasil. Other exceptions include a few chinese colleagues: Wei Shen, Hongzhe Guo and his collaborators. These observations could very well, partly at least, be a reflect of biases of my personnal scientific bubble.
     
 # References of newest papers:
@@ -60,7 +66,7 @@ Global notes:
 ## Structures that can handle k-mer sets: 
 
 * [CBL](https://www.biorxiv.org/content/10.1101/2024.01.29.577700v2.abstract), dynamic, with many set operations
-* [FMSI](https://www.biorxiv.org/content/10.1101/2024.03.06.583483v1.full ), based on most efficient SPSS, allowing boolean operators on sets[Sbwt](https://epubs.siam.org/doi/10.1137/1.9781611977714.20), low memory with time efficient queries
+* [FMSI](https://www.biorxiv.org/content/10.1101/2024.03.06.583483v1.full ), based on efficient SPSS, allowing boolean operators on sets[Sbwt](https://epubs.siam.org/doi/10.1137/1.9781611977714.20), low memory with time efficient queries
 * [BQF](https://www.biorxiv.org/content/10.1101/2024.02.15.580441v1), if storing abundances is a requirement 
 * [LP-hash](https://academic.oup.com/bioinformatics/article/39/Supplement_1/i534/7210438) a highly efficient, static hash function for k-mer sets
   
