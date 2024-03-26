@@ -70,14 +70,14 @@ Global notes:
 ## Structures that can handle k-mer sets: 
 
 * [CBL](https://www.biorxiv.org/content/10.1101/2024.01.29.577700v2.abstract), dynamic, with many set operations
-* [FMSI](https://www.biorxiv.org/content/10.1101/2024.03.06.583483v1.full ), based on efficient SPSS, allowing boolean operators on sets[Sbwt](https://epubs.siam.org/doi/10.1137/1.9781611977714.20), low memory with time efficient queries
+* [FMSI](https://www.biorxiv.org/content/10.1101/2024.03.06.583483v1.full ), based on efficient SPSS, allowing boolean operators on sets, low memory with time efficient queries
 * [BQF](https://www.biorxiv.org/content/10.1101/2024.02.15.580441v1), if storing abundances is a requirement 
 * [LP-hash](https://academic.oup.com/bioinformatics/article/39/Supplement_1/i534/7210438) a highly efficient, static hash function for k-mer sets
   
 ## Structures for colored sets: 
 
 * [Fulgor](https://link.springer.com/article/10.1186/s13015-024-00251-9) currently the most space efficient for storing collections of datasets, see this post on covid pangenomes
-* [Themisto](https://academic.oup.com/bioinformatics/article/39/Supplement_1/i260/7210444) another solution based on the SBWT
+* [Themisto](https://academic.oup.com/bioinformatics/article/39/Supplement_1/i260/7210444) another solution based on the [SBWT](https://epubs.siam.org/doi/10.1137/1.9781611977714.20)
 * [Movi](https://www.biorxiv.org/content/10.1101/2023.11.04.565615v2) with interesting space scalability for a growing corpus of close genomes
 * [Spumoni2](https://https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-02958-1) presents a highly compressed scheme for collections of genomes
 * [kmindex](https://www.nature.com/articles/s43588-024-00596-6) full disk and Bloom filters based, very scalable
