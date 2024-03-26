@@ -17,7 +17,7 @@ I adopted a solution that lays out data structures on twin discs, because honesl
 The left disc shows structures enabling k-mer set representation. Representation is a vague word, I make an attempt at categorizing what the structures actually do using colors. 
 I utilize several disc radius to illustrate how fundamental concepts such as hashing or bit vectors are derived and associated with useful tools (eg minimizers) to obtain the final structures, that appear on the outermost radius.
 
-<img src="files/colored2024.png" alt="drawing" width="1000"/>
+<img src="files/colored2024.png" alt="drawing" width="1400"/>
 
 In the right disc, I show colored k-mer set collections. "Colored" in this context means each k-mer set bears metadata, typically denoting its dataset of origin (it is totally different from the colors I use in the legend). It quite natural that colored k-mer set collections integrate structures from the left disc, hence some of the methods in the inner circles of the right disc already appear in the left one.
 
