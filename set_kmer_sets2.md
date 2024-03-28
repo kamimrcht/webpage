@@ -63,7 +63,7 @@ Global notes:
 
 * I think we will witness more and more convergence between structures described here and variation graphs. I also wish there were more connections done between the BWT paradigm and the hashing paradigm.
   
-* If we restrict to data structures manuscripts only (and put aside applications), how many distinct female authors can we account for in the literature cited in the figure? Let's name them. Fatemeh Almodaresi, Amatur Rahman, Mitra Darvish, Svenja Mehringer, Léa Vandamme, Olga Kalinina, Annie Chateau, Christina Boucher and myself. There is also a small amount of groups represented in my review, most being in Europe or North America. Some authors from these hubs come from lower income countries such as Bangladesh or Brasil. Other exceptions include a few chinese colleagues: Wei Shen, Hongzhe Guo and his collaborators. These observations could very well, partly at least, be a reflect of biases of my personnal scientific bubble.
+* If we restrict to data structures manuscripts only (and put aside applications), how many distinct female authors can we account for in the literature cited in the figure? Let's name them. Fatemeh Almodaresi, Amatur Rahman, Mitra Darvish, Svenja Mehringer, Bahar Alipanahi, Léa Vandamme, Olga Kalinina, Annie Chateau, Christina Boucher and myself. There is also a small amount of groups represented in my review, most being in Europe or North America. Some authors from these hubs come from lower income countries such as Bangladesh or Brasil. Other exceptions include a few chinese colleagues: Wei Shen, Hongzhe Guo and his collaborators. These observations could very well, partly at least, be a reflect of biases of my personnal scientific bubble.
     
 # References of newest papers:
 
@@ -85,3 +85,5 @@ Global notes:
 * [K2R](https://www.biorxiv.org/content/10.1101/2024.02.15.580442v1) links k-mers to their origin reads, provides a compression for long reads sets 
 * [GGCAT](http://m.genome.cshlp.org/content/early/2023/05/30/gr.277615.122.abstract) will build a colored de Bruijn graph, compacted unitigs, eulertigs and matchtigs
 
+
+Edit 03/28: Simon Puglisi reminded me to add Bahar Alipanahi to the list of contributing women.
