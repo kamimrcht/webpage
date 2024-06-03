@@ -15,10 +15,11 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 No job offer at the moment.
 
 # News
-- Talk at [EAGS](https://eags2024.sciencesconf.org/): Reference-free pangenomics and other large scale indexes (Toulouse, Feb 14-16 2024) 
-- Preprint by Igor Martayan, Bastien Cazaux, Antoine Limasset and myself: [Conway-Bromage-Lyndon (CBL): an exact, dynamic representation of k-mer sets](https://www.biorxiv.org/content/10.1101/2024.01.29.577700v1.abstract). It describes a dynamic k-mer set equipped with set operations and its implementation.
-- Preprint by Haoliang Xue and collaborators: [KaMRaT: a C++ toolkit for k-mer count matrix dimension reduction](https://www.biorxiv.org/content/10.1101/2024.01.15.575511v1.abstract). Kamrat is a toolkit for processing large k-mer count tables extracted from high throughput sequencing data.
-- talk at [SMPGD](https://www.smpgd.fr/) (Paris, Feb 1st 2024)
+- Send an abstract to MIGGS (Methods for Interfacing with Graphs of Genomic Sequences )([submissions](https://easychair.org/conferences/?conf=miggs1.) [website](https://miggs.mathnum.inrae.fr/)) and meet other scientists interested in pangenomics and visualization in Lille on September 23. Zamin Iqbal and Alexandra Calteau are our confirmed invited speakers.
+- Preprint by Florian Ingels, Igor Martayan and myself: [Constrained enumeration of k-mers from a collection of references with metadata](https://www.biorxiv.org/content/10.1101/2024.05.26.595967v1)
+- Preprint by Khodor Hannoush, Pierre Peterlongo and myself: [Cdbgtricks: strategies to update a compacted de Bruijn graph](https://www.biorxiv.org/content/10.1101/2024.05.24.595676v1)
+- Accepted to ISMB: by Igor Martayan, Bastien Cazaux, Antoine Limasset and myself: [Conway-Bromage-Lyndon (CBL): an exact, dynamic representation of k-mer sets](https://www.biorxiv.org/content/10.1101/2024.01.29.577700v1.abstract). It describes a dynamic k-mer set equipped with set operations and its implementation.
+- New preprint on application cases using REINDEER: [Exploring a large cancer cell line RNA-sequencing dataset with k-mers](https://www.biorxiv.org/content/10.1101/2024.02.27.581927v1.abstract)
 
 
 # Blog posts / short articles
@@ -45,6 +46,8 @@ No job offer at the moment.
 - 2013-16 **Colib’read** ANR project, _De novo methods for the variant calling in short read sequencing_ (member)
 
 # Journal Publications
+- [Conway-Bromage-Lyndon (CBL): an exact, dynamic representation of k-mer sets](https://www.biorxiv.org/content/10.1101/2024.01.29.577700v2.abstract), I Martayan, B Cazaux, A Limasset & C Marchet, _Bioinformatics_ 2024 (in press)
+-  KaMRaT: a C++ toolkit for $k$-mer count matrix dimension reduction, H Xue, M Gallopin, C Marchet, H N Nguyen, Y Wang, A Lainé, C Bessiere, D Gautheret; _Bioinformatics_ 2024
 - [A survey of mapping algorithms in the long-reads era](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-02972-3), K Sahlin, T Baudeau, B Cazaux, C Marchet; _Genome Biology_, 2023
 - [Scalable sequence database search using Partitioned Aggregated Bloom Comb-Trees](https://academic.oup.com/bioinformatics/article/39/Supplement_1/i252/7210475), C Marchet & A Limasset; _Bioinformatics_ 2023
 - [BLight: Efficient exact associative structure for k-mers](https://academic.oup.com/bioinformatics/advance-article-abstract/doi/10.1093/bioinformatics/btab217/6209734), C Marchet, M Kerbiriou, A Limasset; _Bioinformatics_, 2021
@@ -62,6 +65,7 @@ No job offer at the moment.
 - [Colibread on galaxy: a tools suite dedicated to biological information extraction from raw NGS reads](https://gigascience.biomedcentral.com/articles/10.1186/s13742-015-0105-2) E Rivals, A Andrieux, A Z El Aabidine, B Cazaux, C Marchet, C Lemaitre, C Monjeaud, G Sacomoto, L Salmela, O Collin, P Peterlongo, R Uricaru, S Alves-Carvalho, V Lacroix, V Miele, Y LeBras; _GigaScience_, 2016
 
 # Research papers accepted to peer-reviewed conferences
+- [Conway-Bromage-Lyndon (CBL): an exact, dynamic representation of k-mer sets](https://www.biorxiv.org/content/10.1101/2024.01.29.577700v2.abstract), I Martayan, B Cazaux, A Limasset & C Marchet, _ISMB_ 2024
 - [Fractional Hitting Sets for Efficient and Lightweight Genomic Data Sketching](https://www.biorxiv.org/content/10.1101/2023.06.21.545875v1), T Rouzé, I Martayan, C Marchet & A Limasset, _WABI_ 2023
 - [Scalable sequence database search using Partitioned Aggregated Bloom Comb-Trees](https://www.biorxiv.org/content/10.1101/2022.02.11.480089v2), C Marchet & A Limasset; _ISMB_ 2023
 - [REINDEER: efficient indexing of k-mer presence and abundance in sequencing datasets](https://www.biorxiv.org/content/10.1101/2020.03.29.014159v1), C Marchet, Z Iqbal, D Gautheret, M Salson, R Chikhi; _ISMB_ 2020
@@ -73,11 +77,17 @@ No job offer at the moment.
 
 
 # Preprints
-- [Read correction for non-uniform coverages](https://www.biorxiv.org/content/10.1101/673624v1.abstract?%3Fcollection=), C Marchet, Y Dufresne, A Limasset 
-
+- [Constrained enumeration of k-mers from a collection of references with metadata](https://www.biorxiv.org/content/10.1101/2024.05.26.595967v1), F Ingels, I Martayan, M Salson and C Marchet 
+- [Cdbgtricks: strategies to update a compacted de Bruijn graph](https://www.biorxiv.org/content/10.1101/2024.05.24.595676v1), K Hannoush, C Marchet and P Peterlongo
+- [Exploring a large cancer cell line RNA-sequencing dataset with k-mers](https://www.biorxiv.org/content/10.1101/2024.02.27.581927v1.abstract), C Bessière, H Xue, B Guibert, A Boureux, F Rufflé, J Viot, R Chikhi, M Salson, C Marchet, T Commes and D Gautheret
+  
 # Communications
 
 ## Invited talks
+- 2024: Incoming keynote TBA, Genome Informatics, Cambridge (UK)
+- 2024: Incoming keynote TBA, Iggsy, Ascona (Switzerland)
+- 2024: Reference-free pangenomics and other large indexes, EAGS International Environmental and Agronomical Genomics symposium, Toulouse (France)
+- 2024: _Reference-free transcriptomics and other large indexes_, Statistical Methods for Post Genomic Data workshop, Paris (France)
 - 2023: Hashing-based data-structures for querying large k-mer (collections of) sets, [CiE](https://www.viam.science.tsu.ge/cie2023/), Batumi (Georgia)
 - 2023 Hashing-based data-structures for querying large k-mer (collections of) sets, [Sequences in London](https://sites.google.com/view/sequencesworkshop/home), UK
 - 2022 [_Scalable sequence database search using Partitioned Aggregated Bloom Comb-Trees_](https://coursesandconferences.wellcomeconnectingscience.org/wp-content/uploads/2021/11/Genome-Informatics-programme-5-Aug-22.pdf), Genome Informatics, Cambridge (UK)
@@ -124,6 +134,7 @@ No job offer at the moment.
 # Involvement in scientific events
 
 **Program committee and venue organization**
+- 2024 OC @MIGGS (FRANCE)
 - 2023 PC, OC @SeqBIM (France)
 - 2021 OC @SPIRE (virtual)
 - 2020 PC @SPIRE (virtual)
@@ -135,6 +146,7 @@ No job offer at the moment.
 **Tutoring for scientists**
 - 2020,2022,2023 [Evomics, workshop on Genomics](http://evomics.org/2020-workshop-on-genomics-cesky-krumlov-czech-republic/), Cesky Krumlov, Czech Republic
 - 2019,2022,2023 Tutor at [Bilille training courses](https://wikis.univ-lille.fr/bilille/formation) (RNA-seq analysis), Lille.
+- 2022, 2024 Teacher for [JC2BIM's summer school](https://www.gdr-bim.cnrs.fr/actions-du-gdr/ecole-jc2bim/)
 - 2015 Tutor at CNRS course: "Bioinformatique pour les NGS", Montpellier
 - 2014 Tutor at BGE & EMBnet tutorials: "RNA-seq analysis", Lyon
 - 2014 Tutor at PRABI training courses, "Analyse de données RNA-seq sous l'environnement Galaxy", Lyon
@@ -142,7 +154,7 @@ No job offer at the moment.
 # Supervision
 PhD students
 
-- 2023-.. Igor Martayan (with Jean Stéphane Varré), subject
+- 2023-.. Igor Martayan (with Jean-Stéphane Varré), subject: locality-preserving k-mer data structures
 - 2022-.. Thomas Baudeau (PhD student, with Mikaël Salson), subject: Mapping of structural long reads
 - 2021-.. Khodor Hannoush (PhD student, with Pierre Peterlongo), subject: Dynamic pangenome graphs
 
