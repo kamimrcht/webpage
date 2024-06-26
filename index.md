@@ -12,8 +12,8 @@ My postdoc took part in [Transipedia ANR](https://anr.fr/Project-ANR-18-CE45-002
 Before and during my PhD I worked on methods for transcriptomics, in particular for _de novo_ variants discovery and RNA long read analysis.
 
 # Job offers
-No job offer at the moment.
-
+- Postdoc position, see [the job offers page](jobs.md)
+- 
 # News
 - Send an abstract to MIGGS (Methods for Interfacing with Graphs of Genomic Sequences )([submissions](https://easychair.org/conferences/?conf=miggs1.) [website](https://miggs.mathnum.inrae.fr/)) and meet other scientists interested in pangenomics and visualization in Lille on September 23. Zamin Iqbal and Alexandra Calteau are our confirmed invited speakers.
 - Preprint by Florian Ingels, Igor Martayan and myself: [Constrained enumeration of k-mers from a collection of references with metadata](https://www.biorxiv.org/content/10.1101/2024.05.26.595967v1)
