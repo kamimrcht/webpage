@@ -1,5 +1,5 @@
-## Job Offer: Postdoctoral Position in Bioinformatics
-
+## Job Offer: Postdoctoral Position in Bioinformatics 
+(posted on 05/26/24)
 
 * **Duration**: 2 years
 
