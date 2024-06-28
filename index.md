@@ -15,7 +15,7 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 - Postdoc position, see [the job offers page](jobs.md)
 
 # News
-- Send an abstract to MIGGS (Methods for Interfacing with Graphs of Genomic Sequences )([submissions](https://easychair.org/conferences/?conf=miggs1.) [website](https://miggs.mathnum.inrae.fr/)) and meet other scientists interested in pangenomics and visualization in Lille on September 23. Zamin Iqbal and Alexandra Calteau are our confirmed invited speakers.
+- Send an abstract to MIGGS (Methods for Interfacing with Graphs of Genomic Sequences)([submissions](https://easychair.org/conferences/?conf=miggs1.) [website](https://miggs.mathnum.inrae.fr/)) and meet other scientists interested in pangenomics and visualization in Lille on September 23. Zamin Iqbal and Alexandra Calteau are our confirmed invited speakers.
 - Preprint by Florian Ingels, Igor Martayan and myself: [Constrained enumeration of k-mers from a collection of references with metadata](https://www.biorxiv.org/content/10.1101/2024.05.26.595967v1)
 - Preprint by Khodor Hannoush, Pierre Peterlongo and myself: [Cdbgtricks: strategies to update a compacted de Bruijn graph](https://www.biorxiv.org/content/10.1101/2024.05.24.595676v1)
 - Accepted to ISMB: by Igor Martayan, Bastien Cazaux, Antoine Limasset and myself: [Conway-Bromage-Lyndon (CBL): an exact, dynamic representation of k-mer sets](https://www.biorxiv.org/content/10.1101/2024.01.29.577700v1.abstract). It describes a dynamic k-mer set equipped with set operations and its implementation.
@@ -65,6 +65,7 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 - [Colibread on galaxy: a tools suite dedicated to biological information extraction from raw NGS reads](https://gigascience.biomedcentral.com/articles/10.1186/s13742-015-0105-2) E Rivals, A Andrieux, A Z El Aabidine, B Cazaux, C Marchet, C Lemaitre, C Monjeaud, G Sacomoto, L Salmela, O Collin, P Peterlongo, R Uricaru, S Alves-Carvalho, V Lacroix, V Miele, Y LeBras; _GigaScience_, 2016
 
 # Research papers accepted to peer-reviewed conferences
+- [Cdbgtricks: strategies to update a compacted de Bruijn graph](https://www.biorxiv.org/content/10.1101/2024.05.24.595676v1), K Hannoush, C Marchet and P Peterlongo, _PSC_ 2024
 - [Conway-Bromage-Lyndon (CBL): an exact, dynamic representation of k-mer sets](https://www.biorxiv.org/content/10.1101/2024.01.29.577700v2.abstract), I Martayan, B Cazaux, A Limasset & C Marchet, _ISMB_ 2024
 - [Fractional Hitting Sets for Efficient and Lightweight Genomic Data Sketching](https://www.biorxiv.org/content/10.1101/2023.06.21.545875v1), T Rouzé, I Martayan, C Marchet & A Limasset, _WABI_ 2023
 - [Scalable sequence database search using Partitioned Aggregated Bloom Comb-Trees](https://www.biorxiv.org/content/10.1101/2022.02.11.480089v2), C Marchet & A Limasset; _ISMB_ 2023
@@ -78,7 +79,6 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 
 # Preprints
 - [Constrained enumeration of k-mers from a collection of references with metadata](https://www.biorxiv.org/content/10.1101/2024.05.26.595967v1), F Ingels, I Martayan, M Salson and C Marchet 
-- [Cdbgtricks: strategies to update a compacted de Bruijn graph](https://www.biorxiv.org/content/10.1101/2024.05.24.595676v1), K Hannoush, C Marchet and P Peterlongo
 - [Exploring a large cancer cell line RNA-sequencing dataset with k-mers](https://www.biorxiv.org/content/10.1101/2024.02.27.581927v1.abstract), C Bessière, H Xue, B Guibert, A Boureux, F Rufflé, J Viot, R Chikhi, M Salson, C Marchet, T Commes and D Gautheret
   
 # Communications
