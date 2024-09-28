@@ -12,12 +12,14 @@ My postdoc took part in [Transipedia ANR](https://anr.fr/Project-ANR-18-CE45-002
 Before and during my PhD I worked on methods for transcriptomics, in particular for _de novo_ variants discovery and RNA long read analysis.
 
 # Job offers
-- Postdoc position, see [the job offers page](jobs.md)
+- Internship position on pangenomics visualization, see [the job offers page](jobs.md)
+- Internship position on sequence partition using minizers, see [the offer][job_offers.md]
 
 # News
-- Send an abstract to MIGGS (Methods for Interfacing with Graphs of Genomic Sequences)([submissions](https://easychair.org/conferences/?conf=miggs1.) [website](https://miggs.mathnum.inrae.fr/)) and meet other scientists interested in pangenomics and visualization in Lille on September 23. Zamin Iqbal and Alexandra Calteau are our confirmed invited speakers.
+- The first edition of [MIGGS](https://miggs.mathnum.inrae.fr/) (Methods for Interfacing with Graphs of Genomic Sequences) took place in Lille on September 23.
+- Find two new preprints on [k-mer data-structures](https://arxiv.org/abs/2409.05210) and [colored de Bruijn graphs](https://arxiv.org/abs/2409.05214)
+- Paper by Khodor Hannoush, Pierre Peterlongo and myself accepted to PSC'24: [Cdbgtricks: strategies to update a compacted de Bruijn graph](https://www.biorxiv.org/content/10.1101/2024.05.24.595676v1)
 - Preprint by Florian Ingels, Igor Martayan and myself: [Constrained enumeration of k-mers from a collection of references with metadata](https://www.biorxiv.org/content/10.1101/2024.05.26.595967v1)
-- Preprint by Khodor Hannoush, Pierre Peterlongo and myself: [Cdbgtricks: strategies to update a compacted de Bruijn graph](https://www.biorxiv.org/content/10.1101/2024.05.24.595676v1)
 - Accepted to ISMB: by Igor Martayan, Bastien Cazaux, Antoine Limasset and myself: [Conway-Bromage-Lyndon (CBL): an exact, dynamic representation of k-mer sets](https://www.biorxiv.org/content/10.1101/2024.01.29.577700v1.abstract). It describes a dynamic k-mer set equipped with set operations and its implementation.
 - New preprint on application cases using REINDEER: [Exploring a large cancer cell line RNA-sequencing dataset with k-mers](https://www.biorxiv.org/content/10.1101/2024.02.27.581927v1.abstract)
 
@@ -35,8 +37,9 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 # Research projects
 
 ## Present
-- 2024-.. **Find-RNA** ANR JCJC project, _Data-structures for collections of sets of (meta-)transcriptomics data_ (coordinator)
-- 2021-.. **INSSANE** ANR project, _Novel methods for studying RNA structures_ (partner)
+- 2024-.. **Find-RNA** ANR JCJC project, _Data-structures for collections of sets of (meta-)transcriptomics data_ (PI)
+- 2024-.. **ESCALATE** INSERM MIC project, _Scalable methods for human cancer RNA-seq data_ (member)
+- 2021-.. **INSSANE** ANR project, _Novel methods for studying RNA structures_ (co-PI)
 - 2022-.. **Full RNA** ANR project,_Indexing large scale 2nd and 3rd generation RNA datasets_ (member)
 - 2020-.. **ALPACA** ITN, _Methods for pangenomics_ (informal member)
 
@@ -78,14 +81,16 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 
 
 # Preprints
-- [Constrained enumeration of k-mers from a collection of references with metadata](https://www.biorxiv.org/content/10.1101/2024.05.26.595967v1), F Ingels, I Martayan, M Salson and C Marchet 
-- [Exploring a large cancer cell line RNA-sequencing dataset with k-mers](https://www.biorxiv.org/content/10.1101/2024.02.27.581927v1.abstract), C Bessière, H Xue, B Guibert, A Boureux, F Rufflé, J Viot, R Chikhi, M Salson, C Marchet, T Commes and D Gautheret
+- [Advances in practical k-mer sets: essentials for the curious](https://arxiv.org/abs/2409.05210), C Marchet (2024)
+- [Advances in colored k-mer sets: essentials for the curious](https://arxiv.org/abs/2409.05214), C Marchet (2024)
+- [Constrained enumeration of k-mers from a collection of references with metadata](https://www.biorxiv.org/content/10.1101/2024.05.26.595967v1), F Ingels, I Martayan, M Salson and C Marchet (2024)
+- [Exploring a large cancer cell line RNA-sequencing dataset with k-mers](https://www.biorxiv.org/content/10.1101/2024.02.27.581927v1.abstract), C Bessière, H Xue, B Guibert, A Boureux, F Rufflé, J Viot, R Chikhi, M Salson, C Marchet, T Commes and D Gautheret (2024)
   
 # Communications
 
 ## Invited talks
 - 2024: Incoming keynote TBA, Genome Informatics, Cambridge (UK)
-- 2024: Incoming keynote TBA, Iggsy, Ascona (Switzerland)
+- 2024: The de Bruijn graph, a computational structure for pangenomes, Iggsy, Ascona (Switzerland)
 - 2024: Reference-free pangenomics and other large indexes, EAGS International Environmental and Agronomical Genomics symposium, Toulouse (France)
 - 2024: _Reference-free transcriptomics and other large indexes_, Statistical Methods for Post Genomic Data workshop, Paris (France)
 - 2023: Hashing-based data-structures for querying large k-mer (collections of) sets, [CiE](https://www.viam.science.tsu.ge/cie2023/), Batumi (Georgia)
@@ -107,6 +112,9 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 - 2017 Rconnector: a resource-frugal probabilistic dictionary and applications in (meta)genomics and transcriptomics, LBBE NGS group seminar, Lyon (France)
 
 ## Workshops/conferences/seminars
+
+- 2024: Vizitig: interactive sequence de Bruijn graphs using databases, MIGGS Lille (France)
+- 2023: KmerStore: interactive manipulation and visualization of graphs from collections of sequences, seqBIM Lille (France)
 - 2020 [REINDEER: efficient indexing of _k_-mer presence and abundance in sequencing datasets](http://biata2020.spbu.ru/), BIATA, St Petersburg (Russia, virtual conference)
 - 2020 [REINDEER: efficient indexing of _k_-mer presence and abundance in sequencing datasets](https://www.iscb.org/cms_addon/conferences/ismb2020/proceedings.php#HitSeq:%20High-throughput%20Sequencing), ISMB, Montreal (Canada, virtual conference)
 - 2020 [REINDEER: efficient indexing of _k_-mer presence and abundance in sequencing datasets](https://jobim2020.sciencesconf.org/program), JOBIM, Montpellier (France, virtual conference)
@@ -133,34 +141,51 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 
 # Involvement in scientific events
 
-**Program committee and venue organization**
-- 2024 OC @MIGGS (FRANCE)
-- 2023 PC, OC @SeqBIM (France)
-- 2021 OC @SPIRE (virtual)
-- 2020 PC @SPIRE (virtual)
-- 2020 PC @RECOMB-Seq (virtual)
-- 2019 PC @SeqBIM (France)
-- 2018 Volunteer @RECOMB-seq and RECOMB, Paris
-- 2016 OC "Biological insights from raw high-throughput sequencing data" - Colib'read ANR workshop, Paris
+**PC Chair**
+- 2025 Recomb-seq (Korea)
 
-**Tutoring for scientists**
-- 2020,2022,2023 [Evomics, workshop on Genomics](http://evomics.org/2020-workshop-on-genomics-cesky-krumlov-czech-republic/), Cesky Krumlov, Czech Republic
-- 2019,2022,2023 Tutor at [Bilille training courses](https://wikis.univ-lille.fr/bilille/formation) (RNA-seq analysis), Lille.
-- 2022, 2024 Teacher for [JC2BIM's summer school](https://www.gdr-bim.cnrs.fr/actions-du-gdr/ecole-jc2bim/)
-- 2015 Tutor at CNRS course: "Bioinformatique pour les NGS", Montpellier
-- 2014 Tutor at BGE & EMBnet tutorials: "RNA-seq analysis", Lyon
-- 2014 Tutor at PRABI training courses, "Analyse de données RNA-seq sous l'environnement Galaxy", Lyon
+**PC**
+- 2024 MIGGS (FRANCE), ISMB (Canada), Recomb-Seq (US), ECCB (Finland), SPIRE (Mexico)
+- 2023 SeqBIM (France)
+- 2020 SPIRE (virtual)
+- 2020 RECOMB-Seq (virtual)
+- 2019 SeqBIM (France)
 
-# Supervision
-PhD students
 
-- 2023-.. Igor Martayan (with Jean-Stéphane Varré), subject: locality-preserving k-mer data structures
+**Organization committee**
+- 2024 MIGGS (FRANCE)
+- 2023 SeqBIM (France)
+- 2021 SPIRE (virtual)
+- 2018 Volunteer RECOMB-seq and RECOMB, Paris
+- 2016 "Biological insights from raw high-throughput sequencing data" - Colib'read ANR workshop, Paris
+
+**Training in summer/winter schools, graduate schools courses**
+- 2020, 2022, 2023, 2024: Teacher at [Evomics, workshop on Genomics](http://evomics.org/2020-workshop-on-genomics-cesky-krumlov-czech-republic/) (Czech Republic)
+- 2022: Teacher at Bilille training courses on RNA-seq analysis (France)
+- 2021, 2024: Teacher at (JC)2BIM, GDR BIMMM's school on algorithmics and statistics for bioinformatics (France)
+
+**Training for researchers and professionals**
+- 2023, 2024: Teacher at CNRS Formation Entreprises on RNA-seq analysis and Assembly (France)
+- 2019, 2021-23: Teacher at Bilille training courses on RNA-seq analysis (France)
+- Teaching assistant: 
+	- 2015: CNRS Formation Entreprises “Bioinformatique pour les NGS” (France), 
+	- 2014: Teaching Assistant at BGE & EMBnet tutorials: “RNA-seq analysis” (France) and PRABI training courses, “Analyse de données RNA-seq sous l’environnement Galaxy” (France)
+
+
+
+# Supervision and direction
+
+## Direction of PhD students
+
+- 2024-.. Bastien Degardins (with Charles Paperman), subject: Integration of sequence de Bruijn graphs in databases and visualization
+
+## Supervision 
+
+- 2023-.. Igor Martayan (PhD student, with Jean-Stéphane Varré), subject: locality-preserving k-mer data structures
+- 2023-.., FLorian Ingels (postdoc)
 - 2022-.. Thomas Baudeau (PhD student, with Mikaël Salson), subject: Mapping of structural long reads
 - 2021-.. Khodor Hannoush (PhD student, with Pierre Peterlongo), subject: Dynamic pangenome graphs
 
-Interns from past years
-
-Thomas Baudeau, Louis-Maël Gueguen, Agathénaïs Adiguna, Benjamin Churcheward, Lolita Lecompte, Camille Sessegolo
 
 # Teaching
 
