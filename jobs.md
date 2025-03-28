@@ -1,4 +1,66 @@
-# Job Offer: Internship - bacterial pangenomics & visualization
+
+# PhD and Postdoc in computational genomics
+(posted on 03/28/25)
+
+**Theoretical foundations of compressed data structures and k-mer membership**
+
+* Institution: University of Lille, CRIStAL Laboratory, France
+* Duration: 36 months (full-time)
+* Application deadline: April 30 2025 
+* Start date: fall 2025 for the PhD, flexible for the postdoc
+
+Contact: camille.marchet@univ-lille.fr, simon.puglisi@helsinki.fi
+
+
+We invite applications for a fully-funded PhD position in algorithm and data structure design.
+
+The successful candidate will investigate k-mer membership data structures—i.e., highly efficient ways to store and query which k-length substrings appear in a larger collection of strings. These data structures are fundamental in analyzing large string databases (for example, collections of genomic sequences), but also raise key combinatorial challenges. The investigation will involve both design of new k-mer membership data structures and also theoretical lower bounds on their size.
+
+Although these problems arise from genomics, this PhD thesis will emphasize algorithm design and rigorous mathematical and algorithmic theory, rather than biological applications.
+
+**Key research topics**
+
+- Formal relationships between k-mer set sizes and classical compressibility measures (e.g., Burrows–Wheeler transform runs, grammars, LZ parses).
+
+- Lower bounds for storing and querying k-mer spectra.
+
+- Design (and possible implementation) of new k-mer membership data structures.
+
+- Advanced combinatorial models for highly repetitive or pangenomic string collections.
+
+- Possible extensions to succinct/compressed data structures in string processing (e.g., wavelet trees, rank/select indexes).
+
+**What we offer**
+
+- Funding: 36-month PhD contract of University of Lille / 2 years postdoc
+
+- International collaboration: As part of an international chair project, you will collaborate closely with Prof. Simon Puglisi (University of Helsinki, Finland) and his team, and benefit from funded exchange visits to Helsinki. This includes multi-week research stays.
+
+- Conference travel: The project budget supports attending and presenting at top-tier international conferences, workshops, and summer schools.
+
+**Candidate profile**
+
+- Master’s degree (or equivalent) in Computer Science or Mathematics (with a strong algorithmic focus) / PhD in Computer Science or Bioinformatics for the postdoc
+
+- Solid background in theoretical computer science: data structures, string algorithms, combinatorics on words, complexity, or related areas.
+
+- Good programming skills are a plus but not mandatory.
+
+- Prior knowledge in bioinformatics is not a requirement.
+
+- We remain attentive to applications from minority candidates.
+
+
+
+
+
+
+
+
+
+
+
+# ~Job Offer: Internship - bacterial pangenomics & visualization~
 (posted on 09/25/24)
 
 (english below)
@@ -32,7 +94,7 @@ Nous recherchons des candidats avec une formation en informatique ou bioinformat
 
 ============
 
-# Internship Subject: Enhancing Pangenomic Analysis with Integrated Graph Tools
+# ~Internship Subject: Enhancing Pangenomic Analysis with Integrated Graph Tools~
 
 ## Overview
 
