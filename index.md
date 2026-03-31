@@ -174,5 +174,22 @@ I contribute to teaching and training at different levels, from university cours
   - JC2BIM: summer school of GDR BIMMM, courses on sequence data structures, MinHash methods, and RNA analysis  
 
 - **Professional training**
-  - Bilille platform and CNRS Formation Entreprises: RNA-seq analysis and genome assembly for academic and industrial audiences  
+  - Bilille platform and CNRS Formation Entreprises: RNA-seq analysis and genome assembly for academic and industrial audiences
+ 
+
+---
+
+## Outreach and visibility
+
+- **Press and scientific visibility**
+  - A recent collaborative article on leukemia transcriptomics, [*A strong internal promoter drives massive expression of YEATS-domain devoid MLLT3 transcripts in HSC and most lethal AML*](https://spj.science.org/doi/10.1002/cac2.12650), was featured on the **cover of *Cancer Communications* (March 2025)**.  
+  - **Vizitig** was featured in the Nature Methods technology article [*It’s a colorful pangenome world*](https://www.nature.com/articles/s41592-026-03021-0) (2026).  
+  - Popular science articles in *Le Monde* (*Binaire* blog): [*Rencontre à la frontière entre l’informatique et la biologie*](https://www.lemonde.fr/blog/binaire/2020/02/07/rencontre-a-la-frontiere-entre-linformatique-et-la-biologie/) and [*SARS-CoV-2 et Covid-19 : jouons sur les mots*](https://www.lemonde.fr/blog/binaire/2020/05/06/sars-cov-2-et-covid-19-on-va-jouer-sur-les-mots/).  
+
+- **Public outreach**
+  - Public lecture: [*Explorer des millions de nucléotides d’ADN et d’ARN avec les graphes et les bases de données*](https://sciences-technologies-mail.univ-lille.fr/bar-des-sciences/index.html), *Bar des sciences*, Lille (2026).  
+  - Participation in outreach initiatives aimed at high-school students, including the [RJMI / *Filles & Maths* program](https://www.inria.fr/fr/mathematiques-informatique-lyceennes-rjmi-2025)   
+
+- **Art and science**
+  - Participation in [Emilien Dubuc’s artistic residency](https://culture.univ-lille.fr/agenda/residence-airlab-2024-2025/artistes-2024-2025/emilien-dubuc/) (2025), exploring memory, information, and their alterations in DNA.  
 
