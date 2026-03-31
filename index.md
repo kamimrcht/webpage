@@ -11,9 +11,26 @@ After an engineer degree in Bioinformatics from INSA de Lyon and a MsC in Ecolog
 My postdoc took part in [Transipedia ANR](https://anr.fr/Project-ANR-18-CE45-0020), with [Rayan Chikhi](http://rayan.chikhi.name/) and [Mikaël Salson](https://mikael-salson.univ-lille.fr/). Transipedia aims at being a transcriptome-encyclopedia, e.g., facilitating indexing, query and exploitation of the numerous publicly available RNA-seq data. I am mostly working on new data structures to index large collections of NGS datasets. 
 Before and during my PhD I worked on methods for transcriptomics, in particular for _de novo_ variants discovery and RNA long read analysis.
 
+
 # Job offers
 
 - no job offer at the moment
+- 
+## Contents
+
+- [News](#news)
+- [Career](#career)
+- [Research themes](#research-themes)
+  - [Data structures for large-scale sequencing data](#data-structures-for-large-scale-sequencing-data)
+  - [Graph-based models, pan-transcriptomics and pangenomics](#graph-based-models-pan-transcriptomics-and-pangenomics)
+  - [RNA and transcriptomics applications](#rna-and-transcriptomics-applications)
+  - [Algorithms for sequence analysis](#algorithms-for-sequence-analysis)
+- [Team and supervision](#team-and-supervision)
+- [Collaborations and networks](#collaborations-and-networks)
+- [Teaching and training](#teaching-and-training)
+- [Outreach and visibility](#outreach-and-visibility)
+
+
   
 
 ## News
