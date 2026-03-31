@@ -16,7 +16,7 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 
 - no job offer at the moment
 - 
-## Contents
+# Contents
 
 - [News](#news)
 - [Career](#career)
@@ -33,7 +33,7 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 
   
 
-## News
+# News
 
 - Launch of the thematic year **“L’ADN dans tous ses états”** (2026–2028), dedicated to DNA and computer science  
   https://ddal.inria.fr/adn_etat/
@@ -66,7 +66,7 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 
 ---
 
-## Career
+# Career
 
 - 2025: Habilitation à diriger des recherches
 - Since 2021: **CNRS researcher (CRCN)** at CRIStAL (Université de Lille), working within the BONSAI team on sequence data structures and bioinformatics  
@@ -114,7 +114,9 @@ This work connects to projects such as **INSSANE (ANR)** on RNA structure analys
 
 ---
 
-## Team and supervision
+# Team and supervision
+
+I am a member of of the [Bonsai](https://www.cristal.univ-lille.fr/bonsai/) team. Here's a list of people I personnally supervise:
 
 - **PhD students**
   - Klara Sladeckova (since 2025, co-direction with University of Helsinki): data structures and lower bounds for k-mer membership  
@@ -136,7 +138,7 @@ This work connects to projects such as **INSSANE (ANR)** on RNA structure analys
   - Around ten Master’s students supervised since 2019, several continuing as PhD students  
   - Participation in PhD committees and mentoring within the laboratory  
 
-## Collaborations and networks
+# Collaborations and networks
 
 My research is developed within a structured network of collaborations at local, national, and international levels, often at the interface between **algorithms, bioinformatics, and genomics**. These collaborations are largely organized through joint projects, and support both methodological developments and applications.
 
@@ -174,9 +176,7 @@ My research is developed within a structured network of collaborations at local,
 
 ---
 
-## Teaching and training
-
-I contribute to teaching and training at different levels, from university courses to international schools and professional training.
+# Teaching and training
 
 - **University teaching**
   - Responsible for a course on data structures in the Master in Bioinformatics (Université de Lille), which I developed  
@@ -196,7 +196,7 @@ I contribute to teaching and training at different levels, from university cours
 
 ---
 
-## Outreach and visibility
+# Outreach and visibility
 
 - **Press and scientific visibility**
   - A recent collaborative article on leukemia transcriptomics, [*A strong internal promoter drives massive expression of YEATS-domain devoid MLLT3 transcripts in HSC and most lethal AML*](https://spj.science.org/doi/10.1002/cac2.12650), was featured on the **cover of *Cancer Communications* (March 2025)**.  
