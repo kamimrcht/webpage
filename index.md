@@ -184,7 +184,8 @@ I contribute to teaching and training at different levels, from university cours
 - **Press and scientific visibility**
   - A recent collaborative article on leukemia transcriptomics, [*A strong internal promoter drives massive expression of YEATS-domain devoid MLLT3 transcripts in HSC and most lethal AML*](https://spj.science.org/doi/10.1002/cac2.12650), was featured on the **cover of *Cancer Communications* (March 2025)**.  
   - **Vizitig** was featured in the Nature Methods technology article [*It’s a colorful pangenome world*](https://www.nature.com/articles/s41592-026-03021-0) (2026).  
-  - Popular science articles in *Le Monde* (*Binaire* blog): [*Rencontre à la frontière entre l’informatique et la biologie*](https://www.lemonde.fr/blog/binaire/2020/02/07/rencontre-a-la-frontiere-entre-linformatique-et-la-biologie/) and [*SARS-CoV-2 et Covid-19 : jouons sur les mots*](https://www.lemonde.fr/blog/binaire/2020/05/06/sars-cov-2-et-covid-19-on-va-jouer-sur-les-mots/).  
+  - Popular science articles in *Le Monde* (*Binaire* blog): [*Rencontre à la frontière entre l’informatique et la biologie*](https://www.lemonde.fr/blog/binaire/2020/02/07/rencontre-a-la-frontiere-entre-linformatique-et-la-biologie/) and [*SARS-CoV-2 et Covid-19 : jouons sur les mots*](https://www.lemonde.fr/blog/binaire/2020/05/06/sars-cov-2-et-covid-19-on-va-jouer-sur-les-mots/).
+  -  Profile in **CNRS Sciences informatiques**: [*Camille Marchet, bioinformaticienne des séquences*](https://www.ins2i.cnrs.fr/fr/cnrsinfo/camille-marchet-bioinformaticienne-des-sequences)
 
 - **Public outreach**
   - Public lecture: [*Explorer des millions de nucléotides d’ADN et d’ARN avec les graphes et les bases de données*](https://sciences-technologies-mail.univ-lille.fr/bar-des-sciences/index.html), *Bar des sciences*, Lille (2026).  
