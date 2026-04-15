@@ -127,8 +127,8 @@ I am a member of of the [Bonsai](https://www.cristal.univ-lille.fr/bonsai/) team
   - [Lucas Robidou](https://lrobidou.github.io) (2025–2026, engineer / with I2BC): development of REINDEER2 and associated tools  
 
 - **Alumni**
-  - Khodor Hannoush (PhD 2024 with Pierre Peterlongo in GenScale team, Rennes): dynamic pangenome graphs, now at Illumina  
-  - Thomas Baudeau (PhD 2025, co-supervised with Mikaël Salson): long-read mapping for structural variants, currently postdoctoral researcher  
+  - [Khodor Hannoush](https://fr.linkedin.com/in/khodorhannoush) (PhD 2024 with Pierre Peterlongo in GenScale team, Rennes): dynamic pangenome graphs, now at Illumina  
+  - [Thomas Baudeau](https://scholar.google.com/citations?user=bz8Kt3YAAAAJ&hl=fr) (PhD 2025, co-supervised with Mikaël Salson): long-read mapping for structural variants, currently postdoctoral researcher  
 
 
 # Collaborations and networks
@@ -137,23 +137,23 @@ My research is developed within a structured network of collaborations at local,
 
 - **Local collaborations (Lille)**  
   I work closely with colleagues in Lille, in particular:
-  - **Charles Paperman** (D-DAL, Inria), on database approaches and querying of graph-structured data  
-  - **Antoine Limasset** (BONSAI), on sequence indexing, k-mer data structures
-  - **Mikaël Salson** (BONSAI), on RNA-seq analysis and large-scale k-mer methods  
+  - [**Charles Paperman**](https://paperman.name/) (D-DAL, Inria), on database approaches and querying of graph-structured data  
+  - [**Antoine Limasset**](https://malfoy.github.io/) (BONSAI), on sequence indexing, k-mer data structures
+  - [**Mikaël Salson**](https://mikael-salson.univ-lille.fr/) (BONSAI), on RNA-seq analysis and large-scale k-mer methods  
 
 - **National collaborations**  
 
   - **Transipedia**  
-    A consortium dedicated to indexing and exploring large collections of RNA-seq datasets, in collaboration with teams in Montpellier, Toulouse, and Paris. This project led to several tools and publications, and to long-term collaborations with both algorithmic and biomedical groups, and was supported by ANR.
+    A consortium dedicated to indexing and exploring large collections of RNA-seq datasets, in collaboration with teams in Montpellier, Toulouse, and Paris. This project led to several tools and publications, and to long-term collaborations with both algorithmic and biomedical groups, and was supported by ANR. Groups: [BIO2M](https://irmb-montpellier.fr/about/therese-commes/) at IRMB, [I2BC](http://rssf.i2bc.paris-saclay.fr/gautheret/), [Seqbio](https://research.pasteur.fr/en/member/rayan-chikhi/) at Pasteur Institute
 
   - **Full-RNA**  
-    A project focused on indexing large-scale RNA datasets, involving collaborations with several French bioinformatics groups and supporting developments such as REINDEER2.
+    A project focused on indexing large-scale RNA datasets, involving collaborations with several French bioinformatics groups and supporting developments such as REINDEER2. Groups: [BIO2M](https://irmb-montpellier.fr/about/therese-commes/) at IRMB, [I2BC](http://rssf.i2bc.paris-saclay.fr/gautheret/), [R'N Blood](https://www.crct-inserm.fr/rn-blood/) at CRCT, [Seqbio](https://research.pasteur.fr/en/member/rayan-chikhi/) at Pasteur Institute
 
   - **Find-RNA**  
-    My current project, which includes collaborations with local and national partners, in particular on graph querying and formal methods (e.g. with the D-DAL team), and application to transcriptomics.
+    My current project, which includes collaborations with local and national partners, in particular on graph querying and formal methods (e.g. with the [D-DAL](https://ddal.inria.fr/) team), and application to transcriptomics.
 
   - **INSSANE**  
-    A project on computational methods for RNA structure analysis, involving collaborations with LIX, Université Paris Cité, and other partners. This project connects algorithmic questions with RNA biology and structural analysis.
+    A project on computational methods for RNA structure analysis, involving collaborations with LIX, Université Paris Cité, and other partners. This project connects algorithmic questions with RNA biology and structural analysis. Groups: [AMIB(io)](https://www.lix.polytechnique.fr/amibio/), [CiTCoM](https://www.citcom.cnrs.fr/192-2/mecanismes-moleculaires-de-la-traduction-de-larn-viral/name/bruno-sargueil/), [LCBPT](https://lcbpt.u-paris-sciences.fr/chemistry-towards-life-sciences-3/chemistry-of-arns-nucleosides-peptides-and-heterocycles/melanie-etheve-quelquejeu/)
 
   In addition, I contribute to national initiatives such as:
   - **MIGGS**, focused on graph-based genomic data and pangenome representations, and **[Get-a-Pan](https://maiage.inrae.fr/node/3390)** 
@@ -161,13 +161,15 @@ My research is developed within a structured network of collaborations at local,
 - **International collaborations**  
   I collaborate with several groups abroad on topics related to sequence indexing, pangenomics, and RNA analysis:
 
-  - **Simon Puglisi**'s group (University of Helsinki), in the context of the **WILL international chair (BOSSA)**, on compressed data structures and large-scale sequence indexing  
-  - **Zamin Iqbal** (EMBL-EBI / Cambridge), on genome assembly  
-  - **Rob Patro** (University of Maryland), on sequence indexing and transcriptomics methods  
-  - **Floris Barthel**'s group (TGen Phoenix), on genomic feature mapping at large scale
-  - **Alicia Oshlack** (Peter MacCallum Melbourne), 6 months visits of Bastien Degardins on RNA fusions
+  - [**Simon Puglisi**](https://www.cs.helsinki.fi/u/puglisi/)'s group (University of Helsinki), in the context of the **WILL international chair (BOSSA)**, on compressed data structures and large-scale sequence indexing  
+  - [**Zamin Iqbal**](https://researchportal.bath.ac.uk/en/persons/zamin-iqbal/) (University of Bath), on genome assembly  
+  - [**Rob Patro**](https://combine-lab.github.io/) (University of Maryland), on sequence indexing and transcriptomics methods  
+  - [**Floris Barthel**](https://www.tgen.org/faculty-profiles/floris-barthel/)'s group (TGen Phoenix), on genomic feature mapping at large scale
+  - [**Alicia Oshlack**](https://oshlacklab.com/) (Peter MacCallum Melbourne), 6 months visits of Bastien Degardins on RNA fusions
 
+- **Past collaborations**
 
+- [Kristoffer Sahlin](https://sahlingroup.github.io/) (SciLife, Stockhlom - 1 co-authored paper and Thomas Baudeau's visit)
 ---
 
 # Teaching and training
@@ -177,12 +179,12 @@ My research is developed within a structured network of collaborations at local,
   - Teaching contributions to the AI and Health diploma  (2025)
 
 - **International schools or training**
-  - Evomics workshop: course on genome assembly combining lectures and practical sessions for an international audience  (since 2020)
+  - [Evomics workshop](https://evomics.org/): course on genome assembly combining lectures and practical sessions for an international audience  (since 2020)
   - TBA: [EMBO pangenomics course 2026](https://easigen.eu/events/embocourse_pangenomics)
-  - Indexing Pangenomics, Pangenomic Course, EMBL-EBI 2025 
+  - [Indexing Pangenomics, Pangenomic Course](https://www.ebi.ac.uk/training/events/concepts-methods-and-resources-pangenomics/), EMBL-EBI 2025 
     
 - **Doctoral training**
-  - JC2BIM: summer school of GDR BIMMM, courses on sequence data structures, MinHash methods, and RNA analysis  (since 2022)
+  - [JC2BIMMM](https://jc2bimmm.sciencesconf.org/): summer school of GDR BIMMM, courses on sequence data structures, MinHash methods, and RNA analysis  (since 2022)
 
 - **Professional training**
   - Bilille platform and CNRS Formation Entreprises: RNA-seq analysis and genome assembly for academic and industrial audiences (since 2014)
