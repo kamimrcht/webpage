@@ -175,7 +175,7 @@ My research is developed within a structured network of collaborations at local,
 # Teaching and training
 
 - **University teaching**
-  - Responsible for a course on data structures in the Master in Bioinformatics (Université de Lille), which I developed  (since 2022)
+  - Responsible for a course on data structures in the [Master in Bioinformatics](https://www.fil.univ-lille.fr/portail/index.php?dipl=M1MISO&sem=M1S2MISO&ue=SD&label=Pr%C3%A9sentation) (Université de Lille), which I developed  (since 2022)
   - Teaching contributions to the AI and Health diploma  (2025)
 
 - **International schools or training**
