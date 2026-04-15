@@ -48,7 +48,7 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 
 - Recent research:
   - very fast fasta parser with SIMD optimization by Igor Martayan: [https://www.biorxiv.org/content/10.64898/2026.03.19.712912v1.abstract](https://www.biorxiv.org/content/10.64898/2026.03.19.712912v1.abstract)
-  - hierarchical and multi-k index with application to chromosomal mapping: [https://www.biorxiv.org/content/10.64898/2026.03.15.711907.abstract](https://www.biorxiv.org/content/10.64898/2026.03.15.711907.abstract) led by Jarno Alanko
+  - Accepted at **RECOMB-Seq 2026**: Hierarchical and multi-k index with application to chromosomal mapping: [https://www.biorxiv.org/content/10.64898/2026.03.15.711907.abstract](https://www.biorxiv.org/content/10.64898/2026.03.15.711907.abstract) led by Jarno Alanko
   - Paper accepted at **RECOMB 2026** on minimizer density models  [https://www.biorxiv.org/content/10.1101/2025.11.21.689688v2.abstract](https://www.biorxiv.org/content/10.1101/2025.11.21.689688v2.abstract)
   - [REINDEER2](https://www.biorxiv.org/content/10.1101/2025.06.16.659990v1) presented at **SPIRE 2025**  
   - Updated preprint on **Vizitig** (interactive exploration of sequence graphs):  
