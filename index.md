@@ -128,7 +128,21 @@ I am a member of of the [Bonsai](https://www.cristal.univ-lille.fr/bonsai/) team
 
 - **Alumni**
   - [Khodor Hannoush](https://fr.linkedin.com/in/khodorhannoush) (PhD 2024 with Pierre Peterlongo in GenScale team, Rennes): dynamic pangenome graphs, now at Illumina  
-  - [Thomas Baudeau](https://scholar.google.com/citations?user=bz8Kt3YAAAAJ&hl=fr) (PhD 2025, co-supervised with Mikaël Salson): long-read mapping for structural variants, currently postdoctoral researcher  
+  - [Thomas Baudeau](https://scholar.google.com/citations?user=bz8Kt3YAAAAJ&hl=fr) (PhD 2025, co-supervised with Mikaël Salson): long-read mapping for structural variants, currently postdoctoral researcher
+ 
+- **PhD committees**
+   - **As reviewer:**
+
+		- **2025** Lore Depuyt, *Advancing Practical Pan-Genomics with Compressed Indexing* — director Jan Fostier, Ghent University (Belgium)
+		- **2025** Hui Eng Law, *Indexing and Search of Extreme-scale Genomic Collections* — director Jim Hogan, Queensland University of Technology (Australia)
+		- **2025** Daniel Anderson, *A gene-space de Bruijn graph framework for improved genotyping of antimicrobial resistance genes* — director Zamin Iqbal, EMBL-EBI Cambridge (UK)
+	   - **2025** Nastasija Mijovic, *Nouvelles méthodes de gestion, d'analyse et de comparaison de larges collections de génomes appliquées à des approches pangénomiques* — director Annie Chateau, Université de Montpellier
+
+	- **As examiner:**
+
+		- **2025** Francesco Andreace, *Analysis of human pangenome graphs and other k-mer-based applications* — director Rayan Chikhi, Institut Pasteur Paris (France)
+		- **2023** Victor Epain, *Assembly of DNA fragments: graph structures and scaffolding of chloroplast genomes* — director Rumen Andronov, University of Rennes, [IRISA](https://www.irisa.fr/) Rennes
+		- **2021** Claudio Lorenzi, *Design and implementation of bioinformatics tools for RNA sequencing data analysis* — director Rayan Chikhi, University of Montpellier, [IGH](https://www.igh.cnrs.fr/en) Montpellier
 
 
 # Collaborations and networks
