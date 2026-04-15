@@ -169,7 +169,7 @@ My research is developed within a structured network of collaborations at local,
 
 - **Past collaborations**
 
-- [Kristoffer Sahlin](https://sahlingroup.github.io/) (SciLife, Stockhlom - 1 co-authored paper and Thomas Baudeau's visit)
+	- [Kristoffer Sahlin](https://sahlingroup.github.io/) (SciLife, Stockhlom - 1 co-authored paper and Thomas Baudeau's visit)
 ---
 
 # Teaching and training
