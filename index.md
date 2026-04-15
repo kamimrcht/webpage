@@ -35,8 +35,7 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 
 # News
 
-- Launch of the thematic year **“L’ADN dans tous ses états”** (2026–2028), dedicated to DNA and computer science  
-  https://ddal.inria.fr/adn_etat/
+- Launch of the thematic year [**“L’ADN dans tous ses états”**](https://ddal.inria.fr/adn_etat/) (2026–2028), dedicated to DNA and computer science  
 
 - Recent team developments:
   - Rémi Morvan joined as a postdoctoral researcher (2026, ANR Find-RNA / D-DAL collaboration)  
@@ -61,7 +60,6 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
   - Meet me at **SPIRE 2025**  
   - Co-chair of **Genome Informatics (2025–2026)** and **RECOMB-Seq (2025)**, see you in Seoul.
 
-- Recent publications:
 
 
 ---
@@ -74,7 +72,6 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 - 2019: Visiting researcher at EMBL-EBI (Cambridge), collaborating on large-scale sequence indexing  
 - 2018: PhD in Computer Science, University of Rennes (GenScale team), supervised by Pierre Peterlongo  
 - 2013–2016: Engineer in bioinformatics and MSc in Ecology and Evolution (INSA Lyon, Université Lyon 1)  
-- 2025: **Habilitation à diriger des recherches (HDR)**, Université de Lille  
 
 ---
 
@@ -86,7 +83,7 @@ My research lies at the intersection of **algorithms, data structures, and seque
 
 A central part of my work focuses on the design of **compact and scalable data structures** for indexing and querying large collections of sequencing datasets, in particular through **k-mer representations**.
 
-This work is developed within projects such as **Find-RNA (ANR JCJC, PI)** and **Full-RNA**, and builds on earlier work in **Transipedia**. It has led to several tools, including [REINDEER](https://github.com/kamimrcht/REINDEER), [REINDEER2](https://github.com/Yohan-HernandezCourbevoie/REINDEER2), [CBL](https://github.com/imartayan/CBL), and [PAC](https://github.com/Malfoy/PAC), which enable scalable exploration of thousands of sequencing datasets.
+This work has led to several tools, including [REINDEER](https://github.com/kamimrcht/REINDEER), [REINDEER2](https://github.com/Yohan-HernandezCourbevoie/REINDEER2), [CBL](https://github.com/imartayan/CBL), and [PAC](https://github.com/Malfoy/PAC), which enable scalable exploration of thousands of sequencing datasets.
 
 
 ## Graph-based models, pan-transcriptomics and pangenomics
@@ -95,8 +92,7 @@ Another major direction of my research concerns **graph-based representations of
 
 This work has been supported by projects such as **ALPACA ITN**, and is connected to national and international initiatives structuring the field. In particular, I contribute to **MIGGS** (Methods for Interfacing with Graphs of Genomic Sequences), a community focused on graph-based genomic data, and to networks such as **GET-a-Pan** and **RECENT**, which foster interactions between bioinformatics and theoretical computer science.
 
-It involves collaborations with groups in Cambridge, Helsinki, and Stockholm, and includes algorithmic contributions to dynamic and updatable graphs (e.g. [Cdbgtricks](https://github.com/khodor14/Cdbgtricks)) as well as ongoing work on visualization and interaction, including **Vizitig**:  
-https://www.biorxiv.org/content/10.1101/2025.04.19.649656v2
+It involves collaborations with groups in Cambridge, Helsinki, and Stockholm, and includes algorithmic contributions to dynamic and updatable graphs (e.g. [Cdbgtricks](https://github.com/khodor14/Cdbgtricks)) as well as ongoing work on visualization and interaction, including [**Vizitig**](https://www.biorxiv.org/content/10.1101/2025.04.19.649656v2).
 
 ## RNA and transcriptomics applications
 
@@ -119,28 +115,25 @@ This work connects to projects such as **INSSANE (ANR)** on RNA structure analys
 I am a member of of the [Bonsai](https://www.cristal.univ-lille.fr/bonsai/) team. Here's a list of people I personnally supervise:
 
 - **PhD students**
-  - Klara Sladeckova (since 2025, co-direction with University of Helsinki): data structures and lower bounds for k-mer membership  
-  - Bastien Degardins (since 2024, co-direction with Charles Paperman): integration of de Bruijn graphs in databases and visualization (best presentation award, JOBIM mini symposium 2025)  
-  - Igor Martayan (since 2023): locality-preserving representations of k-mer sets  
-  - Fiona Hak (since 2024, co-supervision with Daniel Gautheret and Mélina Gallopin): RNA analysis methods for cancer (best poster award, JOBIM 2025)  
+  - Klara Sladeckova (since 2025, co-direction with Simon Puglisi at University of Helsinki): data structures and lower bounds for k-mer membership  
+  - [Bastien Degardins](http://bastiendegardins.fr/) (since 2024, co-direction with Charles Paperman): integration of de Bruijn graphs in databases and visualization   
+  - [Igor Martayan](https://igor.martayan.org/) (since 2023): locality-preserving representations of k-mer sets  
+  - Fiona Hak (since 2024, co-supervision with Daniel Gautheret and Mélina Gallopin): RNA analysis methods for cancer
 
 - **Postdoctoral researchers and engineers**
-  - Lore Depuydt (since 2025, WILL Chair): compressed sequence indexes and locality properties  
-  - Rémi Morvan (since 2026, ANR Find-RNA / with Inria D-DAL team): query abstractions and graph-based structures  
-  - Florian Ingels (2022–2025, ANR Full-RNA): combinatorics and sequence sampling  
-  - Lucas Robidou (2025–2026, engineer / with I2BC): development of REINDEER2 and associated tools  
+  - [Lore Depuydt](https://scholar.google.com/citations?user=HRsbo9AAAAAJ&hl=nl) (since 2025, WILL Chair / with Helsinki): compressed sequence indexes and locality properties  
+  - [Rémi Morvan](www.remimorvan.xyz) (since 2026, ANR Find-RNA / with Inria D-DAL team): query abstractions and graph-based structures  
+  - [Florian Ingels](https://fingels.github.io) (2022–2025, ANR Full-RNA): combinatorics and sequence sampling  
+  - [Lucas Robidou](https://lrobidou.github.io) (2025–2026, engineer / with I2BC): development of REINDEER2 and associated tools  
 
-- **Former PhD students**
+- **Alumni**
   - Khodor Hannoush (PhD 2024 with Pierre Peterlongo in GenScale team, Rennes): dynamic pangenome graphs, now at Illumina  
-  - Thomas Baudeau (PhD 2025): long-read mapping for structural variants, currently postdoctoral researcher  
+  - Thomas Baudeau (PhD 2025, co-supervised with Mikaël Salson): long-read mapping for structural variants, currently postdoctoral researcher  
 
-- **Supervision activity**
-  - Around ten Master’s students supervised since 2019, several continuing as PhD students  
-  - Participation in PhD committees and mentoring within the laboratory  
 
 # Collaborations and networks
 
-My research is developed within a structured network of collaborations at local, national, and international levels, often at the interface between **algorithms, bioinformatics, and genomics**. These collaborations are largely organized through joint projects, and support both methodological developments and applications.
+My research is developed within a structured network of collaborations at local, national, and international levels, often at the interface between **algorithms, bioinformatics, and genomics/transcriptomics**. These collaborations are largely organized through joint projects, and support both methodological developments and applications.
 
 - **Local collaborations (Lille)**  
   I work closely with colleagues in Lille, in particular:
@@ -148,19 +141,19 @@ My research is developed within a structured network of collaborations at local,
   - **Antoine Limasset** (BONSAI), on sequence indexing, k-mer data structures
   - **Mikaël Salson** (BONSAI), on RNA-seq analysis and large-scale k-mer methods  
 
-- **National collaborations (ANR projects and consortia)**  
+- **National collaborations**  
 
-  - **Transipedia (ANR)**  
-    A consortium dedicated to indexing and exploring large collections of RNA-seq datasets, in collaboration with teams in Montpellier, Toulouse, and Paris. This project led to several tools and publications, and to long-term collaborations with both algorithmic and biomedical groups.
+  - **Transipedia**  
+    A consortium dedicated to indexing and exploring large collections of RNA-seq datasets, in collaboration with teams in Montpellier, Toulouse, and Paris. This project led to several tools and publications, and to long-term collaborations with both algorithmic and biomedical groups, and was supported by ANR.
 
-  - **INSSANE (ANR, site coordinator)**  
-    A project on computational methods for RNA structure analysis, involving collaborations with LIX, Université Paris Cité, and other partners. This project connects algorithmic questions with RNA biology and structural analysis.
-
-  - **Full-RNA (ANR)**  
+  - **Full-RNA**  
     A project focused on indexing large-scale RNA datasets, involving collaborations with several French bioinformatics groups and supporting developments such as REINDEER2.
 
-  - **Find-RNA (ANR JCJC, PI)**  
+  - **Find-RNA**  
     My current project, which includes collaborations with local and national partners, in particular on graph querying and formal methods (e.g. with the D-DAL team), and application to transcriptomics.
+
+  - **INSSANE**  
+    A project on computational methods for RNA structure analysis, involving collaborations with LIX, Université Paris Cité, and other partners. This project connects algorithmic questions with RNA biology and structural analysis.
 
   In addition, I contribute to national initiatives such as:
   - **MIGGS**, focused on graph-based genomic data and pangenome representations, and **[Get-a-Pan](https://maiage.inrae.fr/node/3390)** 
@@ -168,10 +161,11 @@ My research is developed within a structured network of collaborations at local,
 - **International collaborations**  
   I collaborate with several groups abroad on topics related to sequence indexing, pangenomics, and RNA analysis:
 
-  - **Simon Puglisi, Jarno Alanko** (University of Helsinki), in the context of the **WILL international chair (BOSSA)**, on compressed data structures and large-scale sequence indexing  
+  - **Simon Puglisi**'s group (University of Helsinki), in the context of the **WILL international chair (BOSSA)**, on compressed data structures and large-scale sequence indexing  
   - **Zamin Iqbal** (EMBL-EBI / Cambridge), on genome assembly  
   - **Rob Patro** (University of Maryland), on sequence indexing and transcriptomics methods  
-  - **Floris Barthel** (Houston), on genomic feature mapping at large scale  
+  - **Floris Barthel**'s group (TGen Phoenix), on genomic feature mapping at large scale
+  - **Alicia Oshlack** (Peter MacCallum Melbourne), 6 months visits of Bastien Degardins on RNA fusions
 
 
 ---
@@ -179,26 +173,26 @@ My research is developed within a structured network of collaborations at local,
 # Teaching and training
 
 - **University teaching**
-  - Responsible for a course on data structures in the Master in Bioinformatics (Université de Lille), which I developed  
-  - Teaching contributions to the AI and Health diploma  
+  - Responsible for a course on data structures in the Master in Bioinformatics (Université de Lille), which I developed  (since 2022)
+  - Teaching contributions to the AI and Health diploma  (2025)
 
 - **International schools or training**
-  - Evomics workshop (since 2020): course on genome assembly combining lectures and practical sessions for an international audience  
+  - Evomics workshop: course on genome assembly combining lectures and practical sessions for an international audience  (since 2020)
   - TBA: [EMBO pangenomics course 2026](https://easigen.eu/events/embocourse_pangenomics)
-  - Indexing Pangenomics, Pangenomic Course, EMBL-EBI 2025
+  - Indexing Pangenomics, Pangenomic Course, EMBL-EBI 2025 
     
 - **Doctoral training**
-  - JC2BIM: summer school of GDR BIMMM, courses on sequence data structures, MinHash methods, and RNA analysis  
+  - JC2BIM: summer school of GDR BIMMM, courses on sequence data structures, MinHash methods, and RNA analysis  (since 2022)
 
 - **Professional training**
-  - Bilille platform and CNRS Formation Entreprises: RNA-seq analysis and genome assembly for academic and industrial audiences
+  - Bilille platform and CNRS Formation Entreprises: RNA-seq analysis and genome assembly for academic and industrial audiences (since 2014)
  
 
 ---
 
 # Outreach and visibility
 
-- **Press and scientific visibility**
+- **Press**
   - A recent collaborative article on leukemia transcriptomics, [*A strong internal promoter drives massive expression of YEATS-domain devoid MLLT3 transcripts in HSC and most lethal AML*](https://spj.science.org/doi/10.1002/cac2.12650), was featured on the **cover of *Cancer Communications* (March 2025)**.  
   - **Vizitig** was featured in the Nature Methods technology article [*It’s a colorful pangenome world*](https://www.nature.com/articles/s41592-026-03021-0) (2026).  
   - Popular science articles in *Le Monde* (*Binaire* blog): [*Rencontre à la frontière entre l’informatique et la biologie*](https://www.lemonde.fr/blog/binaire/2020/02/07/rencontre-a-la-frontiere-entre-linformatique-et-la-biologie/) and [*SARS-CoV-2 et Covid-19 : jouons sur les mots*](https://www.lemonde.fr/blog/binaire/2020/05/06/sars-cov-2-et-covid-19-on-va-jouer-sur-les-mots/).
