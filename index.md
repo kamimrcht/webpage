@@ -47,7 +47,7 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 	- recent preprint of the collaboration: [https://www.biorxiv.org/content/10.64898/2026.03.15.711907v1](https://www.biorxiv.org/content/10.64898/2026.03.15.711907v1)
 
 - Recent research:
-  - very fast fasta parser with SIMD optimization by Igor Martayan: [https://www.biorxiv.org/content/10.64898/2026.03.19.712912v1.abstract](https://www.biorxiv.org/content/10.64898/2026.03.19.712912v1.abstract)
+  - Accepted at **RECOMB-Arch 2026**, a very fast fasta parser with SIMD optimization by Igor Martayan: [https://www.biorxiv.org/content/10.64898/2026.03.19.712912v1.abstract](https://www.biorxiv.org/content/10.64898/2026.03.19.712912v1.abstract)
   - Accepted at **RECOMB-Seq 2026**: Hierarchical and multi-k index with application to chromosomal mapping: [https://www.biorxiv.org/content/10.64898/2026.03.15.711907.abstract](https://www.biorxiv.org/content/10.64898/2026.03.15.711907.abstract) led by Jarno Alanko
   - Paper accepted at **RECOMB 2026** on minimizer density models  [https://www.biorxiv.org/content/10.1101/2025.11.21.689688v2.abstract](https://www.biorxiv.org/content/10.1101/2025.11.21.689688v2.abstract)
   - [REINDEER2](https://www.biorxiv.org/content/10.1101/2025.06.16.659990v1) presented at **SPIRE 2025**  
@@ -70,7 +70,7 @@ Before and during my PhD I worked on methods for transcriptomics, in particular 
 - Since 2021: **CNRS researcher (CRCN)** at CRIStAL (Université de Lille), working within the BONSAI team on sequence data structures and bioinformatics  
 - 2018–2020: Postdoctoral researcher in BONSAI, working on indexing methods for large RNA-seq datasets (Transipedia project)  
 - 2019: Visiting researcher at EMBL-EBI (Cambridge), collaborating on large-scale sequence indexing  
-- 2018: PhD in Computer Science, University of Rennes (GenScale team), supervised by Pierre Peterlongo  
+- 2018: **PhD in Computer Science**, University of Rennes (GenScale team), supervised by Pierre Peterlongo  
 - 2013–2016: Engineer in bioinformatics and MSc in Ecology and Evolution (INSA Lyon, Université Lyon 1)  
 
 ---
